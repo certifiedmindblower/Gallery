@@ -39,6 +39,7 @@
     <Compile Include="Time.cs" />
     <Compile Include="DemoStackLayout.cs" />
     <Compile Include="DemoGrid.cs" />
+    <Compile Include="DemoRelative.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

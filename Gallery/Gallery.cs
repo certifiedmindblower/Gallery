@@ -35,7 +35,7 @@ namespace Gallery
 					Children = {
 						new DemoStackLayout(),
 						new DemoGrid(),
-						//new DemoRelativeLayout(),
+						new DemoRelative(),
 						//new DemoAbsoluteLayout(),
 					},
 				},
