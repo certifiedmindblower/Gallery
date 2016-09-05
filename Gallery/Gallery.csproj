@@ -32,6 +32,12 @@
   <ItemGroup>
     <Compile Include="Gallery.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Icon.cs" />
+    <Compile Include="Name.cs" />
+    <Compile Include="Subject.cs" />
+    <Compile Include="Body.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="DemoStackLayout.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

@@ -9,6 +9,7 @@ namespace Gallery
 		public App()
 		{
 			// The root page of your application
+			/*
 			var content = new ContentPage
 			{
 				Title = "Gallery",
@@ -25,6 +26,20 @@ namespace Gallery
 			};
 
 			MainPage = new NavigationPage(content);
+			*/
+			MainPage = new ContentPage
+			{
+				Padding = new Thickness(0, Device.OS == TargetPlatform.iOS ? 20 : 0, 0, 0),
+				Content = new StackLayout
+				{
+					Children = {
+						new DemoStackLayout(),
+						//new DemoGrid(),
+						//new DemoRelativeLayout(),
+						//new DemoAbsoluteLayout(),
+					},
+				},
+			};
 		}
 
 		protected override void OnStart()
