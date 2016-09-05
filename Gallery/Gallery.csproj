@@ -38,6 +38,7 @@
     <Compile Include="Body.cs" />
     <Compile Include="Time.cs" />
     <Compile Include="DemoStackLayout.cs" />
+    <Compile Include="DemoGrid.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
