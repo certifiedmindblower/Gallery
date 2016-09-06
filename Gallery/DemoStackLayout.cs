@@ -9,26 +9,20 @@ namespace Gallery
 		{
 			HeightRequest = 70;
 			Spacing = 5;
-			Orientation = StackOrientation.Horizontal;
-			Children.Add(new Icon("A", Color.FromRgb(0.7, 0.8, 1.0))
-			{
-				WidthRequest = 70,
-			});
-			Children.Add(new StackLayout
-			{
-				Spacing = 2,
-				WidthRequest = 0,
-				HorizontalOptions = LayoutOptions.FillAndExpand,
-				Children = {
-					new Name("Alice"),
-					new Subject("Appointment with president"),
-					new Body("Peter, please let's meet and discuss important deal"),
-				},
-			});
-			Children.Add(new Time("1:00 PM")
-			{
-				WidthRequest = 50,
-			});
+			Orientation = StackOrientation.Vertical;
+
+			var image = new Image();
+			image.Source = ImageSource.FromUri(new Uri("http://tinyurl.com/nmd85s3"));
+			image.WidthRequest = 70;
+			image.HeightRequest = 70;
+
+			var image1 = new Image();
+			image1.Source = ImageSource.FromUri(new Uri("http://tinyurl.com/nmd85s3"));
+			image1.WidthRequest = 70;
+			image1.HeightRequest = 70;
+
+			Children.Add(image);
+			Children.Add(image1);
 		}
 	}
 }

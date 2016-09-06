@@ -19,6 +19,8 @@ namespace Gallery.iOS
 
 			LoadApplication(new App());
 
+			App.ScreenSize = new Size(UIScreen.MainScreen.Bounds.Width, UIScreen.MainScreen.Bounds.Height);
+
 			var imagePicker = new UIImagePickerController { SourceType = UIImagePickerControllerSourceType.Camera };
 
 			(Xamarin.Forms.Application.Current as App).ShouldTakePicture += () => app.KeyWindow.RootViewController.PresentViewController(imagePicker, true, null);
@@ -37,23 +39,8 @@ namespace Gallery.iOS
 			};
 
 			imagePicker.Canceled += (sender, e) => app.KeyWindow.RootViewController.DismissViewController(true, null);
-				//(Xamarin.Forms.Application.Current as App).ShouldTakePicture += () => UIApplication.KeyWindow.RootViewController.PresentViewController(imagePicker, true, null);
-				/*
-				imagePicker.FinishedPickingMedia += (sender, e) =>
-				{
-					var filePath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "tmp.png");
-					var image = (UIImage)e.Info.ObjectForKey(new NSString("UIImagePickerControllerOriginalImage"));
-					InvokeOnMainThread(() =>
-					{
-						image.AsPNG().Save(filePath, false);
-						(Xamarin.Forms.Application.Current as App).ShowImage(filePath);
-					});
-					UIApplication.KeyWindow.RootViewController.DismissViewController(true, null);
-				};
-				imagePicker.Canceled += (sender, e) => UIApplication.KeyWindow.RootViewController.DismissViewController(true, null);
-	*/
 
-				return base.FinishedLaunching(app, options);
+			return base.FinishedLaunching(app, options);
 		}
 	}
 }

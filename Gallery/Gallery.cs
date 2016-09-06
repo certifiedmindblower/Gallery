@@ -1,68 +1,58 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using Xamarin.Forms;
 
 namespace Gallery
 {
 	public class App : Application
 	{
-		readonly Image image = new Image();
+		public static Size ScreenSize;
+
+		ObservableCollection<Image> images;
 
 		public App()
 		{
-			MainPage = new ContentPage
-			{
-				Content = new StackLayout
-				{
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Button {
-							Text = "Take a picture",
-							Command = new Command( o => ShouldTakePicture()),
-						},
-						image,
-					},
-				},
-			};
-			// The root page of your application
-			/*
-			var content = new ContentPage
+			/*var img = new Image();
+			img.Source = ImageSource.FromUri(new Uri("http://tinyurl.com/nmd85s3"));
+			img.WidthRequest = 70;
+			img.HeightRequest = 70;
+
+			var img1 = new Image();
+			img1.Source = ImageSource.FromUri(new Uri("https://pp.vk.me/c633623/v633623960/35641/NWTl7x_2VuU.jpg"));
+
+			images.Add(img);
+			images.Add(img1);
+			*/
+			images = new ObservableCollection<Image>();
+
+			MainPage = new NavigationPage(new ContentPage
 			{
 				Title = "Gallery",
-				Content = new StackLayout
+				Content = new ListView
 				{
-					VerticalOptions = LayoutOptions.Center,
-					Children = {
-						new Label {
-							HorizontalTextAlignment = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
-						}
-					}
-				}
-			};
-
-			MainPage = new NavigationPage(content);
-			*/
-			/*
-			MainPage = new ContentPage
-			{
-				Padding = new Thickness(0, Device.OS == TargetPlatform.iOS ? 20 : 0, 0, 0),
-				Content = new StackLayout
-				{
-					Children = {
-						new DemoStackLayout(),
-						new DemoGrid(),
-						new DemoRelative(),
-						//new DemoAbsoluteLayout(),
-					},
+					ItemsSource = images,
+					ItemTemplate = new DataTemplate(typeof(ItemCell)),
 				},
-			};*/
+			});
+
+			MainPage.ToolbarItems.Add(new ToolbarItem
+			{
+				Text = "Take a picture",
+				Command = new Command(o => ShouldTakePicture()),
+			});
 		}
+
 		public event Action ShouldTakePicture = () => { };
 
 		public void ShowImage(string filePath)
 		{
+			var image = new Image();
 			image.Source = ImageSource.FromFile(filePath);
+			image.HeightRequest = ScreenSize.Width - 10;
+			image.WidthRequest = ScreenSize.Width - 10;
+
+			images.Add(image);
 		}
 
 		protected override void OnStart()

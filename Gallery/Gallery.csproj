@@ -40,6 +40,8 @@
     <Compile Include="DemoStackLayout.cs" />
     <Compile Include="DemoGrid.cs" />
     <Compile Include="DemoRelative.cs" />
+    <Compile Include="ListImageView.cs" />
+    <Compile Include="ItemCell.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
