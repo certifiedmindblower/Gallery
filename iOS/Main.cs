@@ -5,6 +5,8 @@ using System.Linq;
 using Foundation;
 using UIKit;
 
+using Xamarin.Forms;
+
 namespace Gallery.iOS
 {
 	public class Application

@@ -242,102 +242,1208 @@ Lme_2:
 	.align 4
 	.no_dead_strip Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
-.word 0xa9b87bfd
+.word 0xa9b37bfd
 .word 0x910003fd
-.word 0xa90163b7
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
 .word 0xaa0003f8
-.word 0xf90013a1
-.word 0xf90017a2
+.word 0xf90023a1
+.word 0xf90027a2
 
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
 ldr x16, [x16, #144]
-.word 0xf9001bb0
+.word 0xf9002bb0
 .word 0xf9400a11
-.word 0xf9001fb1
+.word 0xf9002fb1
 .word 0xd2800017
-.word 0xf9401bb1
-.word 0xf9404231
+.word 0xd2800016
+.word 0xd2800015
+.word 0xf9402bb1
+.word 0xf9405231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401fb1
+.word 0xf9402fb1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9401bb1
-.word 0xf9406231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9401bb1
+.word 0xf9402bb1
 .word 0xf9407231
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_3
-.word 0xf9401bb1
-.word 0xf9408631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf9401bb1
-.word 0xf9409a31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
 ldr x0, [x16, #152]
+bl _p_3
+.word 0xf9004fa0
 bl _p_4
-.word 0xf9003ba0
+.word 0xf9402bb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xaa0003f7
+.word 0xaa1703e0
+.word 0xf94023a1
+.word 0xf9004ba1
+.word 0xf9000ae1
+.word 0x91004000
 bl _p_5
-.word 0xf9401bb1
+.word 0xf9404ba0
+.word 0xaa1703e0
+.word 0xaa1803e1
+.word 0xf90012f8
+.word 0x91008000
+bl _p_5
+.word 0xf9402bb1
+.word 0xf940e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_6
+.word 0xf9402bb1
+.word 0xf9410631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9402bb1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #160]
+bl _p_3
+.word 0xf90047a0
+bl _p_7
+.word 0xf9402bb1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a1
+.word 0xaa1803e0
+bl _p_8
+.word 0xf9402bb1
+.word 0xf9415e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf9003fa0
+.word 0xf9402bb1
+.word 0xf9417631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #168]
+bl _p_9
+.word 0xf90043a0
+bl _p_10
+.word 0xf9402bb1
+.word 0xf9419e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a0
+.word 0xaa0003f6
+.word 0xf9402bb1
+.word 0xf941b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xd2800020
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xd2800021
+.word 0xf94002c2
+.word 0xf941fc50
+.word 0xd63f0200
+.word 0xf9402bb1
+.word 0xf941f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xaa1603e1
+.word 0xf9003ba1
+.word 0xf9000ee1
+.word 0x91006000
+bl _p_5
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf9421e31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_11
+.word 0xaa0003f4
+.word 0xf9402bb1
+.word 0xf9423631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403f3
+.word 0xeb1f029f
+.word 0x54000160
+.word 0xf9400280
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9401000
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #176]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800013
+.word 0xaa1703e0
+.word 0xeb1f02ff
+.word 0x10000011
+.word 0x540015a0
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #184]
+bl _p_3
+.word 0xf9001017
+.word 0xf90067a0
+.word 0x91008000
+bl _p_5
+.word 0xf94067a0
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #192]
+.word 0xf9001401
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #200]
+.word 0xf9002001
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #208]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0xd2800001
+.word 0x3901801f
+.word 0xf90063a0
+.word 0xf9402bb1
+.word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a1
+.word 0xaa1303e0
+.word 0xf940027e
+bl _p_12
+.word 0xf9402bb1
+.word 0xf9431631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf9400ee0
+.word 0xf9005ba0
+.word 0xaa1703e0
+.word 0xeb1f02ff
+.word 0x10000011
+.word 0x54000fe0
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #216]
+bl _p_3
+.word 0xf9001017
+.word 0xf9005fa0
+.word 0x91008000
+bl _p_5
+.word 0xf9405fa0
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #224]
+.word 0xf9001401
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #232]
+.word 0xf9002001
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #240]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0xd2800001
+.word 0x3901801f
+.word 0xf90057a0
+.word 0xf9402bb1
+.word 0xf943ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a1
+.word 0xf9405ba2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_13
+.word 0xf9402bb1
+.word 0xf943d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf9400ee0
+.word 0xf9004fa0
+.word 0xaa1703e0
+.word 0xeb1f02ff
+.word 0x10000011
+.word 0x54000a00
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #248]
+bl _p_3
+.word 0xf9001017
+.word 0xf90053a0
+.word 0x91008000
+bl _p_5
+.word 0xf94053a0
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #256]
+.word 0xf9001401
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #264]
+.word 0xf9002001
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #272]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0xd2800001
+.word 0x3901801f
+.word 0xf9004ba0
+.word 0xf9402bb1
+.word 0xf9446a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xf9404fa2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_14
+.word 0xf9402bb1
+.word 0xf9448e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1703e0
+.word 0xf9400ae0
+.word 0xf90043a0
+.word 0xf94027a0
+.word 0xf90047a0
+.word 0xf9402bb1
+.word 0xf944b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94043a1
+.word 0xf94047a2
+.word 0xaa1803e0
+bl _p_15
+.word 0x53001c00
+.word 0xf9003fa0
+.word 0xf9402bb1
+.word 0xf944de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa0
+.word 0xf9003ba0
+.word 0xaa0003f5
+.word 0xf9402bb1
+.word 0xf944fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403ba0
+.word 0xaa0003e1
+.word 0xf9402bb1
+.word 0xf9451231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0x910003bf
+.word 0xa8cd7bfd
+.word 0xd65f03c0
+.word 0xd28008a0
+.word 0xaa1103e1
+bl _p_16
+
+Lme_3:
+.text
+	.align 4
+	.no_dead_strip Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor
+Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #280]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_4:
+.text
+	.align 4
+	.no_dead_strip Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__0
+Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__0:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000bba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #288]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400b40
+.word 0xf90027a0
+.word 0xf9400fb1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf940f030
+.word 0xd63f0200
+.word 0xf90023a0
+.word 0xf9400fb1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9422030
+.word 0xd63f0200
+.word 0xf9001fa0
+.word 0xf9400fb1
 .word 0xf940c231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9403ba1
+.word 0xaa1a03e0
+.word 0xf9400f40
+.word 0xf9001ba0
+.word 0xd2800020
+.word 0xd2800000
+.word 0xf9400fb1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401ba1
+.word 0xf9401fa4
+.word 0xaa0403e0
+.word 0xd2800022
+.word 0xd2800003
+.word 0xf9400084
+.word 0xf941ac90
+.word 0xd63f0200
+.word 0xf9400fb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9412631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bba
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_5:
+.text
+	.align 4
+	.no_dead_strip Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__1_object_UIKit_UIImagePickerMediaPickedEventArgs
+Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__1_object_UIKit_UIImagePickerMediaPickedEventArgs:
+.word 0xa9b57bfd
+.word 0x910003fd
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xaa0003f9
+.word 0xf9001ba1
+.word 0xf9001fa2
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #296]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xd2800018
+.word 0xf94023b1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #304]
+bl _p_3
+.word 0xf90057a0
+bl _p_17
+.word 0xf94023b1
+.word 0xf9408e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94057a0
+.word 0xaa0003f8
 .word 0xaa1803e0
-bl _p_6
-.word 0xf9401bb1
-.word 0xf940de31
+.word 0xaa1903e1
+.word 0xf9001319
+.word 0x91008000
+bl _p_5
+.word 0xf94023b1
+.word 0xf940ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf940ca31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf94013a0
-.word 0xf90033a0
-.word 0xf94017a0
-.word 0xf90037a0
-.word 0xf9401bb1
+.word 0xf90047a0
+.word 0xd28000a0
+.word 0xf94023b1
+.word 0xf940e631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd28000a0
+bl _p_18
+.word 0xf9004fa0
+.word 0xf94023b1
 .word 0xf9410231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #312]
+.word 0xf90053a0
+.word 0xf94023b1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404fa0
+.word 0xf94053a1
+bl _p_19
+.word 0xf9004ba0
+.word 0xf94023b1
+.word 0xf9414231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94047a0
+.word 0xf9404ba1
+.word 0xf90043a1
+.word 0xf9000f01
+.word 0x91006000
+bl _p_5
+.word 0xf94043a0
+.word 0xf94023b1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803f7
+.word 0xf9401fa0
+.word 0xf9003fa0
+.word 0xf94023b1
+.word 0xf9418a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_20
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #320]
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #328]
+bl _p_9
+.word 0xf9403ba1
+.word 0xf90033a0
+bl _p_21
+.word 0xf94023b1
+.word 0xf941fa31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94033a1
 .word 0xf94037a2
+.word 0xaa0203e0
+.word 0xf9400042
+.word 0xf9415850
+.word 0xd63f0200
+.word 0xaa0003f6
+.word 0xf94023b1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000176
+.word 0xf94002c0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400800
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #336]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54000da1
+.word 0xf9000af6
+.word 0x910042e0
+bl _p_5
+.word 0xf94023b1
+.word 0xf9426e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9401320
+.word 0xf9003fa0
 .word 0xaa1803e0
-bl _p_7
-.word 0x53001c00
-.word 0xf9002fa0
-.word 0xf9401bb1
-.word 0xf9412a31
+.word 0xeb1f031f
+.word 0x10000011
+.word 0x54000b80
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #184]
+bl _p_3
+.word 0xf9001018
+.word 0xf90047a0
+.word 0x91008000
+bl _p_5
+.word 0xf94047a0
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #344]
+.word 0xf9001401
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #352]
+.word 0xf9002001
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #360]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0xd2800001
+.word 0x3901801f
+.word 0xf90043a0
+.word 0xf94023b1
+.word 0xf9430631
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402fa0
-.word 0xf9002ba0
-.word 0xaa0003f7
-.word 0xf9401bb1
-.word 0xf9414631
+.word 0xf9403fa0
+.word 0xf94043a1
+bl _p_22
+.word 0xf94023b1
+.word 0xf9432231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9402ba0
-.word 0xaa0003e1
-.word 0xf9401bb1
-.word 0xf9415e31
+.word 0xaa1903e0
+.word 0xf9400b20
+.word 0xf9003ba0
+.word 0xf94023b1
+.word 0xf9433e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xa94163b7
+.word 0xf9403ba1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf940f030
+.word 0xd63f0200
+.word 0xf90037a0
+.word 0xf94023b1
+.word 0xf9436631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9422030
+.word 0xd63f0200
+.word 0xf90033a0
+.word 0xf94023b1
+.word 0xf9438e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800020
+.word 0xd2800000
+.word 0xf94023b1
+.word 0xf943a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a3
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c470
+.word 0xd63f0200
+.word 0xf94023b1
+.word 0xf943d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023b1
+.word 0xf943e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
 .word 0x910003bf
-.word 0xa8c87bfd
+.word 0xa8cb7bfd
+.word 0xd65f03c0
+.word 0xd28008a0
+.word 0xaa1103e1
+bl _p_16
+.word 0xd2802500
+.word 0xaa1103e1
+bl _p_16
+
+Lme_6:
+.text
+	.align 4
+	.no_dead_strip Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__2_object_System_EventArgs
+Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__2_object_System_EventArgs:
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+.word 0xf90013a2
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #368]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400800
+.word 0xf9002ba0
+.word 0xf94017b1
+.word 0xf9407631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf940f030
+.word 0xd63f0200
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a1
+.word 0xaa0103e0
+.word 0xf9400021
+.word 0xf9422030
+.word 0xd63f0200
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf940c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800020
+.word 0xd2800000
+.word 0xf94017b1
+.word 0xf940de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a3
+.word 0xaa0303e0
+.word 0xd2800021
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf941c470
+.word 0xd63f0200
+.word 0xf94017b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_3:
+Lme_7:
+.text
+	.align 4
+	.no_dead_strip Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor
+Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor:
+.word 0xa9bd7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #376]
+.word 0xf9000fb0
+.word 0xf9400a11
+.word 0xf90013b1
+.word 0xf9400fb1
+.word 0xf9403231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9400fb1
+.word 0xf9404631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_8:
+.text
+	.align 4
+	.no_dead_strip Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__m__0
+Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__m__0:
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xa90167b8
+.word 0xf90013ba
+.word 0xaa0003fa
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #384]
+.word 0xf90017b0
+.word 0xf9400a11
+.word 0xf9001bb1
+.word 0xf94017b1
+.word 0xf9403a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401bb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9406a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400b40
+.word 0xf9002ba0
+.word 0xf94017b1
+.word 0xf9408631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_23
+.word 0xf90027a0
+.word 0xf94017b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9400f40
+.word 0xf90023a0
+.word 0xd2800000
+.word 0xf94017b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a3
+.word 0xaa0303e0
+.word 0xd2800002
+.word 0xf9400063
+.word 0xf940f070
+.word 0xd63f0200
+.word 0x53001c00
+.word 0xf94017b1
+.word 0xf940fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_11
+.word 0xaa0003f9
+.word 0xf94017b1
+.word 0xf9412231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903f8
+.word 0xeb1f033f
+.word 0x54000160
+.word 0xf9400320
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9401000
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x1, [x16, #176]
+.word 0xeb01001f
+.word 0x54000040
+.word 0xd2800018
+.word 0xaa1a03e0
+.word 0xf9400f40
+.word 0xf90023a0
+.word 0xf94017b1
+.word 0xf9417231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xaa1803e0
+.word 0xf940031e
+bl _p_24
+.word 0xf94017b1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf941a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94167b8
+.word 0xf94013ba
+.word 0x910003bf
+.word 0xa8c67bfd
+.word 0xd65f03c0
+
+Lme_9:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
+wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs:
+.word 0xa9b77bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f8
+.word 0xaa0103f9
+.word 0xaa0203fa
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #392]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xd2800013
+.word 0xf9402bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9407e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x0, [x16, #400]
+.word 0xb9400000
+.word 0x34000240
+.word 0xf9402bb1
+.word 0xf940a231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf940b231
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_25
+.word 0xf90037a0
+.word 0xf94037a1
+.word 0xf94037a0
+.word 0xf9003ba1
+.word 0xb4000060
+.word 0xf9403ba0
+bl _p_26
+.word 0xf9403ba0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf940f631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9101a300
+.word 0xf9403700
+.word 0xaa0003f5
+.word 0xf9402bb1
+.word 0xf9411a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xb50007d5
+.word 0xf9402bb1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91008300
+.word 0xf9401300
+.word 0xaa0003f3
+.word 0xf9402bb1
+.word 0xf9415631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+.word 0xb4000333
+.word 0xf9402bb1
+.word 0xf9416e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1303e0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b03
+.word 0xaa1303e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xd63f0060
+.word 0xf9402bb1
+.word 0xf941ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x1400005c
+.word 0xf9402bb1
+.word 0xf941ce31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x9100e300
+.word 0xf9401f00
+.word 0xaa1803e0
+.word 0xaa1803e0
+.word 0x91004300
+.word 0xf9400b02
+.word 0xaa1903e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0xf9402bb1
+.word 0xf9421231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000046
+.word 0xf9402bb1
+.word 0xf9422631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xb9801aa0
+.word 0xaa0003f6
+.word 0xf9402bb1
+.word 0xf9424231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800017
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9426631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xaa1703e0
+.word 0x93407ee0
+.word 0xb9801aa1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x540006c9
+.word 0xd37df000
+.word 0x8b0002a0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f4
+.word 0xf9402bb1
+.word 0xf942a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xf90043a0
+.word 0xaa1903e0
+.word 0xaa1a03e0
+.word 0xaa1403e0
+.word 0xaa1903e1
+.word 0xaa1a03e2
+.word 0xf9400e90
+.word 0xd63f0200
+.word 0xf94043a0
+.word 0xf9402bb1
+.word 0xf942de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf942ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0x110006e0
+.word 0xaa0003f7
+.word 0xf9402bb1
+.word 0xf9430a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xaa1603e0
+.word 0x6b1602ff
+.word 0x54fff98b
+.word 0xf9402bb1
+.word 0xf9432a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9433a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c97bfd
+.word 0xd65f03c0
+.word 0xd2802460
+.word 0xaa1103e1
+bl _p_16
+
+Lme_b:
 .text
 	.align 3
 jit_code_end:
@@ -351,7 +1457,14 @@ bl Gallery_iOS_Application__ctor
 bl Gallery_iOS_Application_Main_string__
 bl Gallery_iOS_AppDelegate__ctor
 bl Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+bl Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor
+bl Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__0
+bl Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__1_object_UIKit_UIImagePickerMediaPickedEventArgs
+bl Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__2_object_System_EventArgs
+bl Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor
+bl Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__m__0
 bl method_addresses
+bl wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
 method_addresses_end:
 
 .section __TEXT, __const
@@ -369,8 +1482,12 @@ unbox_trampoline_addresses:
 	.align 3
 unwind_info:
 
-	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,64,157,8,158,7,68,13,29,19,12,31,0
-	.byte 68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13
+	.byte 13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,64,157,8,158,7,68,13,29,29,12,31,0
+	.byte 68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19,16,12,31,0,68,14
+	.byte 80,157,10,158,9,68,13,29,68,154,8,24,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68
+	.byte 152,18,153,17,13,12,31,0,68,14,96,157,12,158,11,68,13,29,21,12,31,0,68,14,96,157,12,158,11,68,13,29
+	.byte 68,152,10,153,9,68,154,8,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150
+	.byte 13,68,151,12,152,11,68,153,10,154,9
 
 .text
 	.align 4
@@ -381,61 +1498,213 @@ plt_UIKit_UIApplication_Main_string___string_string:
 _p_1:
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #416]
 br x16
-.word 262
+.word 453
 	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor
 plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate__ctor:
 _p_2:
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #424]
 br x16
-.word 267
-	.no_dead_strip plt_Xamarin_Forms_Forms_Init
-plt_Xamarin_Forms_Forms_Init:
+.word 458
+	.no_dead_strip plt__jit_icall_mono_object_new_fast
+plt__jit_icall_mono_object_new_fast:
 _p_3:
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #432]
 br x16
-.word 272
-	.no_dead_strip plt__jit_icall_mono_object_new_fast
-plt__jit_icall_mono_object_new_fast:
+.word 463
+	.no_dead_strip plt_Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor
+plt_Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor:
 _p_4:
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #440]
 br x16
-.word 277
-	.no_dead_strip plt_Gallery_App__ctor
-plt_Gallery_App__ctor:
+.word 486
+	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_5:
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
-ldr x16, [x16, #200]
+ldr x16, [x16, #448]
 br x16
-.word 300
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+.word 491
+	.no_dead_strip plt_Xamarin_Forms_Forms_Init
+plt_Xamarin_Forms_Forms_Init:
 _p_6:
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #456]
 br x16
-.word 305
-	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+.word 498
+	.no_dead_strip plt_Gallery_App__ctor
+plt_Gallery_App__ctor:
 _p_7:
 adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
 add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #464]
 br x16
-.word 310
+.word 503
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_LoadApplication_Xamarin_Forms_Application:
+_p_8:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #472]
+br x16
+.word 508
+	.no_dead_strip plt__jit_icall_mono_object_new_specific
+plt__jit_icall_mono_object_new_specific:
+_p_9:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #480]
+br x16
+.word 513
+	.no_dead_strip plt_UIKit_UIImagePickerController__ctor
+plt_UIKit_UIImagePickerController__ctor:
+_p_10:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #488]
+br x16
+.word 540
+	.no_dead_strip plt_Xamarin_Forms_Application_get_Current
+plt_Xamarin_Forms_Application_get_Current:
+_p_11:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #496]
+br x16
+.word 545
+	.no_dead_strip plt_Gallery_App_add_ShouldTakePicture_System_Action
+plt_Gallery_App_add_ShouldTakePicture_System_Action:
+_p_12:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #504]
+br x16
+.word 550
+	.no_dead_strip plt_UIKit_UIImagePickerController_add_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs
+plt_UIKit_UIImagePickerController_add_FinishedPickingMedia_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs:
+_p_13:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #512]
+br x16
+.word 555
+	.no_dead_strip plt_UIKit_UIImagePickerController_add_Canceled_System_EventHandler
+plt_UIKit_UIImagePickerController_add_Canceled_System_EventHandler:
+_p_14:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #520]
+br x16
+.word 560
+	.no_dead_strip plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+plt_Xamarin_Forms_Platform_iOS_FormsApplicationDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary:
+_p_15:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #528]
+br x16
+.word 565
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_16:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #536]
+br x16
+.word 570
+	.no_dead_strip plt_Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor
+plt_Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor:
+_p_17:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #544]
+br x16
+.word 605
+	.no_dead_strip plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder
+plt_System_Environment_GetFolderPath_System_Environment_SpecialFolder:
+_p_18:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #552]
+br x16
+.word 610
+	.no_dead_strip plt_System_IO_Path_Combine_string_string
+plt_System_IO_Path_Combine_string_string:
+_p_19:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #560]
+br x16
+.word 612
+	.no_dead_strip plt_UIKit_UIImagePickerMediaPickedEventArgs_get_Info
+plt_UIKit_UIImagePickerMediaPickedEventArgs_get_Info:
+_p_20:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #568]
+br x16
+.word 615
+	.no_dead_strip plt_Foundation_NSString__ctor_string
+plt_Foundation_NSString__ctor_string:
+_p_21:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #576]
+br x16
+.word 620
+	.no_dead_strip plt_Foundation_NSObject_InvokeOnMainThread_System_Action
+plt_Foundation_NSObject_InvokeOnMainThread_System_Action:
+_p_22:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #584]
+br x16
+.word 625
+	.no_dead_strip plt_UIKit_UIImage_AsPNG
+plt_UIKit_UIImage_AsPNG:
+_p_23:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #592]
+br x16
+.word 630
+	.no_dead_strip plt_Gallery_App_ShowImage_string
+plt_Gallery_App_ShowImage_string:
+_p_24:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #600]
+br x16
+.word 635
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_25:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #608]
+br x16
+.word 640
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_26:
+adrp x16, mono_aot_Gallery_iOS_got@PAGE+0
+add x16, x16, mono_aot_Gallery_iOS_got@PAGEOFF
+ldr x16, [x16, #616]
+br x16
+.word 678
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Gallery_iOS_got, 224
+.lcomm mono_aot_Gallery_iOS_got, 624
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -458,7 +1727,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "738D701D-0ED5-4E9F-8796-ADED04360D16"
+	.asciz "03F8B77A-D062-430A-ABB3-CE3929008352"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -535,10 +1804,10 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 20,224,8,5,70,923871743,0,833
-	.long 128,8,8,10,0,14,1592,752
-	.long 336,184,0,280,312,232,0,176
-	.long 32,0,0,0,0,0,0,0
+	.long 51,624,27,12,70,923871743,0,2812
+	.long 128,8,8,10,0,14,3728,904
+	.long 408,200,0,336,376,248,0,184
+	.long 40,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
 	.globl _mono_aot_module_Gallery_iOS_info
@@ -628,7 +1897,7 @@ Lfde0_end:
 	.asciz "Gallery.iOS.Application:Main"
 	.asciz "Gallery_iOS_Application_Main_string__"
 
-	.byte 1,14
+	.byte 1,16
 	.quad Gallery_iOS_Application_Main_string__
 	.quad Lme_1
 
@@ -4045,52 +5314,634 @@ LTDIE_98_REFERENCE:
 	.byte 14
 LDIFF_SYM618=LTDIE_98 - Ldebug_info_start
 	.long LDIFF_SYM618
+LTDIE_102:
+
+	.byte 5
+	.asciz "UIKit_UIViewController"
+
+	.byte 48,16
+LDIFF_SYM619=LTDIE_9 - Ldebug_info_start
+	.long LDIFF_SYM619
+	.byte 2,35,0,6
+	.asciz "__mt_PreferredFocusedView_var"
+
+LDIFF_SYM620=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM620
+	.byte 2,35,40,0,7
+	.asciz "UIKit_UIViewController"
+
+LDIFF_SYM621=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM621
+LTDIE_102_POINTER:
+
+	.byte 13
+LDIFF_SYM622=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM622
+LTDIE_102_REFERENCE:
+
+	.byte 14
+LDIFF_SYM623=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM623
+LTDIE_101:
+
+	.byte 5
+	.asciz "UIKit_UINavigationController"
+
+	.byte 48,16
+LDIFF_SYM624=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM624
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UINavigationController"
+
+LDIFF_SYM625=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM625
+LTDIE_101_POINTER:
+
+	.byte 13
+LDIFF_SYM626=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM626
+LTDIE_101_REFERENCE:
+
+	.byte 14
+LDIFF_SYM627=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM627
+LTDIE_100:
+
+	.byte 5
+	.asciz "UIKit_UIImagePickerController"
+
+	.byte 56,16
+LDIFF_SYM628=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM628
+	.byte 2,35,0,6
+	.asciz "__mt_Delegate_var"
+
+LDIFF_SYM629=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM629
+	.byte 2,35,48,0,7
+	.asciz "UIKit_UIImagePickerController"
+
+LDIFF_SYM630=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM630
+LTDIE_100_POINTER:
+
+	.byte 13
+LDIFF_SYM631=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM631
+LTDIE_100_REFERENCE:
+
+	.byte 14
+LDIFF_SYM632=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM632
+LTDIE_99:
+
+	.byte 5
+	.asciz "_<FinishedLaunching>c__AnonStorey0"
+
+	.byte 40,16
+LDIFF_SYM633=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM633
+	.byte 2,35,0,6
+	.asciz "app"
+
+LDIFF_SYM634=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM634
+	.byte 2,35,16,6
+	.asciz "imagePicker"
+
+LDIFF_SYM635=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM635
+	.byte 2,35,24,6
+	.asciz "$this"
+
+LDIFF_SYM636=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM636
+	.byte 2,35,32,0,7
+	.asciz "_<FinishedLaunching>c__AnonStorey0"
+
+LDIFF_SYM637=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM637
+LTDIE_99_POINTER:
+
+	.byte 13
+LDIFF_SYM638=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM638
+LTDIE_99_REFERENCE:
+
+	.byte 14
+LDIFF_SYM639=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM639
 	.byte 2
 	.asciz "Gallery.iOS.AppDelegate:FinishedLaunching"
 	.asciz "Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary"
 
-	.byte 2,14
+	.byte 2,17
 	.quad Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 	.quad Lme_3
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM619=LTDIE_2_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM619
+LDIFF_SYM640=LTDIE_2_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM640
 	.byte 1,104,3
 	.asciz "app"
 
-LDIFF_SYM620=LTDIE_97_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM620
-	.byte 2,141,32,3
+LDIFF_SYM641=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM641
+	.byte 3,141,192,0,3
 	.asciz "options"
 
-LDIFF_SYM621=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM621
-	.byte 2,141,40,11
-	.asciz "V_0"
+LDIFF_SYM642=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM642
+	.byte 3,141,200,0,11
+	.asciz "$locvar0"
 
-LDIFF_SYM622=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM622
-	.byte 1,103,0
+LDIFF_SYM643=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM643
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM644=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM644
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM645=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM645
+	.byte 1,101,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM623=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM623
+LDIFF_SYM646=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM646
 Lfde3_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 
-LDIFF_SYM624=Lme_3 - Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
-	.long LDIFF_SYM624
+LDIFF_SYM647=Lme_3 - Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
+	.long LDIFF_SYM647
 	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,151,14,152,13
+	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,147,24,148,23,68,149,22,150,21,68,151,20,152,19
 	.align 3
 Lfde3_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.iOS.AppDelegate/<FinishedLaunching>c__AnonStorey0:.ctor"
+	.asciz "Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor"
+
+	.byte 0,0
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor
+	.quad Lme_4
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM648=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM648
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM649=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM649
+Lfde4_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor
+
+LDIFF_SYM650=Lme_4 - Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__ctor
+	.long LDIFF_SYM650
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde4_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.iOS.AppDelegate/<FinishedLaunching>c__AnonStorey0:<>m__0"
+	.asciz "Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__0"
+
+	.byte 2,24
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__0
+	.quad Lme_5
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM651=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM651
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM652=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM652
+Lfde5_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__0
+
+LDIFF_SYM653=Lme_5 - Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__0
+	.long LDIFF_SYM653
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,154,8
+	.align 3
+Lfde5_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_104:
+
+	.byte 5
+	.asciz "System_EventArgs"
+
+	.byte 16,16
+LDIFF_SYM654=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM654
+	.byte 2,35,0,0,7
+	.asciz "System_EventArgs"
+
+LDIFF_SYM655=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM655
+LTDIE_104_POINTER:
+
+	.byte 13
+LDIFF_SYM656=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM656
+LTDIE_104_REFERENCE:
+
+	.byte 14
+LDIFF_SYM657=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM657
+LTDIE_103:
+
+	.byte 5
+	.asciz "UIKit_UIImagePickerMediaPickedEventArgs"
+
+	.byte 24,16
+LDIFF_SYM658=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM658
+	.byte 2,35,0,6
+	.asciz "<Info>k__BackingField"
+
+LDIFF_SYM659=LTDIE_98_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM659
+	.byte 2,35,16,0,7
+	.asciz "UIKit_UIImagePickerMediaPickedEventArgs"
+
+LDIFF_SYM660=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM660
+LTDIE_103_POINTER:
+
+	.byte 13
+LDIFF_SYM661=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM661
+LTDIE_103_REFERENCE:
+
+	.byte 14
+LDIFF_SYM662=LTDIE_103 - Ldebug_info_start
+	.long LDIFF_SYM662
+LTDIE_106:
+
+	.byte 5
+	.asciz "UIKit_UIImage"
+
+	.byte 40,16
+LDIFF_SYM663=LTDIE_5 - Ldebug_info_start
+	.long LDIFF_SYM663
+	.byte 2,35,0,0,7
+	.asciz "UIKit_UIImage"
+
+LDIFF_SYM664=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM664
+LTDIE_106_POINTER:
+
+	.byte 13
+LDIFF_SYM665=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM665
+LTDIE_106_REFERENCE:
+
+	.byte 14
+LDIFF_SYM666=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM666
+LTDIE_105:
+
+	.byte 5
+	.asciz "_<FinishedLaunching>c__AnonStorey1"
+
+	.byte 40,16
+LDIFF_SYM667=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM667
+	.byte 2,35,0,6
+	.asciz "image"
+
+LDIFF_SYM668=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM668
+	.byte 2,35,16,6
+	.asciz "filepath"
+
+LDIFF_SYM669=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM669
+	.byte 2,35,24,6
+	.asciz "<>f__ref$0"
+
+LDIFF_SYM670=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM670
+	.byte 2,35,32,0,7
+	.asciz "_<FinishedLaunching>c__AnonStorey1"
+
+LDIFF_SYM671=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM671
+LTDIE_105_POINTER:
+
+	.byte 13
+LDIFF_SYM672=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM672
+LTDIE_105_REFERENCE:
+
+	.byte 14
+LDIFF_SYM673=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM673
+	.byte 2
+	.asciz "Gallery.iOS.AppDelegate/<FinishedLaunching>c__AnonStorey0:<>m__1"
+	.asciz "Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__1_object_UIKit_UIImagePickerMediaPickedEventArgs"
+
+	.byte 2,27
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__1_object_UIKit_UIImagePickerMediaPickedEventArgs
+	.quad Lme_6
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM674=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM674
+	.byte 1,105,3
+	.asciz "sender"
+
+LDIFF_SYM675=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM675
+	.byte 2,141,48,3
+	.asciz "e"
+
+LDIFF_SYM676=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM676
+	.byte 2,141,56,11
+	.asciz "$locvar0"
+
+LDIFF_SYM677=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM677
+	.byte 1,104,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM678=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM678
+Lfde6_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__1_object_UIKit_UIImagePickerMediaPickedEventArgs
+
+LDIFF_SYM679=Lme_6 - Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__1_object_UIKit_UIImagePickerMediaPickedEventArgs
+	.long LDIFF_SYM679
+	.long 0
+	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,150,20,151,19,68,152,18,153,17
+	.align 3
+Lfde6_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.iOS.AppDelegate/<FinishedLaunching>c__AnonStorey0:<>m__2"
+	.asciz "Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__2_object_System_EventArgs"
+
+	.byte 2,39
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__2_object_System_EventArgs
+	.quad Lme_7
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM680=LTDIE_99_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM680
+	.byte 2,141,16,3
+	.asciz "sender"
+
+LDIFF_SYM681=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM681
+	.byte 2,141,24,3
+	.asciz "e"
+
+LDIFF_SYM682=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM682
+	.byte 2,141,32,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM683=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM683
+Lfde7_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__2_object_System_EventArgs
+
+LDIFF_SYM684=Lme_7 - Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__2_object_System_EventArgs
+	.long LDIFF_SYM684
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde7_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.iOS.AppDelegate/<FinishedLaunching>c__AnonStorey0/<FinishedLaunching>c__AnonStorey1:.ctor"
+	.asciz "Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor"
+
+	.byte 0,0
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor
+	.quad Lme_8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM685=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM685
+	.byte 2,141,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM686=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM686
+Lfde8_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor
+
+LDIFF_SYM687=Lme_8 - Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__ctor
+	.long LDIFF_SYM687
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde8_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.iOS.AppDelegate/<FinishedLaunching>c__AnonStorey0/<FinishedLaunching>c__AnonStorey1:<>m__0"
+	.asciz "Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__m__0"
+
+	.byte 2,32
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__m__0
+	.quad Lme_9
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM688=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM688
+	.byte 1,106,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM689=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM689
+Lfde9_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__m__0
+
+LDIFF_SYM690=Lme_9 - Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__m__0
+	.long LDIFF_SYM690
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,152,10,153,9,68,154,8
+	.align 3
+Lfde9_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_107:
+
+	.byte 5
+	.asciz "System_EventHandler`1"
+
+	.byte 112,16
+LDIFF_SYM691=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM691
+	.byte 2,35,0,0,7
+	.asciz "System_EventHandler`1"
+
+LDIFF_SYM692=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM692
+LTDIE_107_POINTER:
+
+	.byte 13
+LDIFF_SYM693=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM693
+LTDIE_107_REFERENCE:
+
+	.byte 14
+LDIFF_SYM694=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM694
+LTDIE_108:
+
+	.byte 5
+	.asciz "System_Array"
+
+	.byte 16,16
+LDIFF_SYM695=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM695
+	.byte 2,35,0,0,7
+	.asciz "System_Array"
+
+LDIFF_SYM696=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM696
+LTDIE_108_POINTER:
+
+	.byte 13
+LDIFF_SYM697=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM697
+LTDIE_108_REFERENCE:
+
+	.byte 14
+LDIFF_SYM698=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM698
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.EventHandler`1<UIKit.UIImagePickerMediaPickedEventArgs>:invoke_void_object_TEventArgs"
+	.asciz "wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
+	.quad Lme_b
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM699=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM699
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM700=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM700
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM701=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM701
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM702=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM702
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM703=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM703
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM704=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM704
+	.byte 1,101,11
+	.asciz "V_3"
+
+LDIFF_SYM705=LTDIE_14_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM705
+	.byte 1,100,11
+	.asciz "V_4"
+
+LDIFF_SYM706=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM706
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM707=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM707
+Lfde10_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
+
+LDIFF_SYM708=Lme_b - wrapper_delegate_invoke_System_EventHandler_1_UIKit_UIImagePickerMediaPickedEventArgs_invoke_void_object_TEventArgs_object_UIKit_UIImagePickerMediaPickedEventArgs
+	.long LDIFF_SYM708
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde10_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -4123,14 +5974,39 @@ Ldebug_line_header_end:
 	.byte 0,9,2
 	.quad Gallery_iOS_Application_Main_string__
 
-	.byte 4,1,1,10,3,13,2,52,1,8,231,3,1,2,204,0,1,2,44,1,0,1,1
+	.byte 4,1,1,10,3,15,2,52,1,8,231,3,1,2,204,0,1,2,44,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,9,2
 	.quad Gallery_iOS_AppDelegate_FinishedLaunching_UIKit_UIApplication_Foundation_NSDictionary
 
-	.byte 4,2,1,10,3,13,2,196,0,1,8,229,8,62,3,2,2,216,0,1,3,1,2,232,0,1,2,56,1,0,1,1
-	.byte 0,1,1
+	.byte 4,2,1,10,3,16,2,212,0,1,3,1,2,144,1,1,8,62,3,2,2,216,0,1,3,2,2,192,1,1,3,2
+	.byte 2,248,1,1,3,13,2,188,1,1,3,17,2,188,1,1,3,1,2,236,0,1,2,204,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,9,2
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__0
+
+	.byte 4,2,1,10,3,23,2,56,1,2,128,2,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,9,2
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__1_object_UIKit_UIImagePickerMediaPickedEventArgs
+
+	.byte 4,2,1,10,3,26,2,200,0,1,3,2,2,244,0,1,3,1,2,164,1,1,3,1,2,128,2,1,3,5,2,180
+	.byte 1,1,3,1,2,176,1,1,2,204,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,9,2
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__m__2_object_System_EventArgs
+
+	.byte 4,2,1,10,3,38,2,60,1,2,236,1,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,9,2
+	.quad Gallery_iOS_AppDelegate__FinishedLaunchingc__AnonStorey0__FinishedLaunchingc__AnonStorey1__m__0
+
+	.byte 4,2,1,10,3,31,2,60,1,8,229,3,1,2,160,1,1,3,1,2,136,1,1,2,52,1,0,1,1,0,1,1
 Ldebug_line_end:
 .text
 	.align 3

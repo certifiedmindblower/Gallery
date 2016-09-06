@@ -118,339 +118,669 @@ jit_code_start:
 	.align 4
 	.no_dead_strip Gallery_App__ctor
 Gallery_App__ctor:
-.word 0xa9af7bfd
+.word 0xa9b17bfd
 .word 0x910003fd
-.word 0xa9015bb5
-.word 0xa90263b7
-.word 0xa9036bb9
+.word 0xa9015fb6
+.word 0xa90267b8
+.word 0xf9001bba
 .word 0xaa0003fa
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #112]
-.word 0xf90023b0
+.word 0xf9001fb0
 .word 0xf9400a11
-.word 0xf90027b1
+.word 0xf90023b1
 .word 0xd2800019
 .word 0xd2800018
-.word 0xf94023b1
-.word 0xf9404631
+.word 0xd2800017
+.word 0xf9401fb1
+.word 0xf9404a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94027b1
+.word 0xf94023b1
 .word 0xf9400231
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9406631
+.word 0xf9401fb1
+.word 0xf9406a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-.word 0xaa1a03e0
-bl _p_1
-.word 0xf94023b1
-.word 0xf9408231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
-.word 0xf9409231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1a03e0
-.word 0xf94023b1
-.word 0xf940a631
+.word 0xf9401fb1
+.word 0xf9407e31
 .word 0xb4000051
 .word 0xd63f0220
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #120]
+bl _p_1
+.word 0xf90037a0
 bl _p_2
-.word 0xf9005fa0
+.word 0xf9401fb1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a0
+.word 0xf90033a0
+.word 0xf9008b40
+.word 0x91044340
 bl _p_3
-.word 0xf94023b1
+.word 0xf94033a0
+.word 0xf9401fb1
 .word 0xf940ce31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf9405fa0
-.word 0xaa0003f9
-.word 0xf94023b1
-.word 0xf940e631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf90057a0
-.word 0x9e6703e0
-.word 0xfd005ba0
-.word 0xf94023b1
-.word 0xf9410631
-.word 0xb4000051
-.word 0xd63f0220
-bl _p_4
-.word 0x93407c00
-.word 0xf90053a0
-.word 0xf94023b1
-.word 0xf9412231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94053a0
-.word 0xf94057a1
-.word 0xfd405ba0
-.word 0xd2800022
-.word 0xaa1a03f7
-.word 0xaa0103f6
-.word 0xfd004fa0
-.word 0xd280003e
-.word 0x6b1e001f
-.word 0x54000101
-.word 0xaa1703e0
-.word 0xaa1603e0
-.word 0xfd404fa0
-.word 0xd2800280
-.word 0xfd004fa0
-.word 0xd2800295
-.word 0x14000007
-.word 0xaa1703e0
-.word 0xaa1603e0
-.word 0xfd404fa0
-.word 0xd2800000
-.word 0xfd004fa0
-.word 0xd2800015
-.word 0xaa1703e0
-.word 0xaa1603e0
-.word 0xfd404fa0
-.word 0xfd007fa0
-.word 0xaa1503e0
-.word 0x1e6202a0
-.word 0xfd0083a0
-.word 0x9e6703e0
-.word 0x9e6703e0
-.word 0xf94023b1
-.word 0xf941b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xfd407fa0
-.word 0xfd4083a1
-.word 0x9101e3a0
-.word 0xd2800000
-.word 0xf9003fa0
-.word 0xf90043a0
-.word 0xf90047a0
-.word 0xf9004ba0
-.word 0x9101e3a0
-.word 0x9e6703e2
-.word 0x9e6703e3
-bl _p_5
-.word 0x9101e3a0
-.word 0x910163a0
-.word 0xf9403fa0
-.word 0xf9002fa0
-.word 0xf94043a0
-.word 0xf90033a0
-.word 0xf94047a0
-.word 0xf90037a0
-.word 0xf9404ba0
-.word 0xf9003ba0
-.word 0xf94023b1
-.word 0xf9421a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1603e0
-.word 0x910163a1
-.word 0xfd402fa0
-.word 0xfd4033a1
-.word 0xfd4037a2
-.word 0xfd403ba3
-.word 0xf94002de
-bl _p_6
-.word 0xf94023b1
-.word 0xf9424a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf94023b1
-.word 0xf9425e31
-.word 0xb4000051
-.word 0xd63f0220
+.word 0xaa1a03e0
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #128]
-bl _p_2
-.word 0xf9007ba0
-bl _p_7
-.word 0xf94023b1
-.word 0xf9428631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba0
-.word 0xaa0003f8
-.word 0xf94023b1
-.word 0xf9429e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf94023b1
-.word 0xf942b231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf940031e
-bl _p_8
-.word 0xf90077a0
-.word 0xf94023b1
-.word 0xf942d231
-.word 0xb4000051
-.word 0xd63f0220
+.word 0xf9400000
+.word 0xaa1a03f6
+.word 0xb50003a0
+.word 0xaa1603e0
+.word 0xd2800000
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #136]
-bl _p_2
-.word 0xf90073a0
-bl _p_9
-.word 0xf94023b1
-.word 0xf942fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a1
-.word 0xf94077a2
-.word 0xaa0203e0
-.word 0xf9400042
+bl _p_1
+.word 0xaa0003e1
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
-.word 0x928000f0
-.word 0xf2bffff0
-.word 0xf8706850
-.word 0xd63f0200
-.word 0xf94023b1
-.word 0xf9433631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf9006fa0
-.word 0xf94023b1
-.word 0xf9434e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9406fa1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_8
-.word 0xf9006ba0
-.word 0xf94023b1
-.word 0xf9437231
-.word 0xb4000051
-.word 0xd63f0220
+ldr x0, [x16, #144]
+.word 0xf9001420
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #152]
-bl _p_2
-.word 0xf90067a0
-bl _p_10
-.word 0xf94023b1
-.word 0xf9439a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94067a1
-.word 0xf9406ba2
-.word 0xaa0203e0
-.word 0xf9400042
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
-.word 0x928000f0
-.word 0xf2bffff0
-.word 0xf8706850
-.word 0xd63f0200
-.word 0xf94023b1
-.word 0xf943d631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1803e0
-.word 0xf9005fa0
-.word 0xf94023b1
-.word 0xf943ee31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9405fa1
-.word 0xaa0103e0
-.word 0xf940003e
-bl _p_8
-.word 0xf90063a0
-.word 0xf94023b1
-.word 0xf9441231
-.word 0xb4000051
-.word 0xd63f0220
+.word 0xf9002020
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #160]
-bl _p_2
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #128]
+.word 0xf9000001
+.word 0xaa1603e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #128]
+.word 0xf9400000
+.word 0xf90077a0
+.word 0xf9008ec0
+.word 0x910462c0
+bl _p_3
+.word 0xf94077a0
+.word 0xf9401fb1
+.word 0xf9419231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1a03e0
+bl _p_4
+.word 0xf9401fb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf941be31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9401fb1
+.word 0xf941d231
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #168]
+bl _p_1
+.word 0xf90073a0
+bl _p_5
+.word 0xf9401fb1
+.word 0xf941fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a0
+.word 0xaa0003f9
+.word 0xf9401fb1
+.word 0xf9421231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9003ba0
+.word 0xf9401fb1
+.word 0xf9422a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #176]
+bl _p_1
+.word 0xf9006fa0
+bl _p_6
+.word 0xf9401fb1
+.word 0xf9425231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406fa0
+.word 0xaa0003f8
+.word 0xf9401fb1
+.word 0xf9426a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #184]
+.word 0x910143a1
+.word 0xb9800000
+.word 0xb90053a0
+.word 0xf9401fb1
+.word 0xf9429631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x910143a1
+.word 0xf9402ba1
+.word 0xf940031e
+bl _p_7
+.word 0xf9401fb1
+.word 0xf942ba31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf9006ba0
+.word 0xf9401fb1
+.word 0xf942d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9406ba1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_8
+.word 0xf9004fa0
+.word 0xf9401fb1
+.word 0xf942f631
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #192]
+bl _p_1
+.word 0xf90067a0
+bl _p_9
+.word 0xf9401fb1
+.word 0xf9431e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94067a0
+.word 0xaa0003f7
+.word 0xf9401fb1
+.word 0xf9433631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #200]
+.word 0xf90063a0
+.word 0xf9401fb1
+.word 0xf9435a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94063a1
+.word 0xaa1703e0
+.word 0xf94002fe
+bl _p_10
+.word 0xf9401fb1
+.word 0xf9437a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
 .word 0xf90057a0
+.word 0xaa1a03e0
+.word 0xeb1f035f
+.word 0x10000011
+.word 0x54001280
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #208]
+bl _p_1
+.word 0xf900101a
+.word 0xf9005fa0
+.word 0x91008000
+bl _p_3
+.word 0xf9405fa0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x1, [x16, #216]
+.word 0xf9001401
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x1, [x16, #224]
+.word 0xf9002001
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x1, [x16, #232]
+.word 0xf9401422
+.word 0xf9000c02
+.word 0xf9401021
+.word 0xf9000801
+.word 0xd2800001
+.word 0x3901801f
+.word 0xf9005ba0
+.word 0xf9401fb1
+.word 0xf9440e31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #240]
+bl _p_1
+.word 0xf9405ba1
+.word 0xf90053a0
 bl _p_11
-.word 0xf94023b1
+.word 0xf9401fb1
 .word 0xf9443a31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94057a1
-.word 0xf94063a2
+.word 0xf94053a1
+.word 0xf94057a2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_12
+.word 0xf9401fb1
+.word 0xf9445e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1703e0
+.word 0xf9004ba0
+.word 0xf9401fb1
+.word 0xf9447631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9404ba1
+.word 0xf9404fa2
 .word 0xaa0203e0
 .word 0xf9400042
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
+ldr x15, [x16, #248]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
 .word 0xd63f0200
-.word 0xf94023b1
-.word 0xf9447631
+.word 0xf9401fb1
+.word 0xf944b231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1803e0
-.word 0xf90053a0
-.word 0xf94023b1
-.word 0xf9448e31
+.word 0xf90047a0
+.word 0xf9401fb1
+.word 0xf944ca31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94053a1
-.word 0xaa1903e0
-.word 0xf940033e
-bl _p_12
-.word 0xf94023b1
-.word 0xf944ae31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1903e0
-.word 0xf94023b1
-.word 0xf944c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xaa1703e0
-.word 0xaa1903e1
-bl _p_13
-.word 0xf94023b1
-.word 0xf944de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94023b1
+.word 0xf94047a1
+.word 0xaa0103e0
+.word 0xf940003e
+bl _p_8
+.word 0xf90043a0
+.word 0xf9401fb1
 .word 0xf944ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xf9408b40
+.word 0xf9003fa0
+.word 0xf9401fb1
+.word 0xf9450a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9403fa1
+.word 0xf94043a2
+.word 0xaa0203e0
+.word 0xf9400042
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x15, [x16, #248]
+.word 0x928000f0
+.word 0xf2bffff0
+.word 0xf8706850
+.word 0xd63f0200
+.word 0xf9401fb1
+.word 0xf9454631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xf90037a0
+.word 0xf9401fb1
+.word 0xf9455e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94037a1
+.word 0xf9403ba2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_13
+.word 0xf9401fb1
+.word 0xf9458231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf90033a0
+.word 0xf9401fb1
+.word 0xf9459a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a1
+.word 0xaa1a03e0
+bl _p_14
+.word 0xf9401fb1
+.word 0xf945b631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9401fb1
+.word 0xf945c631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415fb6
+.word 0xa94267b8
+.word 0xf9401bba
+.word 0x910003bf
+.word 0xa8cf7bfd
+.word 0xd65f03c0
+.word 0xd28008a0
+.word 0xaa1103e1
+bl _p_15
+
+Lme_0:
+.text
+	.align 4
+	.no_dead_strip Gallery_App_add_ShouldTakePicture_System_Action
+Gallery_App_add_ShouldTakePicture_System_Action:
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #256]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xf94023b1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9408f20
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1803f7
+.word 0xaa1903e0
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x54000760
+.word 0x91046336
+.word 0xaa1803e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1a03e1
+bl _p_16
+.word 0xaa0003f5
+.word 0xf94023b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000175
+.word 0xf94002a0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x1, [x16, #264]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54000441
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #272]
+.word 0xc85ffed0
+.word 0xeb18021f
+.word 0x54000061
+.word 0xc811fed5
+.word 0x35ffff91
+.word 0xaa1003e0
+.word 0xf90033a0
+.word 0xaa1603e0
+bl _p_3
+.word 0xf94023b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0xeb17001f
+.word 0x54fff9c1
+.word 0xf94023b1
+.word 0xf9413231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xa9415bb5
 .word 0xa94263b7
 .word 0xa9436bb9
 .word 0x910003bf
-.word 0xa8d17bfd
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd2802500
+.word 0xaa1103e1
+bl _p_15
+.word 0xd2802a60
+.word 0xaa1103e1
+bl _p_15
+
+Lme_1:
+.text
+	.align 4
+	.no_dead_strip Gallery_App_remove_ShouldTakePicture_System_Action
+Gallery_App_remove_ShouldTakePicture_System_Action:
+.word 0xa9b97bfd
+.word 0x910003fd
+.word 0xa9015bb5
+.word 0xa90263b7
+.word 0xa9036bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #280]
+.word 0xf90023b0
+.word 0xf9400a11
+.word 0xf90027b1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xf94023b1
+.word 0xf9404a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xf9408f20
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1803f7
+.word 0xaa1903e0
+.word 0xeb1f033f
+.word 0x10000011
+.word 0x54000760
+.word 0x91046336
+.word 0xaa1803e0
+.word 0xaa1a03e0
+.word 0xaa1803e0
+.word 0xaa1a03e1
+bl _p_17
+.word 0xaa0003f5
+.word 0xf94023b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xb4000175
+.word 0xf94002a0
+.word 0xf9400000
+.word 0xf9400800
+.word 0xf9400c00
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x1, [x16, #264]
+.word 0xeb01001f
+.word 0x10000011
+.word 0x54000441
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #272]
+.word 0xc85ffed0
+.word 0xeb18021f
+.word 0x54000061
+.word 0xc811fed5
+.word 0x35ffff91
+.word 0xaa1003e0
+.word 0xf90033a0
+.word 0xaa1603e0
+bl _p_3
+.word 0xf94023b1
+.word 0xf9410a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94033a0
+.word 0xaa0003f8
+.word 0xaa1803e0
+.word 0xaa1703e1
+.word 0xeb17001f
+.word 0x54fff9c1
+.word 0xf94023b1
+.word 0xf9413231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa9415bb5
+.word 0xa94263b7
+.word 0xa9436bb9
+.word 0x910003bf
+.word 0xa8c77bfd
+.word 0xd65f03c0
+.word 0xd2802500
+.word 0xaa1103e1
+bl _p_15
+.word 0xd2802a60
+.word 0xaa1103e1
+bl _p_15
+
+Lme_2:
+.text
+	.align 4
+	.no_dead_strip Gallery_App_ShowImage_string
+Gallery_App_ShowImage_string:
+.word 0xa9ba7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #288]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9406631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9408800
+.word 0xf90027a0
+.word 0xf9400fa0
+.word 0xf9002ba0
+.word 0xf94013b1
+.word 0xf9408a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+bl _p_18
+.word 0xf90023a0
+.word 0xf94013b1
+.word 0xf940a631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94023a1
+.word 0xf94027a2
+.word 0xaa0203e0
+.word 0xf940005e
+bl _p_19
+.word 0xf94013b1
+.word 0xf940ca31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940da31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_0:
+Lme_3:
 .text
 	.align 4
 	.no_dead_strip Gallery_App_OnStart
@@ -461,7 +791,7 @@ Gallery_App_OnStart:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #168]
+ldr x16, [x16, #296]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -489,7 +819,7 @@ ldr x16, [x16, #168]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1:
+Lme_4:
 .text
 	.align 4
 	.no_dead_strip Gallery_App_OnSleep
@@ -500,7 +830,7 @@ Gallery_App_OnSleep:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #176]
+ldr x16, [x16, #304]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -528,7 +858,7 @@ ldr x16, [x16, #176]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_2:
+Lme_5:
 .text
 	.align 4
 	.no_dead_strip Gallery_App_OnResume
@@ -539,7 +869,7 @@ Gallery_App_OnResume:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #184]
+ldr x16, [x16, #312]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -567,7 +897,98 @@ ldr x16, [x16, #184]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_3:
+Lme_6:
+.text
+	.align 4
+	.no_dead_strip Gallery_App__ShouldTakePicturem__0
+Gallery_App__ShouldTakePicturem__0:
+.word 0xa9bd7bfd
+.word 0x910003fd
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #320]
+.word 0xf9000bb0
+.word 0xf9400a11
+.word 0xf9000fb1
+.word 0xf9400bb1
+.word 0xf9402e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb1
+.word 0xf9404e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb1
+.word 0xf9405e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400bb1
+.word 0xf9406e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c37bfd
+.word 0xd65f03c0
+
+Lme_7:
+.text
+	.align 4
+	.no_dead_strip Gallery_App__Appm__1_object
+Gallery_App__Appm__1_object:
+.word 0xa9bb7bfd
+.word 0x910003fd
+.word 0xf9000ba0
+.word 0xf9000fa1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #328]
+.word 0xf90013b0
+.word 0xf9400a11
+.word 0xf90017b1
+.word 0xf94013b1
+.word 0xf9403631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94017b1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf9405631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9400ba0
+.word 0xf9408c00
+.word 0xf90027a0
+.word 0xf94013b1
+.word 0xf9407231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94027a1
+.word 0xaa0103e0
+.word 0xf90023a1
+.word 0xf9400c30
+.word 0xd63f0200
+.word 0xf94023a0
+.word 0xf94013b1
+.word 0xf9409a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94013b1
+.word 0xf940aa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x910003bf
+.word 0xa8c57bfd
+.word 0xd65f03c0
+
+Lme_8:
 .text
 	.align 4
 	.no_dead_strip Gallery_Icon__ctor_string_Xamarin_Forms_Color
@@ -581,7 +1002,7 @@ Gallery_Icon__ctor_string_Xamarin_Forms_Color:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #192]
+ldr x16, [x16, #336]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -599,7 +1020,7 @@ ldr x16, [x16, #192]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_14
+bl _p_20
 .word 0xf94017b1
 .word 0xf9407a31
 .word 0xb4000051
@@ -617,7 +1038,7 @@ bl _p_14
 .word 0xd63f0220
 .word 0xf94063a1
 .word 0xaa1903e0
-bl _p_15
+bl _p_21
 .word 0xf94017b1
 .word 0xf940c231
 .word 0xb4000051
@@ -626,7 +1047,7 @@ bl _p_15
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #200]
+ldr x0, [x16, #344]
 .word 0x910283a1
 .word 0xf9400001
 .word 0xf90053a1
@@ -652,7 +1073,7 @@ ldr x0, [x16, #200]
 .word 0xf9405fa2
 .word 0xf9004fa2
 .word 0xaa0103e2
-bl _p_16
+bl _p_22
 .word 0xf94017b1
 .word 0xf9414a31
 .word 0xb4000051
@@ -669,7 +1090,7 @@ bl _p_16
 .word 0xd280001e
 .word 0xf2e8093e
 .word 0x9e6703c0
-bl _p_17
+bl _p_23
 .word 0xf94017b1
 .word 0xf9418e31
 .word 0xb4000051
@@ -701,7 +1122,7 @@ bl _p_17
 .word 0xf9403fa2
 .word 0xf9002fa2
 .word 0xaa0103e2
-bl _p_18
+bl _p_24
 .word 0xf94017b1
 .word 0xf9420e31
 .word 0xb4000051
@@ -714,7 +1135,7 @@ bl _p_18
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800021
-bl _p_19
+bl _p_25
 .word 0xf94017b1
 .word 0xf9424231
 .word 0xb4000051
@@ -727,7 +1148,7 @@ bl _p_19
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800021
-bl _p_20
+bl _p_26
 .word 0xf94017b1
 .word 0xf9427631
 .word 0xb4000051
@@ -741,7 +1162,7 @@ bl _p_20
 .word 0xa8cd7bfd
 .word 0xd65f03c0
 
-Lme_4:
+Lme_9:
 .text
 	.align 4
 	.no_dead_strip Gallery_Name__ctor_string
@@ -754,7 +1175,7 @@ Gallery_Name__ctor_string:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #208]
+ldr x16, [x16, #352]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -772,7 +1193,7 @@ ldr x16, [x16, #208]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_14
+bl _p_20
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -790,7 +1211,7 @@ bl _p_14
 .word 0xd63f0220
 .word 0xf94023a1
 .word 0xaa1903e0
-bl _p_15
+bl _p_21
 .word 0xf94013b1
 .word 0xf940be31
 .word 0xb4000051
@@ -803,7 +1224,7 @@ bl _p_15
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800021
-bl _p_21
+bl _p_27
 .word 0xf94013b1
 .word 0xf940f231
 .word 0xb4000051
@@ -817,7 +1238,7 @@ bl _p_21
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_5:
+Lme_a:
 .text
 	.align 4
 	.no_dead_strip Gallery_Subject__ctor_string
@@ -830,7 +1251,7 @@ Gallery_Subject__ctor_string:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #216]
+ldr x16, [x16, #360]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -848,7 +1269,7 @@ ldr x16, [x16, #216]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_14
+bl _p_20
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -866,7 +1287,7 @@ bl _p_14
 .word 0xd63f0220
 .word 0xf94023a1
 .word 0xaa1903e0
-bl _p_15
+bl _p_21
 .word 0xf94013b1
 .word 0xf940be31
 .word 0xb4000051
@@ -879,7 +1300,7 @@ bl _p_15
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800081
-bl _p_22
+bl _p_28
 .word 0xf94013b1
 .word 0xf940f231
 .word 0xb4000051
@@ -893,7 +1314,7 @@ bl _p_22
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_6:
+Lme_b:
 .text
 	.align 4
 	.no_dead_strip Gallery_Body__ctor_string
@@ -906,7 +1327,7 @@ Gallery_Body__ctor_string:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #224]
+ldr x16, [x16, #368]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -924,7 +1345,7 @@ ldr x16, [x16, #224]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_14
+bl _p_20
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -942,7 +1363,7 @@ bl _p_14
 .word 0xd63f0220
 .word 0xf94023a1
 .word 0xaa1903e0
-bl _p_15
+bl _p_21
 .word 0xf94013b1
 .word 0xf940be31
 .word 0xb4000051
@@ -955,7 +1376,7 @@ bl _p_15
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xd2800081
-bl _p_22
+bl _p_28
 .word 0xf94013b1
 .word 0xf940f231
 .word 0xb4000051
@@ -969,7 +1390,7 @@ bl _p_22
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_7:
+Lme_c:
 .text
 	.align 4
 	.no_dead_strip Gallery_Time__ctor_string
@@ -982,7 +1403,7 @@ Gallery_Time__ctor_string:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #232]
+ldr x16, [x16, #376]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -1000,7 +1421,7 @@ ldr x16, [x16, #232]
 .word 0xd63f0220
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_14
+bl _p_20
 .word 0xf94013b1
 .word 0xf9407631
 .word 0xb4000051
@@ -1018,7 +1439,7 @@ bl _p_14
 .word 0xd63f0220
 .word 0xf94023a1
 .word 0xaa1903e0
-bl _p_15
+bl _p_21
 .word 0xf94013b1
 .word 0xf940be31
 .word 0xb4000051
@@ -1035,7 +1456,7 @@ bl _p_15
 .word 0xd280001e
 .word 0xf2e8051e
 .word 0x9e6703c0
-bl _p_17
+bl _p_23
 .word 0xf94013b1
 .word 0xf9410231
 .word 0xb4000051
@@ -1049,7 +1470,7 @@ bl _p_17
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_8:
+Lme_d:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoStackLayout__ctor
@@ -1062,7 +1483,7 @@ Gallery_DemoStackLayout__ctor:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #240]
+ldr x16, [x16, #384]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -1083,7 +1504,7 @@ ldr x16, [x16, #240]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_7
+bl _p_6
 .word 0xf9401bb1
 .word 0xf9408231
 .word 0xb4000051
@@ -1106,7 +1527,7 @@ bl _p_7
 .word 0xf2d0001e
 .word 0xf2e80a3e
 .word 0x9e6703c0
-bl _p_23
+bl _p_29
 .word 0xf9401bb1
 .word 0xf940de31
 .word 0xb4000051
@@ -1123,7 +1544,7 @@ bl _p_23
 .word 0xd280001e
 .word 0xf2e8029e
 .word 0x9e6703c0
-bl _p_24
+bl _p_30
 .word 0xf9401bb1
 .word 0xf9412231
 .word 0xb4000051
@@ -1136,7 +1557,7 @@ bl _p_24
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xd2800021
-bl _p_25
+bl _p_31
 .word 0xf9401bb1
 .word 0xf9415631
 .word 0xb4000051
@@ -1156,7 +1577,7 @@ bl _p_8
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #248]
+ldr x0, [x16, #392]
 .word 0xf900aba0
 .word 0xd28cccde
 .word 0xf2acccde
@@ -1190,7 +1611,7 @@ ldr x0, [x16, #248]
 .word 0xd280001e
 .word 0xf2e7fe1e
 .word 0x9e6703c2
-bl _p_26
+bl _p_32
 .word 0xf9401bb1
 .word 0xf9422a31
 .word 0xb4000051
@@ -1198,8 +1619,8 @@ bl _p_26
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #256]
-bl _p_2
+ldr x0, [x16, #400]
+bl _p_1
 .word 0xf940aba1
 .word 0xf900a7a0
 .word 0x9101c3a2
@@ -1213,7 +1634,7 @@ bl _p_2
 .word 0xf94047a3
 .word 0xf90037a3
 .word 0xaa0203e3
-bl _p_27
+bl _p_33
 .word 0xf9401bb1
 .word 0xf9428231
 .word 0xb4000051
@@ -1239,7 +1660,7 @@ bl _p_27
 .word 0xf2e80a3e
 .word 0x9e6703c0
 .word 0xf940033e
-bl _p_28
+bl _p_34
 .word 0xf9401bb1
 .word 0xf942ea31
 .word 0xb4000051
@@ -1257,7 +1678,7 @@ bl _p_28
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
+ldr x15, [x16, #248]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -1281,10 +1702,10 @@ bl _p_8
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #128]
-bl _p_2
+ldr x0, [x16, #176]
+bl _p_1
 .word 0xf9009ba0
-bl _p_7
+bl _p_6
 .word 0xf9401bb1
 .word 0xf9439631
 .word 0xb4000051
@@ -1308,7 +1729,7 @@ bl _p_7
 .word 0xf2e8001e
 .word 0x9e6703c0
 .word 0xf940031e
-bl _p_24
+bl _p_30
 .word 0xf9401bb1
 .word 0xf943f631
 .word 0xb4000051
@@ -1324,7 +1745,7 @@ bl _p_24
 .word 0xaa0103e0
 .word 0x9e6703e0
 .word 0xf940003e
-bl _p_28
+bl _p_34
 .word 0xf9401bb1
 .word 0xf9443631
 .word 0xb4000051
@@ -1334,7 +1755,7 @@ bl _p_28
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #264]
+ldr x0, [x16, #408]
 .word 0x910123a1
 .word 0xb9800000
 .word 0xb9004ba0
@@ -1347,7 +1768,7 @@ ldr x0, [x16, #264]
 .word 0x910123a1
 .word 0xf94027a1
 .word 0xf940005e
-bl _p_29
+bl _p_35
 .word 0xf9401bb1
 .word 0xf9448e31
 .word 0xb4000051
@@ -1370,7 +1791,7 @@ bl _p_8
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #272]
+ldr x0, [x16, #416]
 .word 0xf9008ba0
 .word 0xf9401bb1
 .word 0xf944ea31
@@ -1379,11 +1800,11 @@ ldr x0, [x16, #272]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #280]
-bl _p_2
+ldr x0, [x16, #424]
+bl _p_1
 .word 0xf9408ba1
 .word 0xf90083a0
-bl _p_30
+bl _p_36
 .word 0xf9401bb1
 .word 0xf9451631
 .word 0xb4000051
@@ -1395,7 +1816,7 @@ bl _p_30
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
+ldr x15, [x16, #248]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -1422,7 +1843,7 @@ bl _p_8
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #288]
+ldr x0, [x16, #432]
 .word 0xf9007ba0
 .word 0xf9401bb1
 .word 0xf945ae31
@@ -1431,11 +1852,11 @@ ldr x0, [x16, #288]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #296]
-bl _p_2
+ldr x0, [x16, #440]
+bl _p_1
 .word 0xf9407ba1
 .word 0xf90073a0
-bl _p_31
+bl _p_37
 .word 0xf9401bb1
 .word 0xf945da31
 .word 0xb4000051
@@ -1447,7 +1868,7 @@ bl _p_31
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
+ldr x15, [x16, #248]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -1474,7 +1895,7 @@ bl _p_8
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #304]
+ldr x0, [x16, #448]
 .word 0xf9006ba0
 .word 0xf9401bb1
 .word 0xf9467231
@@ -1483,11 +1904,11 @@ ldr x0, [x16, #304]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #312]
-bl _p_2
+ldr x0, [x16, #456]
+bl _p_1
 .word 0xf9406ba1
 .word 0xf90063a0
-bl _p_32
+bl _p_38
 .word 0xf9401bb1
 .word 0xf9469e31
 .word 0xb4000051
@@ -1499,7 +1920,7 @@ bl _p_32
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
+ldr x15, [x16, #248]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -1521,7 +1942,7 @@ ldr x15, [x16, #144]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
+ldr x15, [x16, #248]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -1545,7 +1966,7 @@ bl _p_8
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #320]
+ldr x0, [x16, #464]
 .word 0xf90057a0
 .word 0xf9401bb1
 .word 0xf9477e31
@@ -1554,11 +1975,11 @@ ldr x0, [x16, #320]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #328]
-bl _p_2
+ldr x0, [x16, #472]
+bl _p_1
 .word 0xf94057a1
 .word 0xf90053a0
-bl _p_33
+bl _p_39
 .word 0xf9401bb1
 .word 0xf947aa31
 .word 0xb4000051
@@ -1582,7 +2003,7 @@ bl _p_33
 .word 0xf2e8093e
 .word 0x9e6703c0
 .word 0xf94002fe
-bl _p_28
+bl _p_34
 .word 0xf9401bb1
 .word 0xf9480a31
 .word 0xb4000051
@@ -1600,7 +2021,7 @@ bl _p_28
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #144]
+ldr x15, [x16, #248]
 .word 0x928000f0
 .word 0xf2bffff0
 .word 0xf8706850
@@ -1619,7 +2040,7 @@ ldr x15, [x16, #144]
 .word 0xa8d67bfd
 .word 0xd65f03c0
 
-Lme_9:
+Lme_e:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoGrid__ctor
@@ -1632,7 +2053,7 @@ Gallery_DemoGrid__ctor:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #336]
+ldr x16, [x16, #480]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -1653,7 +2074,7 @@ ldr x16, [x16, #336]
 .word 0xd63f0220
 .word 0xaa1a03e0
 .word 0xaa1a03e0
-bl _p_34
+bl _p_40
 .word 0xf9401bb1
 .word 0xf9408231
 .word 0xb4000051
@@ -1676,7 +2097,7 @@ bl _p_34
 .word 0xf2d0001e
 .word 0xf2e80a3e
 .word 0x9e6703c0
-bl _p_23
+bl _p_29
 .word 0xf9401bb1
 .word 0xf940de31
 .word 0xb4000051
@@ -1693,7 +2114,7 @@ bl _p_23
 .word 0xd280001e
 .word 0xf2e8001e
 .word 0x9e6703c0
-bl _p_35
+bl _p_41
 .word 0xf9401bb1
 .word 0xf9412231
 .word 0xb4000051
@@ -1710,7 +2131,7 @@ bl _p_35
 .word 0xd280001e
 .word 0xf2e8029e
 .word 0x9e6703c0
-bl _p_36
+bl _p_42
 .word 0xf9401bb1
 .word 0xf9416631
 .word 0xb4000051
@@ -1723,10 +2144,10 @@ bl _p_36
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #344]
-bl _p_2
+ldr x0, [x16, #488]
+bl _p_1
 .word 0xf900f3a0
-bl _p_37
+bl _p_43
 .word 0xf9401bb1
 .word 0xf941a231
 .word 0xb4000051
@@ -1746,10 +2167,10 @@ bl _p_37
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #352]
-bl _p_2
+ldr x0, [x16, #496]
+bl _p_1
 .word 0xf900eba0
-bl _p_38
+bl _p_44
 .word 0xf9401bb1
 .word 0xf941fa31
 .word 0xb4000051
@@ -1758,7 +2179,7 @@ bl _p_38
 .word 0xf940efa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_39
+bl _p_45
 .word 0xf9401bb1
 .word 0xf9421e31
 .word 0xb4000051
@@ -1772,10 +2193,10 @@ bl _p_39
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #352]
-bl _p_2
+ldr x0, [x16, #496]
+bl _p_1
 .word 0xf900e3a0
-bl _p_38
+bl _p_44
 .word 0xf9401bb1
 .word 0xf9425e31
 .word 0xb4000051
@@ -1784,7 +2205,7 @@ bl _p_38
 .word 0xf940e7a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_39
+bl _p_45
 .word 0xf9401bb1
 .word 0xf9428231
 .word 0xb4000051
@@ -1798,10 +2219,10 @@ bl _p_39
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #352]
-bl _p_2
+ldr x0, [x16, #496]
+bl _p_1
 .word 0xf900dba0
-bl _p_38
+bl _p_44
 .word 0xf9401bb1
 .word 0xf942c231
 .word 0xb4000051
@@ -1810,7 +2231,7 @@ bl _p_38
 .word 0xf940dfa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_39
+bl _p_45
 .word 0xf9401bb1
 .word 0xf942e631
 .word 0xb4000051
@@ -1823,7 +2244,7 @@ bl _p_39
 .word 0xd63f0220
 .word 0xf940d7a1
 .word 0xaa1a03e0
-bl _p_40
+bl _p_46
 .word 0xf9401bb1
 .word 0xf9431a31
 .word 0xb4000051
@@ -1836,10 +2257,10 @@ bl _p_40
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #360]
-bl _p_2
+ldr x0, [x16, #504]
+bl _p_1
 .word 0xf900d3a0
-bl _p_41
+bl _p_47
 .word 0xf9401bb1
 .word 0xf9435631
 .word 0xb4000051
@@ -1859,10 +2280,10 @@ bl _p_41
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #368]
-bl _p_2
+ldr x0, [x16, #512]
+bl _p_1
 .word 0xf900cfa0
-bl _p_42
+bl _p_48
 .word 0xf9401bb1
 .word 0xf943ae31
 .word 0xb4000051
@@ -1892,7 +2313,7 @@ bl _p_42
 .word 0xf2d0001e
 .word 0xf2e80a3e
 .word 0x9e6703c0
-bl _p_43
+bl _p_49
 .word 0x9102e3a0
 .word 0x9101e3a0
 .word 0xf9405fa0
@@ -1909,7 +2330,7 @@ bl _p_43
 .word 0xf9403fa1
 .word 0xf94043a2
 .word 0xf940007e
-bl _p_44
+bl _p_50
 .word 0xf9401bb1
 .word 0xf9446a31
 .word 0xb4000051
@@ -1924,7 +2345,7 @@ bl _p_44
 .word 0xf940c7a2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_45
+bl _p_51
 .word 0xf9401bb1
 .word 0xf944a631
 .word 0xb4000051
@@ -1938,10 +2359,10 @@ bl _p_45
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #368]
-bl _p_2
+ldr x0, [x16, #512]
+bl _p_1
 .word 0xf900bba0
-bl _p_42
+bl _p_48
 .word 0xf9401bb1
 .word 0xf944e631
 .word 0xb4000051
@@ -1950,7 +2371,7 @@ bl _p_42
 .word 0xf940bfa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_45
+bl _p_51
 .word 0xf9401bb1
 .word 0xf9450a31
 .word 0xb4000051
@@ -1964,10 +2385,10 @@ bl _p_45
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #368]
-bl _p_2
+ldr x0, [x16, #512]
+bl _p_1
 .word 0xf900b7a0
-bl _p_42
+bl _p_48
 .word 0xf9401bb1
 .word 0xf9454a31
 .word 0xb4000051
@@ -1995,7 +2416,7 @@ bl _p_42
 .word 0xd280001e
 .word 0xf2e8093e
 .word 0x9e6703c0
-bl _p_43
+bl _p_49
 .word 0x9102a3a0
 .word 0x9101a3a0
 .word 0xf94057a0
@@ -2012,7 +2433,7 @@ bl _p_43
 .word 0xf94037a1
 .word 0xf9403ba2
 .word 0xf940007e
-bl _p_44
+bl _p_50
 .word 0xf9401bb1
 .word 0xf945fe31
 .word 0xb4000051
@@ -2027,7 +2448,7 @@ bl _p_44
 .word 0xf940afa2
 .word 0xaa0203e0
 .word 0xf940005e
-bl _p_45
+bl _p_51
 .word 0xf9401bb1
 .word 0xf9463a31
 .word 0xb4000051
@@ -2040,7 +2461,7 @@ bl _p_45
 .word 0xd63f0220
 .word 0xf940a7a1
 .word 0xaa1a03e0
-bl _p_46
+bl _p_52
 .word 0xf9401bb1
 .word 0xf9466e31
 .word 0xb4000051
@@ -2051,7 +2472,7 @@ bl _p_46
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_47
+bl _p_53
 .word 0xf9009fa0
 .word 0xf9401bb1
 .word 0xf9469e31
@@ -2060,7 +2481,7 @@ bl _p_47
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #376]
+ldr x0, [x16, #520]
 .word 0xf900a3a0
 .word 0xd293335e
 .word 0xf2b3333e
@@ -2090,7 +2511,7 @@ ldr x0, [x16, #376]
 .word 0xd280001e
 .word 0xf2e7fe1e
 .word 0x9e6703c2
-bl _p_26
+bl _p_32
 .word 0xf9401bb1
 .word 0xf9473231
 .word 0xb4000051
@@ -2098,8 +2519,8 @@ bl _p_26
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #256]
-bl _p_2
+ldr x0, [x16, #400]
+bl _p_1
 .word 0xf940a3a1
 .word 0xf9009ba0
 .word 0x910223a2
@@ -2113,7 +2534,7 @@ bl _p_2
 .word 0xf94053a3
 .word 0xf90033a3
 .word 0xaa0203e3
-bl _p_27
+bl _p_33
 .word 0xf9401bb1
 .word 0xf9478a31
 .word 0xb4000051
@@ -2137,7 +2558,7 @@ bl _p_27
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #384]
+ldr x15, [x16, #528]
 .word 0x928009f0
 .word 0xf2bffff0
 .word 0xf87068d0
@@ -2152,7 +2573,7 @@ ldr x15, [x16, #384]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_47
+bl _p_53
 .word 0xf90093a0
 .word 0xf9401bb1
 .word 0xf9482631
@@ -2161,7 +2582,7 @@ bl _p_47
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #392]
+ldr x0, [x16, #536]
 .word 0xf90097a0
 .word 0xf9401bb1
 .word 0xf9484631
@@ -2170,11 +2591,11 @@ ldr x0, [x16, #392]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #280]
-bl _p_2
+ldr x0, [x16, #424]
+bl _p_1
 .word 0xf94097a1
 .word 0xf9008fa0
-bl _p_30
+bl _p_36
 .word 0xf9401bb1
 .word 0xf9487231
 .word 0xb4000051
@@ -2194,7 +2615,7 @@ bl _p_30
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #400]
+ldr x15, [x16, #544]
 .word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -2209,7 +2630,7 @@ ldr x15, [x16, #400]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_47
+bl _p_53
 .word 0xf90087a0
 .word 0xf9401bb1
 .word 0xf948fe31
@@ -2218,7 +2639,7 @@ bl _p_47
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #408]
+ldr x0, [x16, #552]
 .word 0xf9008ba0
 .word 0xf9401bb1
 .word 0xf9491e31
@@ -2227,11 +2648,11 @@ ldr x0, [x16, #408]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #296]
-bl _p_2
+ldr x0, [x16, #440]
+bl _p_1
 .word 0xf9408ba1
 .word 0xf90083a0
-bl _p_31
+bl _p_37
 .word 0xf9401bb1
 .word 0xf9494a31
 .word 0xb4000051
@@ -2251,7 +2672,7 @@ bl _p_31
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #400]
+ldr x15, [x16, #544]
 .word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -2266,7 +2687,7 @@ ldr x15, [x16, #400]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_47
+bl _p_53
 .word 0xf9007ba0
 .word 0xf9401bb1
 .word 0xf949d631
@@ -2275,7 +2696,7 @@ bl _p_47
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #416]
+ldr x0, [x16, #560]
 .word 0xf9007fa0
 .word 0xf9401bb1
 .word 0xf949f631
@@ -2284,11 +2705,11 @@ ldr x0, [x16, #416]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #312]
-bl _p_2
+ldr x0, [x16, #456]
+bl _p_1
 .word 0xf9407fa1
 .word 0xf90077a0
-bl _p_32
+bl _p_38
 .word 0xf9401bb1
 .word 0xf94a2231
 .word 0xb4000051
@@ -2308,7 +2729,7 @@ bl _p_32
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #400]
+ldr x15, [x16, #544]
 .word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -2323,7 +2744,7 @@ ldr x15, [x16, #400]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xaa1a03e0
-bl _p_47
+bl _p_53
 .word 0xf9006fa0
 .word 0xf9401bb1
 .word 0xf94aae31
@@ -2332,7 +2753,7 @@ bl _p_47
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #424]
+ldr x0, [x16, #568]
 .word 0xf90073a0
 .word 0xf9401bb1
 .word 0xf94ace31
@@ -2341,11 +2762,11 @@ ldr x0, [x16, #424]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #328]
-bl _p_2
+ldr x0, [x16, #472]
+bl _p_1
 .word 0xf94073a1
 .word 0xf9006ba0
-bl _p_33
+bl _p_39
 .word 0xf9401bb1
 .word 0xf94afa31
 .word 0xb4000051
@@ -2365,7 +2786,7 @@ bl _p_33
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #400]
+ldr x15, [x16, #544]
 .word 0x92800bf0
 .word 0xf2bffff0
 .word 0xf8706890
@@ -2384,7 +2805,7 @@ ldr x15, [x16, #400]
 .word 0xa8df7bfd
 .word 0xd65f03c0
 
-Lme_a:
+Lme_f:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__ctor
@@ -2399,7 +2820,7 @@ Gallery_DemoRelative__ctor:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #432]
+ldr x16, [x16, #576]
 .word 0xf9002fb0
 .word 0xf9400a11
 .word 0xf90033b1
@@ -2425,7 +2846,7 @@ ldr x16, [x16, #432]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_48
+bl _p_54
 .word 0xf9402fb1
 .word 0xf9409e31
 .word 0xb4000051
@@ -2449,7 +2870,7 @@ bl _p_48
 .word 0xf2d0001e
 .word 0xf2e80a3e
 .word 0x9e6703c0
-bl _p_23
+bl _p_29
 .word 0xf9402fb1
 .word 0xf940fe31
 .word 0xb4000051
@@ -2459,7 +2880,7 @@ bl _p_23
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #440]
+ldr x0, [x16, #584]
 .word 0x910243a1
 .word 0xb9800000
 .word 0xb90093a0
@@ -2470,7 +2891,7 @@ ldr x0, [x16, #440]
 .word 0xf940a3a0
 .word 0x910243a1
 .word 0xf9404ba1
-bl _p_49
+bl _p_7
 .word 0xf9402fb1
 .word 0xf9414e31
 .word 0xb4000051
@@ -2478,7 +2899,7 @@ bl _p_49
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #448]
+ldr x0, [x16, #592]
 .word 0xf9009fa0
 .word 0xd28cccde
 .word 0xf2acccde
@@ -2516,7 +2937,7 @@ ldr x0, [x16, #448]
 .word 0xf2ccccde
 .word 0xf2e7fcde
 .word 0x9e6703c2
-bl _p_26
+bl _p_32
 .word 0xf9402fb1
 .word 0xf9420231
 .word 0xb4000051
@@ -2524,8 +2945,8 @@ bl _p_26
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #256]
-bl _p_2
+ldr x0, [x16, #400]
+bl _p_1
 .word 0xf9409fa1
 .word 0xf9009ba0
 .word 0x910263a2
@@ -2539,7 +2960,7 @@ bl _p_2
 .word 0xf9405ba3
 .word 0xf90047a3
 .word 0xaa0203e3
-bl _p_27
+bl _p_33
 .word 0xf9402fb1
 .word 0xf9425a31
 .word 0xb4000051
@@ -2553,7 +2974,7 @@ bl _p_27
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #456]
+ldr x0, [x16, #600]
 .word 0xf90097a0
 .word 0xf9402fb1
 .word 0xf9429231
@@ -2562,11 +2983,11 @@ ldr x0, [x16, #456]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #280]
-bl _p_2
+ldr x0, [x16, #424]
+bl _p_1
 .word 0xf94097a1
 .word 0xf90093a0
-bl _p_30
+bl _p_36
 .word 0xf9402fb1
 .word 0xf942be31
 .word 0xb4000051
@@ -2580,7 +3001,7 @@ bl _p_30
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #464]
+ldr x0, [x16, #608]
 .word 0xf9008fa0
 .word 0xf9402fb1
 .word 0xf942f631
@@ -2589,11 +3010,11 @@ ldr x0, [x16, #464]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #296]
-bl _p_2
+ldr x0, [x16, #440]
+bl _p_1
 .word 0xf9408fa1
 .word 0xf9008ba0
-bl _p_31
+bl _p_37
 .word 0xf9402fb1
 .word 0xf9432231
 .word 0xb4000051
@@ -2607,7 +3028,7 @@ bl _p_31
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #472]
+ldr x0, [x16, #616]
 .word 0xf90087a0
 .word 0xf9402fb1
 .word 0xf9435a31
@@ -2616,11 +3037,11 @@ ldr x0, [x16, #472]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #312]
-bl _p_2
+ldr x0, [x16, #456]
+bl _p_1
 .word 0xf94087a1
 .word 0xf90083a0
-bl _p_32
+bl _p_38
 .word 0xf9402fb1
 .word 0xf9438631
 .word 0xb4000051
@@ -2634,7 +3055,7 @@ bl _p_32
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #480]
+ldr x0, [x16, #624]
 .word 0xf9007fa0
 .word 0xf9402fb1
 .word 0xf943be31
@@ -2643,11 +3064,11 @@ ldr x0, [x16, #480]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #328]
-bl _p_2
+ldr x0, [x16, #472]
+bl _p_1
 .word 0xf9407fa1
 .word 0xf9007ba0
-bl _p_33
+bl _p_39
 .word 0xf9402fb1
 .word 0xf943ea31
 .word 0xb4000051
@@ -2665,7 +3086,7 @@ bl _p_33
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
-bl _p_50
+bl _p_55
 .word 0xf90073a0
 .word 0xf9402fb1
 .word 0xf9443631
@@ -2677,7 +3098,7 @@ bl _p_50
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #488]
+ldr x0, [x16, #632]
 .word 0xf9400000
 .word 0xaa0103fa
 .word 0xb50003a0
@@ -2686,350 +3107,8 @@ ldr x0, [x16, #488]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #496]
-bl _p_2
-.word 0xaa0003e1
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #504]
-.word 0xf9001420
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #512]
-.word 0xf9002020
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #520]
-.word 0xf9401402
-.word 0xf9000c22
-.word 0xf9401000
-.word 0xf9000820
-.word 0xd2800000
-.word 0x3901803f
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #488]
-.word 0xf9000001
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #488]
-.word 0xf9400000
-.word 0xf90077a0
-.word 0xf9402fb1
-.word 0xf944f231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94077a0
-bl _p_51
-.word 0xf90073a0
-.word 0xf9402fb1
-.word 0xf9450e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a0
-.word 0xaa0003f3
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #528]
-.word 0xf9400000
-.word 0xb50003a0
-.word 0xaa1a03e0
-.word 0xd2800000
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #496]
-bl _p_2
-.word 0xaa0003e1
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #536]
-.word 0xf9001420
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #544]
-.word 0xf9002020
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #552]
-.word 0xf9401402
-.word 0xf9000c22
-.word 0xf9401000
-.word 0xf9000820
-.word 0xd2800000
-.word 0x3901803f
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #528]
-.word 0xf9000001
-.word 0xaa1a03e0
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #528]
-.word 0xf9400000
-.word 0xf90083a0
-.word 0xf9402fb1
-.word 0xf945c231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94083a0
-bl _p_51
-.word 0xf9007fa0
-.word 0xf9402fb1
-.word 0xf945de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407fa0
-.word 0xf9006ba0
-.word 0xaa1403e0
-.word 0xd2800000
-.word 0xd2800000
-.word 0xaa1303e0
-.word 0xf9406ba0
-.word 0xf9007ba0
-.word 0xf9402fb1
-.word 0xf9460e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba5
-.word 0xaa1a03e0
-.word 0xaa1403e1
-.word 0xd2800002
-.word 0xd2800003
-.word 0xaa1303e4
-.word 0xf9400346
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #560]
-.word 0x928001f0
-.word 0xf2bffff0
-.word 0xf87068d0
-.word 0xd63f0200
-.word 0xf9402fb1
-.word 0xf9465631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf90077a0
-.word 0xf9402fb1
-.word 0xf9466e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94077a0
-bl _p_50
-.word 0xf90073a0
-.word 0xf9402fb1
-.word 0xf9468a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a3
-.word 0xf94063a2
-.word 0xf9405fa1
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #568]
-.word 0xf9400000
-.word 0xaa0303fa
-.word 0xaa0203f9
-.word 0xaa0103f8
-.word 0xb50003e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1803e0
-.word 0xd2800000
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #576]
-bl _p_2
-.word 0xaa0003e1
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #584]
-.word 0xf9001420
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #592]
-.word 0xf9002020
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #600]
-.word 0xf9401402
-.word 0xf9000c22
-.word 0xf9401000
-.word 0xf9000820
-.word 0xd2800000
-.word 0x3901803f
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #568]
-.word 0xf9000001
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1803e0
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #568]
-.word 0xf9400000
-.word 0xf9007fa0
-.word 0xf9402fb1
-.word 0xf9475e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407fa1
-.word 0xaa1803e0
-bl _p_52
-.word 0xf9007ba0
-.word 0xf9402fb1
-.word 0xf9477e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0xd2800000
-.word 0xf9402fb1
-.word 0xf9479a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba2
-.word 0xaa1a03e0
-.word 0xaa1903e1
-.word 0xd2800003
-.word 0xd2800004
-.word 0xd2800005
-.word 0xf9400346
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #560]
-.word 0x928001f0
-.word 0xf2bffff0
-.word 0xf87068d0
-.word 0xd63f0200
-.word 0xf9402fb1
-.word 0xf947e231
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
-.word 0xf90077a0
-.word 0xf9402fb1
-.word 0xf947fa31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94077a0
-bl _p_50
-.word 0xf90073a0
-.word 0xf9402fb1
-.word 0xf9481631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a3
-.word 0xf94067a2
-.word 0xf94063a1
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #608]
-.word 0xf9400000
-.word 0xaa0303fa
-.word 0xaa0203f9
-.word 0xaa0103f8
-.word 0xb50003e0
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1803e0
-.word 0xd2800000
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #576]
-bl _p_2
-.word 0xaa0003e1
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #616]
-.word 0xf9001420
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #624]
-.word 0xf9002020
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #632]
-.word 0xf9401402
-.word 0xf9000c22
-.word 0xf9401000
-.word 0xf9000820
-.word 0xd2800000
-.word 0x3901803f
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #608]
-.word 0xf9000001
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1803e0
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #608]
-.word 0xf9400000
-.word 0xf90077a0
-.word 0xf9402fb1
-.word 0xf948ea31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94077a1
-.word 0xaa1803e0
-bl _p_52
-.word 0xf90073a0
-.word 0xf9402fb1
-.word 0xf9490a31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf94073a2
-.word 0xf94063a1
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #640]
-.word 0xf9400000
-.word 0xaa0203f8
-.word 0xaa0103f7
-.word 0xb5000400
-.word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1803e0
-.word 0xaa1703e0
-.word 0xd2800000
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #576]
-bl _p_2
+bl _p_1
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
@@ -3054,89 +3133,41 @@ ldr x0, [x16, #664]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 .word 0xf9000001
 .word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1803e0
-.word 0xaa1703e0
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #640]
+ldr x0, [x16, #632]
 .word 0xf9400000
-.word 0xf9007fa0
-.word 0xf9402fb1
-.word 0xf949de31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407fa1
-.word 0xaa1703e0
-bl _p_52
-.word 0xf9007ba0
-.word 0xf9402fb1
-.word 0xf949fe31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xd2800000
-.word 0xd2800000
-.word 0xf9402fb1
-.word 0xf94a1631
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9407ba3
-.word 0xaa1a03e0
-.word 0xaa1903e1
-.word 0xaa1803e2
-.word 0xd2800004
-.word 0xd2800005
-.word 0xf9400346
-
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #560]
-.word 0x928001f0
-.word 0xf2bffff0
-.word 0xf87068d0
-.word 0xd63f0200
-.word 0xf9402fb1
-.word 0xf94a5e31
-.word 0xb4000051
-.word 0xd63f0220
-.word 0xf9402ba0
 .word 0xf90077a0
 .word 0xf9402fb1
-.word 0xf94a7631
+.word 0xf944f231
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
-bl _p_50
+bl _p_56
 .word 0xf90073a0
 .word 0xf9402fb1
-.word 0xf94a9231
+.word 0xf9450e31
 .word 0xb4000051
 .word 0xd63f0220
-.word 0xf94073a2
-.word 0xaa1603e0
-.word 0xf94067a1
+.word 0xf94073a0
+.word 0xaa0003f3
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #672]
 .word 0xf9400000
-.word 0xaa0203fa
-.word 0xaa1603f9
-.word 0xaa0103f8
-.word 0xb50003e0
+.word 0xb50003a0
 .word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1803e0
 .word 0xd2800000
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #576]
-bl _p_2
+ldr x0, [x16, #640]
+bl _p_1
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
@@ -3164,32 +3195,248 @@ add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #672]
 .word 0xf9000001
 .word 0xaa1a03e0
-.word 0xaa1903e0
-.word 0xaa1803e0
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x0, [x16, #672]
 .word 0xf9400000
+.word 0xf90083a0
+.word 0xf9402fb1
+.word 0xf945c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94083a0
+bl _p_56
+.word 0xf9007fa0
+.word 0xf9402fb1
+.word 0xf945de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407fa0
+.word 0xf9006ba0
+.word 0xaa1403e0
+.word 0xd2800000
+.word 0xd2800000
+.word 0xaa1303e0
+.word 0xf9406ba0
+.word 0xf9007ba0
+.word 0xf9402fb1
+.word 0xf9460e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba5
+.word 0xaa1a03e0
+.word 0xaa1403e1
+.word 0xd2800002
+.word 0xd2800003
+.word 0xaa1303e4
+.word 0xf9400346
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x15, [x16, #704]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf87068d0
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xf9465631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
 .word 0xf90077a0
 .word 0xf9402fb1
-.word 0xf94b6631
+.word 0xf9466e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a0
+bl _p_55
+.word 0xf90073a0
+.word 0xf9402fb1
+.word 0xf9468a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a3
+.word 0xf94063a2
+.word 0xf9405fa1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #712]
+.word 0xf9400000
+.word 0xaa0303fa
+.word 0xaa0203f9
+.word 0xaa0103f8
+.word 0xb50003e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0xd2800000
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #720]
+bl _p_1
+.word 0xaa0003e1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #728]
+.word 0xf9001420
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #736]
+.word 0xf9002020
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #744]
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #712]
+.word 0xf9000001
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #712]
+.word 0xf9400000
+.word 0xf9007fa0
+.word 0xf9402fb1
+.word 0xf9475e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407fa1
+.word 0xaa1803e0
+bl _p_57
+.word 0xf9007ba0
+.word 0xf9402fb1
+.word 0xf9477e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0xd2800000
+.word 0xf9402fb1
+.word 0xf9479a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba2
+.word 0xaa1a03e0
+.word 0xaa1903e1
+.word 0xd2800003
+.word 0xd2800004
+.word 0xd2800005
+.word 0xf9400346
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x15, [x16, #704]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf87068d0
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xf947e231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf90077a0
+.word 0xf9402fb1
+.word 0xf947fa31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a0
+bl _p_55
+.word 0xf90073a0
+.word 0xf9402fb1
+.word 0xf9481631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a3
+.word 0xf94067a2
+.word 0xf94063a1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xf9400000
+.word 0xaa0303fa
+.word 0xaa0203f9
+.word 0xaa0103f8
+.word 0xb50003e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0xd2800000
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #720]
+bl _p_1
+.word 0xaa0003e1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #760]
+.word 0xf9001420
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #768]
+.word 0xf9002020
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #776]
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xf9000001
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #752]
+.word 0xf9400000
+.word 0xf90077a0
+.word 0xf9402fb1
+.word 0xf948ea31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a1
 .word 0xaa1803e0
-bl _p_52
+bl _p_57
 .word 0xf90073a0
 .word 0xf9402fb1
-.word 0xf94b8631
+.word 0xf9490a31
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94073a2
-.word 0xf94067a1
+.word 0xf94063a1
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #784]
 .word 0xf9400000
 .word 0xaa0203f8
 .word 0xaa0103f7
@@ -3202,23 +3449,23 @@ ldr x0, [x16, #704]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #576]
-bl _p_2
+ldr x0, [x16, #720]
+bl _p_1
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #712]
+ldr x0, [x16, #792]
 .word 0xf9001420
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #720]
+ldr x0, [x16, #800]
 .word 0xf9002020
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #728]
+ldr x0, [x16, #808]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -3228,7 +3475,7 @@ ldr x0, [x16, #728]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #784]
 .word 0xf9000001
 .word 0xaa1a03e0
 .word 0xaa1903e0
@@ -3237,7 +3484,181 @@ ldr x0, [x16, #704]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #704]
+ldr x0, [x16, #784]
+.word 0xf9400000
+.word 0xf9007fa0
+.word 0xf9402fb1
+.word 0xf949de31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407fa1
+.word 0xaa1703e0
+bl _p_57
+.word 0xf9007ba0
+.word 0xf9402fb1
+.word 0xf949fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800000
+.word 0xd2800000
+.word 0xf9402fb1
+.word 0xf94a1631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9407ba3
+.word 0xaa1a03e0
+.word 0xaa1903e1
+.word 0xaa1803e2
+.word 0xd2800004
+.word 0xd2800005
+.word 0xf9400346
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x15, [x16, #704]
+.word 0x928001f0
+.word 0xf2bffff0
+.word 0xf87068d0
+.word 0xd63f0200
+.word 0xf9402fb1
+.word 0xf94a5e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402ba0
+.word 0xf90077a0
+.word 0xf9402fb1
+.word 0xf94a7631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a0
+bl _p_55
+.word 0xf90073a0
+.word 0xf9402fb1
+.word 0xf94a9231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a2
+.word 0xaa1603e0
+.word 0xf94067a1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #816]
+.word 0xf9400000
+.word 0xaa0203fa
+.word 0xaa1603f9
+.word 0xaa0103f8
+.word 0xb50003e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0xd2800000
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #720]
+bl _p_1
+.word 0xaa0003e1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #824]
+.word 0xf9001420
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #832]
+.word 0xf9002020
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #840]
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #816]
+.word 0xf9000001
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #816]
+.word 0xf9400000
+.word 0xf90077a0
+.word 0xf9402fb1
+.word 0xf94b6631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94077a1
+.word 0xaa1803e0
+bl _p_57
+.word 0xf90073a0
+.word 0xf9402fb1
+.word 0xf94b8631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf94073a2
+.word 0xf94067a1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #848]
+.word 0xf9400000
+.word 0xaa0203f8
+.word 0xaa0103f7
+.word 0xb5000400
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0xaa1703e0
+.word 0xd2800000
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #720]
+bl _p_1
+.word 0xaa0003e1
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #856]
+.word 0xf9001420
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #864]
+.word 0xf9002020
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #872]
+.word 0xf9401402
+.word 0xf9000c22
+.word 0xf9401000
+.word 0xf9000820
+.word 0xd2800000
+.word 0x3901803f
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #848]
+.word 0xf9000001
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1803e0
+.word 0xaa1703e0
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #848]
 .word 0xf9400000
 .word 0xf9007fa0
 .word 0xf9402fb1
@@ -3246,7 +3667,7 @@ ldr x0, [x16, #704]
 .word 0xd63f0220
 .word 0xf9407fa1
 .word 0xaa1703e0
-bl _p_52
+bl _p_57
 .word 0xf9007ba0
 .word 0xf9402fb1
 .word 0xf94c7a31
@@ -3268,7 +3689,7 @@ bl _p_52
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #560]
+ldr x15, [x16, #704]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068d0
@@ -3284,7 +3705,7 @@ ldr x15, [x16, #560]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94077a0
-bl _p_50
+bl _p_55
 .word 0xf90073a0
 .word 0xf9402fb1
 .word 0xf94d0e31
@@ -3296,7 +3717,7 @@ bl _p_50
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #736]
+ldr x0, [x16, #880]
 .word 0xf9400000
 .word 0xaa0103fa
 .word 0xb50003a0
@@ -3305,23 +3726,23 @@ ldr x0, [x16, #736]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #496]
-bl _p_2
+ldr x0, [x16, #640]
+bl _p_1
 .word 0xaa0003e1
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #744]
+ldr x0, [x16, #888]
 .word 0xf9001420
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #752]
+ldr x0, [x16, #896]
 .word 0xf9002020
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #760]
+ldr x0, [x16, #904]
 .word 0xf9401402
 .word 0xf9000c22
 .word 0xf9401000
@@ -3331,13 +3752,13 @@ ldr x0, [x16, #760]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #736]
+ldr x0, [x16, #880]
 .word 0xf9000001
 .word 0xaa1a03e0
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #736]
+ldr x0, [x16, #880]
 .word 0xf9400000
 .word 0xf90087a0
 .word 0xf9402fb1
@@ -3345,7 +3766,7 @@ ldr x0, [x16, #736]
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94087a0
-bl _p_51
+bl _p_56
 .word 0xf90083a0
 .word 0xf9402fb1
 .word 0xf94de631
@@ -3363,7 +3784,7 @@ bl _p_51
 .word 0xd280001e
 .word 0xf2e8093e
 .word 0x9e6703c0
-bl _p_53
+bl _p_58
 .word 0xf9007fa0
 .word 0xf9402fb1
 .word 0xf94e2e31
@@ -3392,7 +3813,7 @@ bl _p_53
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x15, [x16, #560]
+ldr x15, [x16, #704]
 .word 0x928001f0
 .word 0xf2bffff0
 .word 0xf87068d0
@@ -3413,7 +3834,7 @@ ldr x15, [x16, #560]
 .word 0xa8d57bfd
 .word 0xd65f03c0
 
-Lme_b:
+Lme_10:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__DemoRelativem__0_Xamarin_Forms_RelativeLayout
@@ -3424,7 +3845,7 @@ Gallery_DemoRelative__DemoRelativem__0_Xamarin_Forms_RelativeLayout:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #768]
+ldr x16, [x16, #912]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3459,7 +3880,7 @@ ldr x16, [x16, #768]
 .word 0xf9003fa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_59
 .word 0xf9403fbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -3486,7 +3907,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
-bl _p_55
+bl _p_60
 .word 0xfd0043a0
 .word 0xf9400fb1
 .word 0xf9412231
@@ -3503,7 +3924,7 @@ bl _p_55
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_c:
+Lme_11:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__DemoRelativem__1_Xamarin_Forms_RelativeLayout
@@ -3514,7 +3935,7 @@ Gallery_DemoRelative__DemoRelativem__1_Xamarin_Forms_RelativeLayout:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #776]
+ldr x16, [x16, #920]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -3549,7 +3970,7 @@ ldr x16, [x16, #776]
 .word 0xf9003fa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_59
 .word 0xf9403fbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -3576,7 +3997,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
-bl _p_55
+bl _p_60
 .word 0xfd0043a0
 .word 0xf9400fb1
 .word 0xf9412231
@@ -3593,7 +4014,7 @@ bl _p_55
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_d:
+Lme_12:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__DemoRelativem__2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
@@ -3605,7 +4026,7 @@ Gallery_DemoRelative__DemoRelativem__2_Xamarin_Forms_RelativeLayout_Xamarin_Form
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #784]
+ldr x16, [x16, #928]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3640,7 +4061,7 @@ ldr x16, [x16, #784]
 .word 0xf90043a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_59
 .word 0xf94043be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -3667,7 +4088,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_56
+bl _p_61
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf9412631
@@ -3688,7 +4109,7 @@ bl _p_56
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_e:
+Lme_13:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__DemoRelativem__3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
@@ -3700,7 +4121,7 @@ Gallery_DemoRelative__DemoRelativem__3_Xamarin_Forms_RelativeLayout_Xamarin_Form
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #792]
+ldr x16, [x16, #936]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3735,7 +4156,7 @@ ldr x16, [x16, #792]
 .word 0xf90043a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_59
 .word 0xf94043be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -3762,7 +4183,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_57
+bl _p_62
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf9412631
@@ -3779,7 +4200,7 @@ bl _p_57
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_f:
+Lme_14:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__DemoRelativem__4_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
@@ -3791,7 +4212,7 @@ Gallery_DemoRelative__DemoRelativem__4_Xamarin_Forms_RelativeLayout_Xamarin_Form
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #800]
+ldr x16, [x16, #944]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3826,7 +4247,7 @@ ldr x16, [x16, #800]
 .word 0xf90043a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_59
 .word 0xf94043be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -3853,7 +4274,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_58
+bl _p_63
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf9412631
@@ -3874,7 +4295,7 @@ bl _p_58
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_10:
+Lme_15:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__DemoRelativem__5_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
@@ -3886,7 +4307,7 @@ Gallery_DemoRelative__DemoRelativem__5_Xamarin_Forms_RelativeLayout_Xamarin_Form
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #808]
+ldr x16, [x16, #952]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -3921,7 +4342,7 @@ ldr x16, [x16, #808]
 .word 0xf90043a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_59
 .word 0xf94043be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -3948,7 +4369,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_57
+bl _p_62
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf9412631
@@ -3965,7 +4386,7 @@ bl _p_57
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_11:
+Lme_16:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__DemoRelativem__6_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
@@ -3977,7 +4398,7 @@ Gallery_DemoRelative__DemoRelativem__6_Xamarin_Forms_RelativeLayout_Xamarin_Form
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #816]
+ldr x16, [x16, #960]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4012,7 +4433,7 @@ ldr x16, [x16, #816]
 .word 0xf90043a0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_59
 .word 0xf94043be
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -4039,7 +4460,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9404fa0
-bl _p_58
+bl _p_63
 .word 0xfd004ba0
 .word 0xf94013b1
 .word 0xf9412631
@@ -4060,7 +4481,7 @@ bl _p_58
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_12:
+Lme_17:
 .text
 	.align 4
 	.no_dead_strip Gallery_DemoRelative__DemoRelativem__7_Xamarin_Forms_RelativeLayout
@@ -4071,7 +4492,7 @@ Gallery_DemoRelative__DemoRelativem__7_Xamarin_Forms_RelativeLayout:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #824]
+ldr x16, [x16, #968]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4106,7 +4527,7 @@ ldr x16, [x16, #824]
 .word 0xf9003fa0
 .word 0xaa0103e0
 .word 0xf940003e
-bl _p_54
+bl _p_59
 .word 0xf9403fbe
 .word 0xfd0003c0
 .word 0xfd0007c1
@@ -4133,7 +4554,7 @@ bl _p_54
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf94047a0
-bl _p_56
+bl _p_61
 .word 0xfd0043a0
 .word 0xf9400fb1
 .word 0xf9412231
@@ -4154,7 +4575,7 @@ bl _p_56
 .word 0xa8ca7bfd
 .word 0xd65f03c0
 
-Lme_13:
+Lme_18:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
@@ -4166,7 +4587,7 @@ System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #832]
+ldr x16, [x16, #976]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4191,11 +4612,11 @@ ldr x16, [x16, #832]
 .word 0x910103a0
 .word 0xf9003fa0
 .word 0xf9402ba0
-bl _p_59
+bl _p_64
 .word 0xaa0003ef
 .word 0xf9403fa0
 .word 0xf94043a1
-bl _p_60
+bl _p_65
 .word 0x910103a0
 .word 0x9100c3a0
 .word 0xf94023a0
@@ -4207,8 +4628,8 @@ bl _p_60
 .word 0xb4000051
 .word 0xd63f0220
 .word 0xf9402ba0
-bl _p_59
-bl _p_61
+bl _p_64
+bl _p_66
 .word 0x9100c3a1
 .word 0xf90033a0
 .word 0x91004001
@@ -4217,7 +4638,7 @@ bl _p_61
 .word 0xf9003ba2
 .word 0xf9000022
 .word 0xf90037a0
-bl _p_62
+bl _p_3
 .word 0xf94033a0
 .word 0xf94037a1
 .word 0xf9403ba2
@@ -4232,7 +4653,7 @@ bl _p_62
 .word 0xa8c97bfd
 .word 0xd65f03c0
 
-Lme_15:
+Lme_1a:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__Insert_T_REF_int_T_REF
@@ -4246,7 +4667,7 @@ System_Array_InternalArray__Insert_T_REF_int_T_REF:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #840]
+ldr x16, [x16, #984]
 .word 0xf90017b0
 .word 0xf9400a11
 .word 0xf9001bb1
@@ -4266,14 +4687,14 @@ ldr x16, [x16, #840]
 .word 0xf2a00020
 .word 0xd29b6840
 .word 0xf2a00020
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd2800100
 .word 0xf2a04000
 .word 0xd2800100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94017b1
 .word 0xf9409e31
 .word 0xb4000051
@@ -4282,7 +4703,7 @@ bl _p_64
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_16:
+Lme_1b:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__RemoveAt_int
@@ -4294,7 +4715,7 @@ System_Array_InternalArray__RemoveAt_int:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #848]
+ldr x16, [x16, #992]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4314,14 +4735,14 @@ ldr x16, [x16, #848]
 .word 0xf2a00020
 .word 0xd29b6840
 .word 0xf2a00020
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd2800100
 .word 0xf2a04000
 .word 0xd2800100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94013b1
 .word 0xf9409631
 .word 0xb4000051
@@ -4330,7 +4751,7 @@ bl _p_64
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_17:
+Lme_1c:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__IndexOf_T_REF_T_REF
@@ -4346,7 +4767,7 @@ System_Array_InternalArray__IndexOf_T_REF_T_REF:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #856]
+ldr x16, [x16, #1000]
 .word 0xf90023b0
 .word 0xf9400a11
 .word 0xf90027b1
@@ -4386,8 +4807,8 @@ ldr x16, [x16, #856]
 .word 0xf2a00020
 .word 0xd29b6fc0
 .word 0xf2a00020
-bl _p_63
-bl _p_65
+bl _p_67
+bl _p_69
 .word 0xf90053a0
 .word 0xf94023b1
 .word 0xf940e231
@@ -4399,7 +4820,7 @@ bl _p_65
 .word 0xd2802be0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94023b1
 .word 0xf9410e31
 .word 0xb4000051
@@ -4427,7 +4848,7 @@ bl _p_64
 .word 0xaa1703e0
 .word 0x910183a0
 .word 0xf9402fa0
-bl _p_66
+bl _p_70
 .word 0x93407ee0
 .word 0xd37df000
 .word 0x8b000320
@@ -4574,7 +4995,7 @@ bl _p_66
 .word 0xa8cb7bfd
 .word 0xd65f03c0
 
-Lme_18:
+Lme_1d:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__get_Item_T_REF_int
@@ -4588,7 +5009,7 @@ System_Array_InternalArray__get_Item_T_REF_int:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #864]
+ldr x16, [x16, #1008]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4622,14 +5043,14 @@ ldr x16, [x16, #864]
 .word 0xd63f0220
 .word 0xd2822420
 .word 0xd2822420
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd28008e0
 .word 0xf2a04000
 .word 0xd28008e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94013b1
 .word 0xf940d631
 .word 0xb4000051
@@ -4638,7 +5059,7 @@ bl _p_64
 .word 0xaa1a03e0
 .word 0x910103a0
 .word 0xf9401fa0
-bl _p_67
+bl _p_71
 .word 0x93407f40
 .word 0xd37df000
 .word 0x8b000320
@@ -4659,7 +5080,7 @@ bl _p_67
 .word 0xa8c67bfd
 .word 0xd65f03c0
 
-Lme_19:
+Lme_1e:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__set_Item_T_REF_int_T_REF
@@ -4677,7 +5098,7 @@ System_Array_InternalArray__set_Item_T_REF_int_T_REF:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #872]
+ldr x16, [x16, #1016]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -4711,14 +5132,14 @@ ldr x16, [x16, #872]
 .word 0xd63f0220
 .word 0xd2822420
 .word 0xd2822420
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd28008e0
 .word 0xf2a04000
 .word 0xd28008e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf9402bb1
 .word 0xf940e631
 .word 0xb4000051
@@ -4738,13 +5159,13 @@ bl _p_64
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x1, [x16, #880]
+ldr x1, [x16, #1024]
 .word 0xeb01001f
 .word 0x540000e1
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #888]
+ldr x0, [x16, #1032]
 .word 0xeb00029f
 .word 0x54000040
 .word 0xd2800016
@@ -4780,7 +5201,7 @@ ldr x0, [x16, #888]
 .word 0xaa1a03e0
 .word 0x910123a0
 .word 0xf94037a0
-bl _p_68
+bl _p_72
 .word 0x93407f40
 .word 0xd37df000
 .word 0x8b000320
@@ -4803,7 +5224,225 @@ bl _p_68
 .word 0xa8c87bfd
 .word 0xd65f03c0
 
-Lme_1a:
+Lme_1f:
+.text
+	.align 4
+	.no_dead_strip wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
+wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object:
+.word 0xa9b87bfd
+.word 0x910003fd
+.word 0xa90153b3
+.word 0xa9025bb5
+.word 0xa90363b7
+.word 0xa9046bb9
+.word 0xaa0003f9
+.word 0xaa0103fa
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1040]
+.word 0xf9002bb0
+.word 0xf9400a11
+.word 0xf9002fb1
+.word 0xd2800018
+.word 0xd2800017
+.word 0xd2800016
+.word 0xd2800015
+.word 0xd2800014
+.word 0xf9402bb1
+.word 0xf9405a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9407a31
+.word 0xb4000051
+.word 0xd63f0220
+
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x0, [x16, #1048]
+.word 0xb9400000
+.word 0x34000240
+.word 0xf9402bb1
+.word 0xf9409e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf940ae31
+.word 0xb4000051
+.word 0xd63f0220
+bl _p_73
+.word 0xaa0003f3
+.word 0xaa1303e0
+.word 0xaa1303e1
+.word 0xf90037a0
+.word 0xb4000073
+.word 0xf94037a0
+bl _p_68
+.word 0xf94037a0
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf940f231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9101a320
+.word 0xf9403720
+.word 0xaa0003f6
+.word 0xf9402bb1
+.word 0xf9411631
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xb5000756
+.word 0xf9402bb1
+.word 0xf9412e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91008320
+.word 0xf9401320
+.word 0xaa0003f4
+.word 0xf9402bb1
+.word 0xf9415231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xb40002f4
+.word 0xf9402bb1
+.word 0xf9416a31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1403e0
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b22
+.word 0xaa1403e0
+.word 0xaa1a03e1
+.word 0xd63f0040
+.word 0xf9402bb1
+.word 0xf941ae31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000058
+.word 0xf9402bb1
+.word 0xf941c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1a03e0
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x9100e320
+.word 0xf9401f20
+.word 0xaa1903e0
+.word 0xaa1903e0
+.word 0x91004320
+.word 0xf9400b21
+.word 0xaa1a03e0
+.word 0xd63f0020
+.word 0xf9402bb1
+.word 0xf941fe31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0x14000044
+.word 0xf9402bb1
+.word 0xf9421231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xb9801ac0
+.word 0xaa0003f7
+.word 0xf9402bb1
+.word 0xf9422e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xd2800018
+.word 0xf9402fb1
+.word 0xf9400231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9425231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1603e0
+.word 0xaa1803e0
+.word 0x93407f00
+.word 0xb9801ac1
+.word 0xeb00003f
+.word 0x10000011
+.word 0x54000689
+.word 0xd37df000
+.word 0x8b0002c0
+.word 0x91008000
+.word 0xf9400000
+.word 0xaa0003f5
+.word 0xf9402bb1
+.word 0xf9429231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1503e0
+.word 0xf9003ba0
+.word 0xaa1a03e0
+.word 0xaa1503e0
+.word 0xaa1a03e1
+.word 0xf9400eb0
+.word 0xd63f0200
+.word 0xf9403ba0
+.word 0xf9402bb1
+.word 0xf942c231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf942d231
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0x11000700
+.word 0xaa0003f8
+.word 0xf9402bb1
+.word 0xf942ee31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xaa1803e0
+.word 0xaa1703e0
+.word 0x6b17031f
+.word 0x54fff9cb
+.word 0xf9402bb1
+.word 0xf9430e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xf9402bb1
+.word 0xf9431e31
+.word 0xb4000051
+.word 0xd63f0220
+.word 0xa94153b3
+.word 0xa9425bb5
+.word 0xa94363b7
+.word 0xa9446bb9
+.word 0x910003bf
+.word 0xa8c87bfd
+.word 0xd65f03c0
+.word 0xd2802460
+.word 0xaa1103e1
+bl _p_15
+
+Lme_20:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_Count
@@ -4814,7 +5453,7 @@ System_Array_InternalArray__ICollection_get_Count:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #896]
+ldr x16, [x16, #1056]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4846,7 +5485,7 @@ ldr x16, [x16, #896]
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1b:
+Lme_21:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_get_IsReadOnly
@@ -4857,7 +5496,7 @@ System_Array_InternalArray__ICollection_get_IsReadOnly:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #904]
+ldr x16, [x16, #1064]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4883,7 +5522,7 @@ ldr x16, [x16, #904]
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1c:
+Lme_22:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Clear
@@ -4894,7 +5533,7 @@ System_Array_InternalArray__ICollection_Clear:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #912]
+ldr x16, [x16, #1072]
 .word 0xf9000fb0
 .word 0xf9400a11
 .word 0xf90013b1
@@ -4914,14 +5553,14 @@ ldr x16, [x16, #912]
 .word 0xf2a00020
 .word 0xd29b6240
 .word 0xf2a00020
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd2800100
 .word 0xf2a04000
 .word 0xd2800100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf9400fb1
 .word 0xf9409231
 .word 0xb4000051
@@ -4930,7 +5569,7 @@ bl _p_64
 .word 0xa8c37bfd
 .word 0xd65f03c0
 
-Lme_1d:
+Lme_23:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Add_T_REF_T_REF
@@ -4943,7 +5582,7 @@ System_Array_InternalArray__ICollection_Add_T_REF_T_REF:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #920]
+ldr x16, [x16, #1080]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -4963,14 +5602,14 @@ ldr x16, [x16, #920]
 .word 0xf2a00020
 .word 0xd29b6840
 .word 0xf2a00020
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd2800100
 .word 0xf2a04000
 .word 0xd2800100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -4979,7 +5618,7 @@ bl _p_64
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1e:
+Lme_24:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
@@ -4992,7 +5631,7 @@ System_Array_InternalArray__ICollection_Remove_T_REF_T_REF:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #928]
+ldr x16, [x16, #1088]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -5012,14 +5651,14 @@ ldr x16, [x16, #928]
 .word 0xf2a00020
 .word 0xd29b6840
 .word 0xf2a00020
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd2800100
 .word 0xf2a04000
 .word 0xd2800100
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94013b1
 .word 0xf9409a31
 .word 0xb4000051
@@ -5028,7 +5667,7 @@ bl _p_64
 .word 0xa8c47bfd
 .word 0xd65f03c0
 
-Lme_1f:
+Lme_25:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
@@ -5043,7 +5682,7 @@ System_Array_InternalArray__ICollection_Contains_T_REF_T_REF:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #936]
+ldr x16, [x16, #1096]
 .word 0xf9001bb0
 .word 0xf9400a11
 .word 0xf9001fb1
@@ -5083,8 +5722,8 @@ ldr x16, [x16, #936]
 .word 0xf2a00020
 .word 0xd29b6fc0
 .word 0xf2a00020
-bl _p_63
-bl _p_65
+bl _p_67
+bl _p_69
 .word 0xf90033a0
 .word 0xf9401bb1
 .word 0xf940de31
@@ -5096,7 +5735,7 @@ bl _p_65
 .word 0xd2802be0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf9401bb1
 .word 0xf9410a31
 .word 0xb4000051
@@ -5124,7 +5763,7 @@ bl _p_64
 .word 0xaa1803e0
 .word 0x910143a0
 .word 0xf94027a0
-bl _p_69
+bl _p_74
 .word 0x93407f00
 .word 0xd37df000
 .word 0x8b000340
@@ -5220,7 +5859,7 @@ bl _p_69
 .word 0xa8c77bfd
 .word 0xd65f03c0
 
-Lme_20:
+Lme_26:
 .text
 	.align 4
 	.no_dead_strip System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
@@ -5238,7 +5877,7 @@ System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #944]
+ldr x16, [x16, #1104]
 .word 0xf90027b0
 .word 0xf9400a11
 .word 0xf9002bb1
@@ -5262,14 +5901,14 @@ ldr x16, [x16, #944]
 .word 0xd63f0220
 .word 0xd282f840
 .word 0xd282f840
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd28008c0
 .word 0xf2a04000
 .word 0xd28008c0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94027b1
 .word 0xf940be31
 .word 0xb4000051
@@ -5295,8 +5934,8 @@ bl _p_64
 .word 0xf2a00020
 .word 0xd29b6fc0
 .word 0xf2a00020
-bl _p_63
-bl _p_65
+bl _p_67
+bl _p_69
 .word 0xf90073a0
 .word 0xf94027b1
 .word 0xf9412e31
@@ -5308,7 +5947,7 @@ bl _p_65
 .word 0xd2802be0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94027b1
 .word 0xf9415a31
 .word 0xb4000051
@@ -5377,14 +6016,14 @@ bl _p_64
 .word 0xf2a00020
 .word 0xd29b7ac0
 .word 0xf2a00020
-bl _p_63
+bl _p_67
 .word 0xaa0003e1
 .word 0xd28008a0
 .word 0xf2a04000
 .word 0xd28008a0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94027b1
 .word 0xf9428a31
 .word 0xb4000051
@@ -5410,8 +6049,8 @@ bl _p_64
 .word 0xf2a00020
 .word 0xd29b6fc0
 .word 0xf2a00020
-bl _p_63
-bl _p_65
+bl _p_67
+bl _p_69
 .word 0xf90073a0
 .word 0xf94027b1
 .word 0xf942fa31
@@ -5423,7 +6062,7 @@ bl _p_65
 .word 0xd2802be0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_1
-bl _p_64
+bl _p_68
 .word 0xf94027b1
 .word 0xf9432631
 .word 0xb4000051
@@ -5438,14 +6077,14 @@ bl _p_64
 .word 0xd63f0220
 .word 0xd2822420
 .word 0xd2822420
-bl _p_63
+bl _p_67
 .word 0xf90073a0
 .word 0xd29b9320
 .word 0xf2a00020
 .word 0xd29b9320
 .word 0xf2a00020
-bl _p_63
-bl _p_65
+bl _p_67
+bl _p_69
 .word 0xf90077a0
 .word 0xf94027b1
 .word 0xf9438231
@@ -5458,7 +6097,7 @@ bl _p_65
 .word 0xd28008e0
 .word 0xf2a04000
 bl _mono_create_corlib_exception_2
-bl _p_64
+bl _p_68
 .word 0xf94027b1
 .word 0xf943b231
 .word 0xb4000051
@@ -5509,7 +6148,7 @@ bl _p_64
 .word 0xf94057a2
 .word 0xf9405ba3
 .word 0xf94067a4
-bl _p_70
+bl _p_75
 .word 0xf94027b1
 .word 0xf9447e31
 .word 0xb4000051
@@ -5526,7 +6165,7 @@ bl _p_70
 .word 0xa8cf7bfd
 .word 0xd65f03c0
 
-Lme_21:
+Lme_27:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
@@ -5542,7 +6181,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bo
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #952]
+ldr x16, [x16, #1112]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5567,7 +6206,7 @@ ldr x16, [x16, #952]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #1048]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -5578,14 +6217,14 @@ ldr x0, [x16, #960]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_71
+bl _p_73
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_64
+bl _p_68
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -5771,9 +6410,9 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2802460
 .word 0xaa1103e1
-bl _p_72
+bl _p_15
 
-Lme_22:
+Lme_28:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
@@ -5789,7 +6428,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #968]
+ldr x16, [x16, #1120]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -5813,7 +6452,7 @@ ldr x16, [x16, #968]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #1048]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -5824,14 +6463,14 @@ ldr x0, [x16, #960]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_71
+bl _p_73
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_64
+bl _p_68
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -5989,9 +6628,9 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2802460
 .word 0xaa1103e1
-bl _p_72
+bl _p_15
 
-Lme_23:
+Lme_29:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
@@ -6008,7 +6647,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_i
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #976]
+ldr x16, [x16, #1128]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6033,7 +6672,7 @@ ldr x16, [x16, #976]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #1048]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -6044,14 +6683,14 @@ ldr x0, [x16, #960]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_71
+bl _p_73
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_64
+bl _p_68
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -6245,9 +6884,9 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2802460
 .word 0xaa1103e1
-bl _p_72
+bl _p_15
 
-Lme_24:
+Lme_2a:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition
@@ -6263,7 +6902,7 @@ wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #984]
+ldr x16, [x16, #1136]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6288,7 +6927,7 @@ ldr x16, [x16, #984]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #1048]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -6299,14 +6938,14 @@ ldr x0, [x16, #960]
 .word 0xf940b231
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_71
+bl _p_73
 .word 0xf90037a0
 .word 0xf94037a1
 .word 0xf94037a0
 .word 0xf9003ba1
 .word 0xb4000060
 .word 0xf9403ba0
-bl _p_64
+bl _p_68
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -6492,9 +7131,9 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2802460
 .word 0xaa1103e1
-bl _p_72
+bl _p_15
 
-Lme_25:
+Lme_2b:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition
@@ -6510,7 +7149,7 @@ wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_vo
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #992]
+ldr x16, [x16, #1144]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6534,7 +7173,7 @@ ldr x16, [x16, #992]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #1048]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -6545,14 +7184,14 @@ ldr x0, [x16, #960]
 .word 0xf940ae31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_71
+bl _p_73
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf90037a0
 .word 0xb4000073
 .word 0xf94037a0
-bl _p_64
+bl _p_68
 .word 0xf94037a0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -6710,9 +7349,9 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2802460
 .word 0xaa1103e1
-bl _p_72
+bl _p_15
 
-Lme_26:
+Lme_2c:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition
@@ -6729,7 +7368,7 @@ wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invok
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1000]
+ldr x16, [x16, #1152]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -6754,7 +7393,7 @@ ldr x16, [x16, #1000]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #1048]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -6765,14 +7404,14 @@ ldr x0, [x16, #960]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_71
+bl _p_73
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_64
+bl _p_68
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -6966,9 +7605,9 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2802460
 .word 0xaa1103e1
-bl _p_72
+bl _p_15
 
-Lme_27:
+Lme_2d:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_RelativeLayout_double_invoke_TResult_T_Xamarin_Forms_RelativeLayout
@@ -6984,7 +7623,7 @@ wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_RelativeLayout_double_invoke
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1008]
+ldr x16, [x16, #1160]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7010,7 +7649,7 @@ ldr x16, [x16, #1008]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #1048]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -7021,14 +7660,14 @@ ldr x0, [x16, #960]
 .word 0xf940b631
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_71
+bl _p_73
 .word 0xaa0003f3
 .word 0xaa1303e0
 .word 0xaa1303e1
 .word 0xf9003ba0
 .word 0xb4000073
 .word 0xf9403ba0
-bl _p_64
+bl _p_68
 .word 0xf9403ba0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -7212,9 +7851,9 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2802460
 .word 0xaa1103e1
-bl _p_72
+bl _p_15
 
-Lme_2c:
+Lme_32:
 .text
 	.align 4
 	.no_dead_strip wrapper_delegate_invoke_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double_invoke_TResult_T1_T2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
@@ -7231,7 +7870,7 @@ wrapper_delegate_invoke_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1016]
+ldr x16, [x16, #1168]
 .word 0xf9002bb0
 .word 0xf9400a11
 .word 0xf9002fb1
@@ -7257,7 +7896,7 @@ ldr x16, [x16, #1016]
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x0, [x16, #960]
+ldr x0, [x16, #1048]
 .word 0xb9400000
 .word 0x34000240
 .word 0xf9402bb1
@@ -7268,14 +7907,14 @@ ldr x0, [x16, #960]
 .word 0xf940ba31
 .word 0xb4000051
 .word 0xd63f0220
-bl _p_71
+bl _p_73
 .word 0xf9003ba0
 .word 0xf9403ba1
 .word 0xf9403ba0
 .word 0xf9003fa1
 .word 0xb4000060
 .word 0xf9403fa0
-bl _p_64
+bl _p_68
 .word 0xf9403fa0
 .word 0xf9402fb1
 .word 0xf9400231
@@ -7465,11 +8104,11 @@ bl _p_64
 .word 0xd65f03c0
 .word 0xd2802460
 .word 0xaa1103e1
-bl _p_72
+bl _p_15
 
-Lme_31:
+Lme_37:
 .text
-ut_50:
+ut_56:
 add x0, x0, 16
 b System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 ut_end:
@@ -7477,7 +8116,7 @@ ut_end:
 _unbox_trampoline_p:
 
 	.long 0
-LDIFF_SYM3=ut_end - ut_50
+LDIFF_SYM3=ut_end - ut_56
 	.long LDIFF_SYM3
 .text
 	.align 4
@@ -7492,7 +8131,7 @@ System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
 
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1024]
+ldr x16, [x16, #1176]
 .word 0xf90013b0
 .word 0xf9400a11
 .word 0xf90017b1
@@ -7514,7 +8153,7 @@ ldr x16, [x16, #1024]
 .word 0xf9000320
 .word 0xaa1903e0
 .word 0xaa1903e0
-bl _p_62
+bl _p_3
 .word 0xf94023a0
 .word 0xf94013b1
 .word 0xf9408e31
@@ -7535,7 +8174,7 @@ bl _p_62
 .word 0xa8c57bfd
 .word 0xd65f03c0
 
-Lme_32:
+Lme_38:
 .text
 	.align 3
 jit_code_end:
@@ -7546,9 +8185,14 @@ jit_code_end:
 method_addresses:
 	.no_dead_strip method_addresses
 bl Gallery_App__ctor
+bl Gallery_App_add_ShouldTakePicture_System_Action
+bl Gallery_App_remove_ShouldTakePicture_System_Action
+bl Gallery_App_ShowImage_string
 bl Gallery_App_OnStart
 bl Gallery_App_OnSleep
 bl Gallery_App_OnResume
+bl Gallery_App__ShouldTakePicturem__0
+bl Gallery_App__Appm__1_object
 bl Gallery_Icon__ctor_string_Xamarin_Forms_Color
 bl Gallery_Name__ctor_string
 bl Gallery_Subject__ctor_string
@@ -7572,6 +8216,7 @@ bl System_Array_InternalArray__RemoveAt_int
 bl System_Array_InternalArray__IndexOf_T_REF_T_REF
 bl System_Array_InternalArray__get_Item_T_REF_int
 bl System_Array_InternalArray__set_Item_T_REF_int_T_REF
+bl wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
 bl System_Array_InternalArray__ICollection_get_Count
 bl System_Array_InternalArray__ICollection_get_IsReadOnly
 bl System_Array_InternalArray__ICollection_Clear
@@ -7602,619 +8247,645 @@ method_addresses_end:
 	.align 3
 unbox_trampolines:
 
-	.long 50
+	.long 56
 unbox_trampolines_end:
 
 	.long 0
 .text
 	.align 3
 unbox_trampoline_addresses:
-bl ut_50
+bl ut_56
 
 	.long 0
 .section __TEXT, __const
 	.align 3
 unwind_info:
 
-	.byte 0,29,12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,149,32,150,31,68,151,30,152,29,68,153,28,154,27,13
-	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29,17,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,16
-	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8,24,12,31,0,68,14,224,2,157,44,158,43,68,13,29,68
-	.byte 151,42,152,41,68,153,40,154,39,24,12,31,0,68,14,240,3,157,62,158,61,68,13,29,68,151,60,152,59,68,153,58
-	.byte 154,57,34,12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,147,40,148,39,68,149,38,150,37,68,151,36,152,35
-	.byte 68,153,34,154,33,14,12,31,0,68,14,160,1,157,20,158,19,68,13,29,14,12,31,0,68,14,176,1,157,22,158,21
-	.byte 68,13,29,14,12,31,0,68,14,144,1,157,18,158,17,68,13,29,13,12,31,0,68,14,80,157,10,158,9,68,13,29
-	.byte 13,12,31,0,68,14,64,157,8,158,7,68,13,29,29,12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20
-	.byte 149,19,68,151,18,152,17,68,153,16,154,15,18,12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9,32
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
-	.byte 21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10,30,12,31,0,68,14,240,1,157,30
-	.byte 158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153,24,68,154,23,34,12,31,0,68,14,144,1,157,18,158
-	.byte 17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10,154,9,34,12,31,0,68,14,128,1
-	.byte 157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
+	.byte 0,27,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,150,28,151,27,68,152,26,153,25,68,154,24,28,12,31
+	.byte 0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7,13,12,31,0,68,14
+	.byte 96,157,12,158,11,68,13,29,13,12,31,0,68,14,48,157,6,158,5,68,13,29,13,12,31,0,68,14,80,157,10,158
+	.byte 9,68,13,29,17,12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24,16,12,31,0,68,14,80,157,10,158
+	.byte 9,68,13,29,68,153,8,24,12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,151,42,152,41,68,153,40,154,39
+	.byte 24,12,31,0,68,14,240,3,157,62,158,61,68,13,29,68,151,60,152,59,68,153,58,154,57,34,12,31,0,68,14,208
+	.byte 2,157,42,158,41,68,13,29,68,147,40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34,154,33,14,12,31,0
+	.byte 68,14,160,1,157,20,158,19,68,13,29,14,12,31,0,68,14,176,1,157,22,158,21,68,13,29,14,12,31,0,68,14
+	.byte 144,1,157,18,158,17,68,13,29,13,12,31,0,68,14,64,157,8,158,7,68,13,29,29,12,31,0,68,14,176,1,157
+	.byte 22,158,21,68,13,29,68,148,20,149,19,68,151,18,152,17,68,153,16,154,15,18,12,31,0,68,14,96,157,12,158,11
+	.byte 68,13,29,68,153,10,154,9,32,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151
+	.byte 11,68,152,10,153,9,68,154,8,34,12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12
+	.byte 150,11,68,151,10,152,9,68,153,8,154,7,21,12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68
+	.byte 154,10,30,12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153,24,68,154
+	.byte 23,34,12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68
+	.byte 153,10,154,9
 
 .text
 	.align 4
 plt:
 mono_aot_Gallery_plt:
-	.no_dead_strip plt_Xamarin_Forms_Application__ctor
-plt_Xamarin_Forms_Application__ctor:
+	.no_dead_strip plt__jit_icall_mono_object_new_fast
+plt__jit_icall_mono_object_new_fast:
 _p_1:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1040]
+ldr x16, [x16, #1192]
 br x16
-.word 1463
-	.no_dead_strip plt__jit_icall_mono_object_new_fast
-plt__jit_icall_mono_object_new_fast:
+.word 1626
+	.no_dead_strip plt_Xamarin_Forms_Image__ctor
+plt_Xamarin_Forms_Image__ctor:
 _p_2:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1048]
+ldr x16, [x16, #1200]
 br x16
-.word 1468
-	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
-plt_Xamarin_Forms_ContentPage__ctor:
+.word 1649
+	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
+plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
 _p_3:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1056]
+ldr x16, [x16, #1208]
 br x16
-.word 1491
-	.no_dead_strip plt_Xamarin_Forms_Device_get_OS
-plt_Xamarin_Forms_Device_get_OS:
+.word 1654
+	.no_dead_strip plt_Xamarin_Forms_Application__ctor
+plt_Xamarin_Forms_Application__ctor:
 _p_4:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1064]
+ldr x16, [x16, #1216]
 br x16
-.word 1496
-	.no_dead_strip plt_Xamarin_Forms_Thickness__ctor_double_double_double_double
-plt_Xamarin_Forms_Thickness__ctor_double_double_double_double:
+.word 1661
+	.no_dead_strip plt_Xamarin_Forms_ContentPage__ctor
+plt_Xamarin_Forms_ContentPage__ctor:
 _p_5:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1072]
+ldr x16, [x16, #1224]
 br x16
-.word 1501
-	.no_dead_strip plt_Xamarin_Forms_Page_set_Padding_Xamarin_Forms_Thickness
-plt_Xamarin_Forms_Page_set_Padding_Xamarin_Forms_Thickness:
+.word 1666
+	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
+plt_Xamarin_Forms_StackLayout__ctor:
 _p_6:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1080]
+ldr x16, [x16, #1232]
 br x16
-.word 1506
-	.no_dead_strip plt_Xamarin_Forms_StackLayout__ctor
-plt_Xamarin_Forms_StackLayout__ctor:
+.word 1671
+	.no_dead_strip plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions
+plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions:
 _p_7:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1088]
+ldr x16, [x16, #1240]
 br x16
-.word 1511
+.word 1676
 	.no_dead_strip plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children
 plt_Xamarin_Forms_Layout_1_Xamarin_Forms_View_get_Children:
 _p_8:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1096]
-br x16
-.word 1516
-	.no_dead_strip plt_Gallery_DemoStackLayout__ctor
-plt_Gallery_DemoStackLayout__ctor:
-_p_9:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1104]
-br x16
-.word 1527
-	.no_dead_strip plt_Gallery_DemoGrid__ctor
-plt_Gallery_DemoGrid__ctor:
-_p_10:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1112]
-br x16
-.word 1532
-	.no_dead_strip plt_Gallery_DemoRelative__ctor
-plt_Gallery_DemoRelative__ctor:
-_p_11:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1120]
-br x16
-.word 1537
-	.no_dead_strip plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View
-plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View:
-_p_12:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1128]
-br x16
-.word 1542
-	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
-plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
-_p_13:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1136]
-br x16
-.word 1547
-	.no_dead_strip plt_Xamarin_Forms_Label__ctor
-plt_Xamarin_Forms_Label__ctor:
-_p_14:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1144]
-br x16
-.word 1552
-	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
-plt_Xamarin_Forms_Label_set_Text_string:
-_p_15:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1152]
-br x16
-.word 1557
-	.no_dead_strip plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color
-plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color:
-_p_16:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1160]
-br x16
-.word 1562
-	.no_dead_strip plt_Xamarin_Forms_Label_set_FontSize_double
-plt_Xamarin_Forms_Label_set_FontSize_double:
-_p_17:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1168]
-br x16
-.word 1567
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color
-plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color:
-_p_18:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1176]
-br x16
-.word 1572
-	.no_dead_strip plt_Xamarin_Forms_Label_set_HorizontalTextAlignment_Xamarin_Forms_TextAlignment
-plt_Xamarin_Forms_Label_set_HorizontalTextAlignment_Xamarin_Forms_TextAlignment:
-_p_19:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1184]
-br x16
-.word 1577
-	.no_dead_strip plt_Xamarin_Forms_Label_set_VerticalTextAlignment_Xamarin_Forms_TextAlignment
-plt_Xamarin_Forms_Label_set_VerticalTextAlignment_Xamarin_Forms_TextAlignment:
-_p_20:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1192]
-br x16
-.word 1582
-	.no_dead_strip plt_Xamarin_Forms_Label_set_FontAttributes_Xamarin_Forms_FontAttributes
-plt_Xamarin_Forms_Label_set_FontAttributes_Xamarin_Forms_FontAttributes:
-_p_21:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1200]
-br x16
-.word 1587
-	.no_dead_strip plt_Xamarin_Forms_Label_set_LineBreakMode_Xamarin_Forms_LineBreakMode
-plt_Xamarin_Forms_Label_set_LineBreakMode_Xamarin_Forms_LineBreakMode:
-_p_22:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1208]
-br x16
-.word 1592
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_HeightRequest_double
-plt_Xamarin_Forms_VisualElement_set_HeightRequest_double:
-_p_23:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1216]
-br x16
-.word 1597
-	.no_dead_strip plt_Xamarin_Forms_StackLayout_set_Spacing_double
-plt_Xamarin_Forms_StackLayout_set_Spacing_double:
-_p_24:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1224]
-br x16
-.word 1602
-	.no_dead_strip plt_Xamarin_Forms_StackLayout_set_Orientation_Xamarin_Forms_StackOrientation
-plt_Xamarin_Forms_StackLayout_set_Orientation_Xamarin_Forms_StackOrientation:
-_p_25:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1232]
-br x16
-.word 1607
-	.no_dead_strip plt_Xamarin_Forms_Color_FromRgb_double_double_double
-plt_Xamarin_Forms_Color_FromRgb_double_double_double:
-_p_26:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
-ldr x16, [x16, #1240]
-br x16
-.word 1612
-	.no_dead_strip plt_Gallery_Icon__ctor_string_Xamarin_Forms_Color
-plt_Gallery_Icon__ctor_string_Xamarin_Forms_Color:
-_p_27:
-adrp x16, mono_aot_Gallery_got@PAGE+0
-add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1248]
 br x16
-.word 1617
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_WidthRequest_double
-plt_Xamarin_Forms_VisualElement_set_WidthRequest_double:
-_p_28:
+.word 1681
+	.no_dead_strip plt_Xamarin_Forms_Button__ctor
+plt_Xamarin_Forms_Button__ctor:
+_p_9:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1256]
 br x16
-.word 1622
-	.no_dead_strip plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions
-plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions:
-_p_29:
+.word 1692
+	.no_dead_strip plt_Xamarin_Forms_Button_set_Text_string
+plt_Xamarin_Forms_Button_set_Text_string:
+_p_10:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1264]
 br x16
-.word 1627
-	.no_dead_strip plt_Gallery_Name__ctor_string
-plt_Gallery_Name__ctor_string:
-_p_30:
+.word 1697
+	.no_dead_strip plt_Xamarin_Forms_Command__ctor_System_Action_1_object
+plt_Xamarin_Forms_Command__ctor_System_Action_1_object:
+_p_11:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1272]
 br x16
-.word 1632
-	.no_dead_strip plt_Gallery_Subject__ctor_string
-plt_Gallery_Subject__ctor_string:
-_p_31:
+.word 1702
+	.no_dead_strip plt_Xamarin_Forms_Button_set_Command_System_Windows_Input_ICommand
+plt_Xamarin_Forms_Button_set_Command_System_Windows_Input_ICommand:
+_p_12:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1280]
 br x16
-.word 1637
-	.no_dead_strip plt_Gallery_Body__ctor_string
-plt_Gallery_Body__ctor_string:
-_p_32:
+.word 1707
+	.no_dead_strip plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View
+plt_Xamarin_Forms_ContentPage_set_Content_Xamarin_Forms_View:
+_p_13:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1288]
 br x16
-.word 1642
-	.no_dead_strip plt_Gallery_Time__ctor_string
-plt_Gallery_Time__ctor_string:
-_p_33:
+.word 1712
+	.no_dead_strip plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page
+plt_Xamarin_Forms_Application_set_MainPage_Xamarin_Forms_Page:
+_p_14:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1296]
 br x16
-.word 1647
-	.no_dead_strip plt_Xamarin_Forms_Grid__ctor
-plt_Xamarin_Forms_Grid__ctor:
-_p_34:
+.word 1717
+	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
+plt__jit_icall_mono_arch_throw_corlib_exception:
+_p_15:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1304]
 br x16
-.word 1652
-	.no_dead_strip plt_Xamarin_Forms_Grid_set_RowSpacing_double
-plt_Xamarin_Forms_Grid_set_RowSpacing_double:
-_p_35:
+.word 1722
+	.no_dead_strip plt_System_Delegate_Combine_System_Delegate_System_Delegate
+plt_System_Delegate_Combine_System_Delegate_System_Delegate:
+_p_16:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1312]
 br x16
-.word 1657
-	.no_dead_strip plt_Xamarin_Forms_Grid_set_ColumnSpacing_double
-plt_Xamarin_Forms_Grid_set_ColumnSpacing_double:
-_p_36:
+.word 1757
+	.no_dead_strip plt_System_Delegate_Remove_System_Delegate_System_Delegate
+plt_System_Delegate_Remove_System_Delegate_System_Delegate:
+_p_17:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1320]
 br x16
-.word 1662
-	.no_dead_strip plt_Xamarin_Forms_RowDefinitionCollection__ctor
-plt_Xamarin_Forms_RowDefinitionCollection__ctor:
-_p_37:
+.word 1760
+	.no_dead_strip plt_Xamarin_Forms_ImageSource_FromFile_string
+plt_Xamarin_Forms_ImageSource_FromFile_string:
+_p_18:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1328]
 br x16
-.word 1667
-	.no_dead_strip plt_Xamarin_Forms_RowDefinition__ctor
-plt_Xamarin_Forms_RowDefinition__ctor:
-_p_38:
+.word 1763
+	.no_dead_strip plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource
+plt_Xamarin_Forms_Image_set_Source_Xamarin_Forms_ImageSource:
+_p_19:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1336]
 br x16
-.word 1672
-	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition
-plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition:
-_p_39:
+.word 1768
+	.no_dead_strip plt_Xamarin_Forms_Label__ctor
+plt_Xamarin_Forms_Label__ctor:
+_p_20:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1344]
 br x16
-.word 1677
-	.no_dead_strip plt_Xamarin_Forms_Grid_set_RowDefinitions_Xamarin_Forms_RowDefinitionCollection
-plt_Xamarin_Forms_Grid_set_RowDefinitions_Xamarin_Forms_RowDefinitionCollection:
-_p_40:
+.word 1773
+	.no_dead_strip plt_Xamarin_Forms_Label_set_Text_string
+plt_Xamarin_Forms_Label_set_Text_string:
+_p_21:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1352]
 br x16
-.word 1688
-	.no_dead_strip plt_Xamarin_Forms_ColumnDefinitionCollection__ctor
-plt_Xamarin_Forms_ColumnDefinitionCollection__ctor:
-_p_41:
+.word 1778
+	.no_dead_strip plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color
+plt_Xamarin_Forms_Label_set_TextColor_Xamarin_Forms_Color:
+_p_22:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1360]
 br x16
-.word 1693
-	.no_dead_strip plt_Xamarin_Forms_ColumnDefinition__ctor
-plt_Xamarin_Forms_ColumnDefinition__ctor:
-_p_42:
+.word 1783
+	.no_dead_strip plt_Xamarin_Forms_Label_set_FontSize_double
+plt_Xamarin_Forms_Label_set_FontSize_double:
+_p_23:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1368]
 br x16
-.word 1698
-	.no_dead_strip plt_Xamarin_Forms_GridLength__ctor_double
-plt_Xamarin_Forms_GridLength__ctor_double:
-_p_43:
+.word 1788
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color
+plt_Xamarin_Forms_VisualElement_set_BackgroundColor_Xamarin_Forms_Color:
+_p_24:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1376]
 br x16
-.word 1703
-	.no_dead_strip plt_Xamarin_Forms_ColumnDefinition_set_Width_Xamarin_Forms_GridLength
-plt_Xamarin_Forms_ColumnDefinition_set_Width_Xamarin_Forms_GridLength:
-_p_44:
+.word 1793
+	.no_dead_strip plt_Xamarin_Forms_Label_set_HorizontalTextAlignment_Xamarin_Forms_TextAlignment
+plt_Xamarin_Forms_Label_set_HorizontalTextAlignment_Xamarin_Forms_TextAlignment:
+_p_25:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1384]
 br x16
-.word 1708
-	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition
-plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition:
-_p_45:
+.word 1798
+	.no_dead_strip plt_Xamarin_Forms_Label_set_VerticalTextAlignment_Xamarin_Forms_TextAlignment
+plt_Xamarin_Forms_Label_set_VerticalTextAlignment_Xamarin_Forms_TextAlignment:
+_p_26:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1392]
 br x16
-.word 1713
-	.no_dead_strip plt_Xamarin_Forms_Grid_set_ColumnDefinitions_Xamarin_Forms_ColumnDefinitionCollection
-plt_Xamarin_Forms_Grid_set_ColumnDefinitions_Xamarin_Forms_ColumnDefinitionCollection:
-_p_46:
+.word 1803
+	.no_dead_strip plt_Xamarin_Forms_Label_set_FontAttributes_Xamarin_Forms_FontAttributes
+plt_Xamarin_Forms_Label_set_FontAttributes_Xamarin_Forms_FontAttributes:
+_p_27:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1400]
 br x16
-.word 1724
-	.no_dead_strip plt_Xamarin_Forms_Grid_get_Children
-plt_Xamarin_Forms_Grid_get_Children:
-_p_47:
+.word 1808
+	.no_dead_strip plt_Xamarin_Forms_Label_set_LineBreakMode_Xamarin_Forms_LineBreakMode
+plt_Xamarin_Forms_Label_set_LineBreakMode_Xamarin_Forms_LineBreakMode:
+_p_28:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1408]
 br x16
-.word 1729
-	.no_dead_strip plt_Xamarin_Forms_RelativeLayout__ctor
-plt_Xamarin_Forms_RelativeLayout__ctor:
-_p_48:
+.word 1813
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_HeightRequest_double
+plt_Xamarin_Forms_VisualElement_set_HeightRequest_double:
+_p_29:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1416]
 br x16
-.word 1734
-	.no_dead_strip plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions
-plt_Xamarin_Forms_View_set_VerticalOptions_Xamarin_Forms_LayoutOptions:
-_p_49:
+.word 1818
+	.no_dead_strip plt_Xamarin_Forms_StackLayout_set_Spacing_double
+plt_Xamarin_Forms_StackLayout_set_Spacing_double:
+_p_30:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1424]
 br x16
-.word 1739
-	.no_dead_strip plt_Xamarin_Forms_RelativeLayout_get_Children
-plt_Xamarin_Forms_RelativeLayout_get_Children:
-_p_50:
+.word 1823
+	.no_dead_strip plt_Xamarin_Forms_StackLayout_set_Orientation_Xamarin_Forms_StackOrientation
+plt_Xamarin_Forms_StackLayout_set_Orientation_Xamarin_Forms_StackOrientation:
+_p_31:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1432]
 br x16
-.word 1744
-	.no_dead_strip plt_Xamarin_Forms_Constraint_RelativeToParent_System_Func_2_Xamarin_Forms_RelativeLayout_double
-plt_Xamarin_Forms_Constraint_RelativeToParent_System_Func_2_Xamarin_Forms_RelativeLayout_double:
-_p_51:
+.word 1828
+	.no_dead_strip plt_Xamarin_Forms_Color_FromRgb_double_double_double
+plt_Xamarin_Forms_Color_FromRgb_double_double_double:
+_p_32:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1440]
 br x16
-.word 1749
-	.no_dead_strip plt_Xamarin_Forms_Constraint_RelativeToView_Xamarin_Forms_View_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double
-plt_Xamarin_Forms_Constraint_RelativeToView_Xamarin_Forms_View_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double:
-_p_52:
+.word 1833
+	.no_dead_strip plt_Gallery_Icon__ctor_string_Xamarin_Forms_Color
+plt_Gallery_Icon__ctor_string_Xamarin_Forms_Color:
+_p_33:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1448]
 br x16
-.word 1754
-	.no_dead_strip plt_Xamarin_Forms_Constraint_Constant_double
-plt_Xamarin_Forms_Constraint_Constant_double:
-_p_53:
+.word 1838
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_set_WidthRequest_double
+plt_Xamarin_Forms_VisualElement_set_WidthRequest_double:
+_p_34:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1456]
 br x16
-.word 1759
-	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Bounds
-plt_Xamarin_Forms_VisualElement_get_Bounds:
-_p_54:
+.word 1843
+	.no_dead_strip plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions
+plt_Xamarin_Forms_View_set_HorizontalOptions_Xamarin_Forms_LayoutOptions:
+_p_35:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1464]
 br x16
-.word 1764
-	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Height
-plt_Xamarin_Forms_Rectangle_get_Height:
-_p_55:
+.word 1848
+	.no_dead_strip plt_Gallery_Name__ctor_string
+plt_Gallery_Name__ctor_string:
+_p_36:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1472]
 br x16
-.word 1769
-	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Right
-plt_Xamarin_Forms_Rectangle_get_Right:
-_p_56:
+.word 1853
+	.no_dead_strip plt_Gallery_Subject__ctor_string
+plt_Gallery_Subject__ctor_string:
+_p_37:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1480]
 br x16
-.word 1774
-	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Left
-plt_Xamarin_Forms_Rectangle_get_Left:
-_p_57:
+.word 1858
+	.no_dead_strip plt_Gallery_Body__ctor_string
+plt_Gallery_Body__ctor_string:
+_p_38:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1488]
 br x16
-.word 1779
-	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Bottom
-plt_Xamarin_Forms_Rectangle_get_Bottom:
-_p_58:
+.word 1863
+	.no_dead_strip plt_Gallery_Time__ctor_string
+plt_Gallery_Time__ctor_string:
+_p_39:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1496]
 br x16
-.word 1784
-	.no_dead_strip plt__rgctx_fetch_0
-plt__rgctx_fetch_0:
-_p_59:
+.word 1868
+	.no_dead_strip plt_Xamarin_Forms_Grid__ctor
+plt_Xamarin_Forms_Grid__ctor:
+_p_40:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1504]
 br x16
-.word 1815
-	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
-_p_60:
+.word 1873
+	.no_dead_strip plt_Xamarin_Forms_Grid_set_RowSpacing_double
+plt_Xamarin_Forms_Grid_set_RowSpacing_double:
+_p_41:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1512]
 br x16
-.word 1823
-	.no_dead_strip plt__jit_icall_mono_object_new_specific
-plt__jit_icall_mono_object_new_specific:
-_p_61:
+.word 1878
+	.no_dead_strip plt_Xamarin_Forms_Grid_set_ColumnSpacing_double
+plt_Xamarin_Forms_Grid_set_ColumnSpacing_double:
+_p_42:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1520]
 br x16
-.word 1842
-	.no_dead_strip plt_wrapper_write_barrier_object_wbarrier_noconc_intptr
-plt_wrapper_write_barrier_object_wbarrier_noconc_intptr:
-_p_62:
+.word 1883
+	.no_dead_strip plt_Xamarin_Forms_RowDefinitionCollection__ctor
+plt_Xamarin_Forms_RowDefinitionCollection__ctor:
+_p_43:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1528]
 br x16
-.word 1869
-	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
-plt__jit_icall_mono_helper_ldstr_mscorlib:
-_p_63:
+.word 1888
+	.no_dead_strip plt_Xamarin_Forms_RowDefinition__ctor
+plt_Xamarin_Forms_RowDefinition__ctor:
+_p_44:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1536]
 br x16
-.word 1876
-	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
-plt__jit_icall_mono_arch_throw_exception:
-_p_64:
+.word 1893
+	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition
+plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_RowDefinition_Add_Xamarin_Forms_RowDefinition:
+_p_45:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1544]
 br x16
-.word 1905
-	.no_dead_strip plt_Locale_GetText_string
-plt_Locale_GetText_string:
-_p_65:
+.word 1898
+	.no_dead_strip plt_Xamarin_Forms_Grid_set_RowDefinitions_Xamarin_Forms_RowDefinitionCollection
+plt_Xamarin_Forms_Grid_set_RowDefinitions_Xamarin_Forms_RowDefinitionCollection:
+_p_46:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1552]
 br x16
-.word 1933
-	.no_dead_strip plt__rgctx_fetch_1
-plt__rgctx_fetch_1:
-_p_66:
+.word 1909
+	.no_dead_strip plt_Xamarin_Forms_ColumnDefinitionCollection__ctor
+plt_Xamarin_Forms_ColumnDefinitionCollection__ctor:
+_p_47:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1560]
 br x16
-.word 1954
-	.no_dead_strip plt__rgctx_fetch_2
-plt__rgctx_fetch_2:
-_p_67:
+.word 1914
+	.no_dead_strip plt_Xamarin_Forms_ColumnDefinition__ctor
+plt_Xamarin_Forms_ColumnDefinition__ctor:
+_p_48:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1568]
 br x16
-.word 1995
-	.no_dead_strip plt__rgctx_fetch_3
-plt__rgctx_fetch_3:
-_p_68:
+.word 1919
+	.no_dead_strip plt_Xamarin_Forms_GridLength__ctor_double
+plt_Xamarin_Forms_GridLength__ctor_double:
+_p_49:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1576]
 br x16
-.word 2036
-	.no_dead_strip plt__rgctx_fetch_4
-plt__rgctx_fetch_4:
-_p_69:
+.word 1924
+	.no_dead_strip plt_Xamarin_Forms_ColumnDefinition_set_Width_Xamarin_Forms_GridLength
+plt_Xamarin_Forms_ColumnDefinition_set_Width_Xamarin_Forms_GridLength:
+_p_50:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1584]
 br x16
-.word 2077
-	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
-plt_System_Array_Copy_System_Array_int_System_Array_int_int:
-_p_70:
+.word 1929
+	.no_dead_strip plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition
+plt_Xamarin_Forms_DefinitionCollection_1_Xamarin_Forms_ColumnDefinition_Add_Xamarin_Forms_ColumnDefinition:
+_p_51:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1592]
 br x16
-.word 2100
-	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
-plt__jit_icall_mono_thread_interruption_checkpoint:
-_p_71:
+.word 1934
+	.no_dead_strip plt_Xamarin_Forms_Grid_set_ColumnDefinitions_Xamarin_Forms_ColumnDefinitionCollection
+plt_Xamarin_Forms_Grid_set_ColumnDefinitions_Xamarin_Forms_ColumnDefinitionCollection:
+_p_52:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1600]
 br x16
-.word 2103
-	.no_dead_strip plt__jit_icall_mono_arch_throw_corlib_exception
-plt__jit_icall_mono_arch_throw_corlib_exception:
-_p_72:
+.word 1945
+	.no_dead_strip plt_Xamarin_Forms_Grid_get_Children
+plt_Xamarin_Forms_Grid_get_Children:
+_p_53:
 adrp x16, mono_aot_Gallery_got@PAGE+0
 add x16, x16, mono_aot_Gallery_got@PAGEOFF
 ldr x16, [x16, #1608]
 br x16
-.word 2141
+.word 1950
+	.no_dead_strip plt_Xamarin_Forms_RelativeLayout__ctor
+plt_Xamarin_Forms_RelativeLayout__ctor:
+_p_54:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1616]
+br x16
+.word 1955
+	.no_dead_strip plt_Xamarin_Forms_RelativeLayout_get_Children
+plt_Xamarin_Forms_RelativeLayout_get_Children:
+_p_55:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1624]
+br x16
+.word 1960
+	.no_dead_strip plt_Xamarin_Forms_Constraint_RelativeToParent_System_Func_2_Xamarin_Forms_RelativeLayout_double
+plt_Xamarin_Forms_Constraint_RelativeToParent_System_Func_2_Xamarin_Forms_RelativeLayout_double:
+_p_56:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1632]
+br x16
+.word 1965
+	.no_dead_strip plt_Xamarin_Forms_Constraint_RelativeToView_Xamarin_Forms_View_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double
+plt_Xamarin_Forms_Constraint_RelativeToView_Xamarin_Forms_View_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double:
+_p_57:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1640]
+br x16
+.word 1970
+	.no_dead_strip plt_Xamarin_Forms_Constraint_Constant_double
+plt_Xamarin_Forms_Constraint_Constant_double:
+_p_58:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1648]
+br x16
+.word 1975
+	.no_dead_strip plt_Xamarin_Forms_VisualElement_get_Bounds
+plt_Xamarin_Forms_VisualElement_get_Bounds:
+_p_59:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1656]
+br x16
+.word 1980
+	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Height
+plt_Xamarin_Forms_Rectangle_get_Height:
+_p_60:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1664]
+br x16
+.word 1985
+	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Right
+plt_Xamarin_Forms_Rectangle_get_Right:
+_p_61:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1672]
+br x16
+.word 1990
+	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Left
+plt_Xamarin_Forms_Rectangle_get_Left:
+_p_62:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1680]
+br x16
+.word 1995
+	.no_dead_strip plt_Xamarin_Forms_Rectangle_get_Bottom
+plt_Xamarin_Forms_Rectangle_get_Bottom:
+_p_63:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1688]
+br x16
+.word 2000
+	.no_dead_strip plt__rgctx_fetch_0
+plt__rgctx_fetch_0:
+_p_64:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1696]
+br x16
+.word 2031
+	.no_dead_strip plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+plt_System_Array_InternalEnumerator_1_T_REF__ctor_System_Array:
+_p_65:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1704]
+br x16
+.word 2039
+	.no_dead_strip plt__jit_icall_mono_object_new_specific
+plt__jit_icall_mono_object_new_specific:
+_p_66:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1712]
+br x16
+.word 2058
+	.no_dead_strip plt__jit_icall_mono_helper_ldstr_mscorlib
+plt__jit_icall_mono_helper_ldstr_mscorlib:
+_p_67:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1720]
+br x16
+.word 2085
+	.no_dead_strip plt__jit_icall_mono_arch_throw_exception
+plt__jit_icall_mono_arch_throw_exception:
+_p_68:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1728]
+br x16
+.word 2114
+	.no_dead_strip plt_Locale_GetText_string
+plt_Locale_GetText_string:
+_p_69:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1736]
+br x16
+.word 2142
+	.no_dead_strip plt__rgctx_fetch_1
+plt__rgctx_fetch_1:
+_p_70:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1744]
+br x16
+.word 2163
+	.no_dead_strip plt__rgctx_fetch_2
+plt__rgctx_fetch_2:
+_p_71:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1752]
+br x16
+.word 2204
+	.no_dead_strip plt__rgctx_fetch_3
+plt__rgctx_fetch_3:
+_p_72:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1760]
+br x16
+.word 2245
+	.no_dead_strip plt__jit_icall_mono_thread_interruption_checkpoint
+plt__jit_icall_mono_thread_interruption_checkpoint:
+_p_73:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1768]
+br x16
+.word 2268
+	.no_dead_strip plt__rgctx_fetch_4
+plt__rgctx_fetch_4:
+_p_74:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1776]
+br x16
+.word 2324
+	.no_dead_strip plt_System_Array_Copy_System_Array_int_System_Array_int_int
+plt_System_Array_Copy_System_Array_int_System_Array_int_int:
+_p_75:
+adrp x16, mono_aot_Gallery_got@PAGE+0
+add x16, x16, mono_aot_Gallery_got@PAGEOFF
+ldr x16, [x16, #1784]
+br x16
+.word 2347
 plt_end:
 .section __DATA, __bss
 	.align 3
-.lcomm mono_aot_Gallery_got, 1616
+.lcomm mono_aot_Gallery_got, 1792
 got_end:
 .section __TEXT, __const
 	.align 3
@@ -8245,7 +8916,7 @@ runtime_version:
 .section __TEXT, __const
 	.align 2
 assembly_guid:
-	.asciz "51D3DA91-DACE-4A3C-8C56-E9A89187097A"
+	.asciz "2E623D1C-8FD4-44E7-BDA5-C39A9E7E8367"
 .section __TEXT, __const
 	.align 2
 assembly_name:
@@ -8322,10 +8993,10 @@ _mono_aot_file_info:
 	.align 3
 	.quad unbox_trampoline_addresses
 
-	.long 129,1616,73,51,70,923871743,0,13383
-	.long 128,8,8,10,0,14,14928,1536
-	.long 1288,848,0,1136,1248,944,0,600
-	.long 96,0,0,0,0,0,0,0
+	.long 148,1792,76,57,70,923871743,0,14399
+	.long 128,8,8,10,0,14,15992,1584
+	.long 1336,864,0,1176,1296,960,0,608
+	.long 104,0,0,0,0,0,0,0
 	.long 0,0,0,0,0,0,0,0
 	.long 0
 	.globl _mono_aot_module_Gallery_info
@@ -11426,29 +12097,6 @@ LTDIE_1_REFERENCE:
 	.byte 14
 LDIFF_SYM559=LTDIE_1 - Ldebug_info_start
 	.long LDIFF_SYM559
-LTDIE_0:
-
-	.byte 5
-	.asciz "Gallery_App"
-
-	.byte 144,2,16
-LDIFF_SYM560=LTDIE_1 - Ldebug_info_start
-	.long LDIFF_SYM560
-	.byte 2,35,0,0,7
-	.asciz "Gallery_App"
-
-LDIFF_SYM561=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM561
-LTDIE_0_POINTER:
-
-	.byte 13
-LDIFF_SYM562=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM562
-LTDIE_0_REFERENCE:
-
-	.byte 14
-LDIFF_SYM563=LTDIE_0 - Ldebug_info_start
-	.long LDIFF_SYM563
 LTDIE_93:
 
 	.byte 17
@@ -11457,378 +12105,401 @@ LTDIE_93:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IList`1"
 
-LDIFF_SYM564=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM564
+LDIFF_SYM560=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM560
 LTDIE_93_POINTER:
 
 	.byte 13
-LDIFF_SYM565=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM565
+LDIFF_SYM561=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM561
 LTDIE_93_REFERENCE:
 
 	.byte 14
-LDIFF_SYM566=LTDIE_93 - Ldebug_info_start
-	.long LDIFF_SYM566
+LDIFF_SYM562=LTDIE_93 - Ldebug_info_start
+	.long LDIFF_SYM562
 LTDIE_92:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
 	.byte 32,16
-LDIFF_SYM567=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM567
+LDIFF_SYM563=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM563
 	.byte 2,35,0,6
 	.asciz "items"
 
-LDIFF_SYM568=LTDIE_93_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM568
+LDIFF_SYM564=LTDIE_93_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM564
 	.byte 2,35,16,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM569=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM569
+LDIFF_SYM565=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM565
 	.byte 2,35,24,0,7
 	.asciz "System_Collections_ObjectModel_Collection`1"
 
-LDIFF_SYM570=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM570
+LDIFF_SYM566=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM566
 LTDIE_92_POINTER:
 
 	.byte 13
-LDIFF_SYM571=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM571
+LDIFF_SYM567=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM567
 LTDIE_92_REFERENCE:
 
 	.byte 14
-LDIFF_SYM572=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM572
+LDIFF_SYM568=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM568
 LTDIE_94:
 
 	.byte 5
 	.asciz "_SimpleMonitor"
 
 	.byte 20,16
-LDIFF_SYM573=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM573
+LDIFF_SYM569=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM569
 	.byte 2,35,0,6
 	.asciz "_busyCount"
 
-LDIFF_SYM574=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM574
+LDIFF_SYM570=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM570
 	.byte 2,35,16,0,7
 	.asciz "_SimpleMonitor"
 
-LDIFF_SYM575=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM575
+LDIFF_SYM571=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM571
 LTDIE_94_POINTER:
 
 	.byte 13
-LDIFF_SYM576=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM576
+LDIFF_SYM572=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM572
 LTDIE_94_REFERENCE:
 
 	.byte 14
-LDIFF_SYM577=LTDIE_94 - Ldebug_info_start
-	.long LDIFF_SYM577
+LDIFF_SYM573=LTDIE_94 - Ldebug_info_start
+	.long LDIFF_SYM573
 LTDIE_91:
 
 	.byte 5
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
 	.byte 56,16
-LDIFF_SYM578=LTDIE_92 - Ldebug_info_start
-	.long LDIFF_SYM578
+LDIFF_SYM574=LTDIE_92 - Ldebug_info_start
+	.long LDIFF_SYM574
 	.byte 2,35,0,6
 	.asciz "CollectionChanged"
 
-LDIFF_SYM579=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM579
+LDIFF_SYM575=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM575
 	.byte 2,35,32,6
 	.asciz "PropertyChanged"
 
-LDIFF_SYM580=LTDIE_15_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM580
+LDIFF_SYM576=LTDIE_15_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM576
 	.byte 2,35,40,6
 	.asciz "_monitor"
 
-LDIFF_SYM581=LTDIE_94_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM581
+LDIFF_SYM577=LTDIE_94_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM577
 	.byte 2,35,48,0,7
 	.asciz "System_Collections_ObjectModel_ObservableCollection`1"
 
-LDIFF_SYM582=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM582
+LDIFF_SYM578=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM578
 LTDIE_91_POINTER:
 
 	.byte 13
-LDIFF_SYM583=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM583
+LDIFF_SYM579=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM579
 LTDIE_91_REFERENCE:
 
 	.byte 14
-LDIFF_SYM584=LTDIE_91 - Ldebug_info_start
-	.long LDIFF_SYM584
+LDIFF_SYM580=LTDIE_91 - Ldebug_info_start
+	.long LDIFF_SYM580
 LTDIE_90:
 
 	.byte 5
 	.asciz "Xamarin_Forms_View"
 
 	.byte 168,2,16
-LDIFF_SYM585=LTDIE_38 - Ldebug_info_start
-	.long LDIFF_SYM585
+LDIFF_SYM581=LTDIE_38 - Ldebug_info_start
+	.long LDIFF_SYM581
 	.byte 2,35,0,6
 	.asciz "gestureRecognizers"
 
-LDIFF_SYM586=LTDIE_91_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM586
+LDIFF_SYM582=LTDIE_91_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM582
 	.byte 3,35,160,2,0,7
 	.asciz "Xamarin_Forms_View"
 
-LDIFF_SYM587=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM587
+LDIFF_SYM583=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM583
 LTDIE_90_POINTER:
 
 	.byte 13
-LDIFF_SYM588=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM588
+LDIFF_SYM584=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM584
 LTDIE_90_REFERENCE:
 
 	.byte 14
-LDIFF_SYM589=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM589
+LDIFF_SYM585=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM585
 LTDIE_89:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Image"
+
+	.byte 168,2,16
+LDIFF_SYM586=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM586
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_Image"
+
+LDIFF_SYM587=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM587
+LTDIE_89_POINTER:
+
+	.byte 13
+LDIFF_SYM588=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM588
+LTDIE_89_REFERENCE:
+
+	.byte 14
+LDIFF_SYM589=LTDIE_89 - Ldebug_info_start
+	.long LDIFF_SYM589
+LTDIE_95:
+
+	.byte 5
+	.asciz "System_Action"
+
+	.byte 112,16
+LDIFF_SYM590=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM590
+	.byte 2,35,0,0,7
+	.asciz "System_Action"
+
+LDIFF_SYM591=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM591
+LTDIE_95_POINTER:
+
+	.byte 13
+LDIFF_SYM592=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM592
+LTDIE_95_REFERENCE:
+
+	.byte 14
+LDIFF_SYM593=LTDIE_95 - Ldebug_info_start
+	.long LDIFF_SYM593
+LTDIE_0:
+
+	.byte 5
+	.asciz "Gallery_App"
+
+	.byte 160,2,16
+LDIFF_SYM594=LTDIE_1 - Ldebug_info_start
+	.long LDIFF_SYM594
+	.byte 2,35,0,6
+	.asciz "image"
+
+LDIFF_SYM595=LTDIE_89_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM595
+	.byte 3,35,144,2,6
+	.asciz "ShouldTakePicture"
+
+LDIFF_SYM596=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM596
+	.byte 3,35,152,2,0,7
+	.asciz "Gallery_App"
+
+LDIFF_SYM597=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM597
+LTDIE_0_POINTER:
+
+	.byte 13
+LDIFF_SYM598=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM598
+LTDIE_0_REFERENCE:
+
+	.byte 14
+LDIFF_SYM599=LTDIE_0 - Ldebug_info_start
+	.long LDIFF_SYM599
+LTDIE_96:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ContentPage"
 
 	.byte 136,3,16
-LDIFF_SYM590=LTDIE_37 - Ldebug_info_start
-	.long LDIFF_SYM590
+LDIFF_SYM600=LTDIE_37 - Ldebug_info_start
+	.long LDIFF_SYM600
 	.byte 2,35,0,6
 	.asciz "content"
 
-LDIFF_SYM591=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM591
+LDIFF_SYM601=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM601
 	.byte 3,35,128,3,0,7
 	.asciz "Xamarin_Forms_ContentPage"
 
-LDIFF_SYM592=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM592
-LTDIE_89_POINTER:
+LDIFF_SYM602=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM602
+LTDIE_96_POINTER:
 
 	.byte 13
-LDIFF_SYM593=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM593
-LTDIE_89_REFERENCE:
+LDIFF_SYM603=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM603
+LTDIE_96_REFERENCE:
 
 	.byte 14
-LDIFF_SYM594=LTDIE_89 - Ldebug_info_start
-	.long LDIFF_SYM594
-LTDIE_97:
+LDIFF_SYM604=LTDIE_96 - Ldebug_info_start
+	.long LDIFF_SYM604
+LTDIE_99:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Layout"
 
 	.byte 216,2,16
-LDIFF_SYM595=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM595
+LDIFF_SYM605=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM605
 	.byte 2,35,0,6
 	.asciz "internalChildren"
 
-LDIFF_SYM596=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM596
+LDIFF_SYM606=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM606
 	.byte 3,35,168,2,6
 	.asciz "logicalChildren"
 
-LDIFF_SYM597=LTDIE_49_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM597
+LDIFF_SYM607=LTDIE_49_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM607
 	.byte 3,35,176,2,6
 	.asciz "allocatedFlag"
 
-LDIFF_SYM598=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM598
+LDIFF_SYM608=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM608
 	.byte 3,35,192,2,6
 	.asciz "LayoutChanged"
 
-LDIFF_SYM599=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM599
+LDIFF_SYM609=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM609
 	.byte 3,35,184,2,6
 	.asciz "hasDoneLayout"
 
-LDIFF_SYM600=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM600
+LDIFF_SYM610=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM610
 	.byte 3,35,193,2,6
 	.asciz "lastLayoutSize"
 
-LDIFF_SYM601=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM601
+LDIFF_SYM611=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM611
 	.byte 3,35,200,2,0,7
 	.asciz "Xamarin_Forms_Layout"
 
-LDIFF_SYM602=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM602
-LTDIE_97_POINTER:
-
-	.byte 13
-LDIFF_SYM603=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM603
-LTDIE_97_REFERENCE:
-
-	.byte 14
-LDIFF_SYM604=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM604
-LTDIE_99:
-
-	.byte 5
-	.asciz "Xamarin_Forms_ObservableWrapper`2"
-
-	.byte 40,16
-LDIFF_SYM605=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM605
-	.byte 2,35,0,6
-	.asciz "list"
-
-LDIFF_SYM606=LTDIE_44_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM606
-	.byte 2,35,16,6
-	.asciz "isReadOnly"
-
-LDIFF_SYM607=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM607
-	.byte 2,35,32,6
-	.asciz "CollectionChanged"
-
-LDIFF_SYM608=LTDIE_47_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM608
-	.byte 2,35,24,0,7
-	.asciz "Xamarin_Forms_ObservableWrapper`2"
-
-LDIFF_SYM609=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM609
+LDIFF_SYM612=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM612
 LTDIE_99_POINTER:
 
 	.byte 13
-LDIFF_SYM610=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM610
+LDIFF_SYM613=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM613
 LTDIE_99_REFERENCE:
 
 	.byte 14
-LDIFF_SYM611=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM611
-LTDIE_98:
+LDIFF_SYM614=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM614
+LTDIE_101:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ObservableWrapper`2"
+
+	.byte 40,16
+LDIFF_SYM615=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM615
+	.byte 2,35,0,6
+	.asciz "list"
+
+LDIFF_SYM616=LTDIE_44_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM616
+	.byte 2,35,16,6
+	.asciz "isReadOnly"
+
+LDIFF_SYM617=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM617
+	.byte 2,35,32,6
+	.asciz "CollectionChanged"
+
+LDIFF_SYM618=LTDIE_47_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM618
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_ObservableWrapper`2"
+
+LDIFF_SYM619=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM619
+LTDIE_101_POINTER:
+
+	.byte 13
+LDIFF_SYM620=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM620
+LTDIE_101_REFERENCE:
+
+	.byte 14
+LDIFF_SYM621=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM621
+LTDIE_100:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ElementCollection`1"
 
 	.byte 40,16
-LDIFF_SYM612=LTDIE_99 - Ldebug_info_start
-	.long LDIFF_SYM612
+LDIFF_SYM622=LTDIE_101 - Ldebug_info_start
+	.long LDIFF_SYM622
 	.byte 2,35,0,0,7
 	.asciz "Xamarin_Forms_ElementCollection`1"
 
-LDIFF_SYM613=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM613
-LTDIE_98_POINTER:
+LDIFF_SYM623=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM623
+LTDIE_100_POINTER:
 
 	.byte 13
-LDIFF_SYM614=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM614
-LTDIE_98_REFERENCE:
+LDIFF_SYM624=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM624
+LTDIE_100_REFERENCE:
 
 	.byte 14
-LDIFF_SYM615=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM615
-LTDIE_96:
+LDIFF_SYM625=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM625
+LTDIE_98:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Layout`1"
 
 	.byte 224,2,16
-LDIFF_SYM616=LTDIE_97 - Ldebug_info_start
-	.long LDIFF_SYM616
+LDIFF_SYM626=LTDIE_99 - Ldebug_info_start
+	.long LDIFF_SYM626
 	.byte 2,35,0,6
 	.asciz "children"
 
-LDIFF_SYM617=LTDIE_98_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM617
+LDIFF_SYM627=LTDIE_100_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM627
 	.byte 3,35,216,2,0,7
 	.asciz "Xamarin_Forms_Layout`1"
 
-LDIFF_SYM618=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM618
-LTDIE_96_POINTER:
+LDIFF_SYM628=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM628
+LTDIE_98_POINTER:
 
 	.byte 13
-LDIFF_SYM619=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM619
-LTDIE_96_REFERENCE:
+LDIFF_SYM629=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM629
+LTDIE_98_REFERENCE:
 
 	.byte 14
-LDIFF_SYM620=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM620
-LTDIE_101:
+LDIFF_SYM630=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM630
+LTDIE_103:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
 
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEqualityComparer`1"
-
-LDIFF_SYM621=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM621
-LTDIE_101_POINTER:
-
-	.byte 13
-LDIFF_SYM622=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM622
-LTDIE_101_REFERENCE:
-
-	.byte 14
-LDIFF_SYM623=LTDIE_101 - Ldebug_info_start
-	.long LDIFF_SYM623
-LTDIE_102:
-
-	.byte 5
-	.asciz "_KeyCollection"
-
-	.byte 24,16
-LDIFF_SYM624=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM624
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM625=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM625
-	.byte 2,35,16,0,7
-	.asciz "_KeyCollection"
-
-LDIFF_SYM626=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM626
-LTDIE_102_POINTER:
-
-	.byte 13
-LDIFF_SYM627=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM627
-LTDIE_102_REFERENCE:
-
-	.byte 14
-LDIFF_SYM628=LTDIE_102 - Ldebug_info_start
-	.long LDIFF_SYM628
-LTDIE_103:
-
-	.byte 5
-	.asciz "_ValueCollection"
-
-	.byte 24,16
-LDIFF_SYM629=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM629
-	.byte 2,35,0,6
-	.asciz "dictionary"
-
-LDIFF_SYM630=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM630
-	.byte 2,35,16,0,7
-	.asciz "_ValueCollection"
 
 LDIFF_SYM631=LTDIE_103 - Ldebug_info_start
 	.long LDIFF_SYM631
@@ -11842,170 +12513,259 @@ LTDIE_103_REFERENCE:
 	.byte 14
 LDIFF_SYM633=LTDIE_103 - Ldebug_info_start
 	.long LDIFF_SYM633
-LTDIE_100:
+LTDIE_104:
+
+	.byte 5
+	.asciz "_KeyCollection"
+
+	.byte 24,16
+LDIFF_SYM634=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM634
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM635=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM635
+	.byte 2,35,16,0,7
+	.asciz "_KeyCollection"
+
+LDIFF_SYM636=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM636
+LTDIE_104_POINTER:
+
+	.byte 13
+LDIFF_SYM637=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM637
+LTDIE_104_REFERENCE:
+
+	.byte 14
+LDIFF_SYM638=LTDIE_104 - Ldebug_info_start
+	.long LDIFF_SYM638
+LTDIE_105:
+
+	.byte 5
+	.asciz "_ValueCollection"
+
+	.byte 24,16
+LDIFF_SYM639=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM639
+	.byte 2,35,0,6
+	.asciz "dictionary"
+
+LDIFF_SYM640=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM640
+	.byte 2,35,16,0,7
+	.asciz "_ValueCollection"
+
+LDIFF_SYM641=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM641
+LTDIE_105_POINTER:
+
+	.byte 13
+LDIFF_SYM642=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM642
+LTDIE_105_REFERENCE:
+
+	.byte 14
+LDIFF_SYM643=LTDIE_105 - Ldebug_info_start
+	.long LDIFF_SYM643
+LTDIE_102:
 
 	.byte 5
 	.asciz "System_Collections_Generic_Dictionary`2"
 
 	.byte 80,16
-LDIFF_SYM634=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM634
+LDIFF_SYM644=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM644
 	.byte 2,35,0,6
 	.asciz "buckets"
 
-LDIFF_SYM635=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM635
+LDIFF_SYM645=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM645
 	.byte 2,35,16,6
 	.asciz "entries"
 
-LDIFF_SYM636=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM636
+LDIFF_SYM646=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM646
 	.byte 2,35,24,6
 	.asciz "count"
 
-LDIFF_SYM637=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM637
+LDIFF_SYM647=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM647
 	.byte 2,35,64,6
 	.asciz "version"
 
-LDIFF_SYM638=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM638
+LDIFF_SYM648=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM648
 	.byte 2,35,68,6
 	.asciz "freeList"
 
-LDIFF_SYM639=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM639
+LDIFF_SYM649=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM649
 	.byte 2,35,72,6
 	.asciz "freeCount"
 
-LDIFF_SYM640=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM640
+LDIFF_SYM650=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM650
 	.byte 2,35,76,6
 	.asciz "comparer"
 
-LDIFF_SYM641=LTDIE_101_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM641
+LDIFF_SYM651=LTDIE_103_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM651
 	.byte 2,35,32,6
 	.asciz "keys"
 
-LDIFF_SYM642=LTDIE_102_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM642
+LDIFF_SYM652=LTDIE_104_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM652
 	.byte 2,35,40,6
 	.asciz "values"
 
-LDIFF_SYM643=LTDIE_103_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM643
+LDIFF_SYM653=LTDIE_105_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM653
 	.byte 2,35,48,6
 	.asciz "_syncRoot"
 
-LDIFF_SYM644=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM644
+LDIFF_SYM654=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM654
 	.byte 2,35,56,0,7
 	.asciz "System_Collections_Generic_Dictionary`2"
 
-LDIFF_SYM645=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM645
-LTDIE_100_POINTER:
+LDIFF_SYM655=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM655
+LTDIE_102_POINTER:
 
 	.byte 13
-LDIFF_SYM646=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM646
-LTDIE_100_REFERENCE:
+LDIFF_SYM656=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM656
+LTDIE_102_REFERENCE:
 
 	.byte 14
-LDIFF_SYM647=LTDIE_100 - Ldebug_info_start
-	.long LDIFF_SYM647
-LTDIE_104:
+LDIFF_SYM657=LTDIE_102 - Ldebug_info_start
+	.long LDIFF_SYM657
+LTDIE_106:
 
 	.byte 5
 	.asciz "_LayoutInformation"
 
 	.byte 112,16
-LDIFF_SYM648=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM648
+LDIFF_SYM658=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM658
 	.byte 2,35,0,6
 	.asciz "Constraint"
 
-LDIFF_SYM649=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM649
+LDIFF_SYM659=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM659
 	.byte 2,35,32,6
 	.asciz "Plots"
 
-LDIFF_SYM650=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM650
+LDIFF_SYM660=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM660
 	.byte 2,35,16,6
 	.asciz "Requests"
 
-LDIFF_SYM651=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM651
+LDIFF_SYM661=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM661
 	.byte 2,35,24,6
 	.asciz "Bounds"
 
-LDIFF_SYM652=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM652
+LDIFF_SYM662=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM662
 	.byte 2,35,48,6
 	.asciz "MinimumSize"
 
-LDIFF_SYM653=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM653
+LDIFF_SYM663=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM663
 	.byte 2,35,80,6
 	.asciz "CompressionSpace"
 
-LDIFF_SYM654=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM654
+LDIFF_SYM664=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM664
 	.byte 2,35,96,6
 	.asciz "Expanders"
 
-LDIFF_SYM655=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM655
+LDIFF_SYM665=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM665
 	.byte 2,35,104,0,7
 	.asciz "_LayoutInformation"
 
-LDIFF_SYM656=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM656
-LTDIE_104_POINTER:
+LDIFF_SYM666=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM666
+LTDIE_106_POINTER:
 
 	.byte 13
-LDIFF_SYM657=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM657
-LTDIE_104_REFERENCE:
+LDIFF_SYM667=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM667
+LTDIE_106_REFERENCE:
 
 	.byte 14
-LDIFF_SYM658=LTDIE_104 - Ldebug_info_start
-	.long LDIFF_SYM658
-LTDIE_95:
+LDIFF_SYM668=LTDIE_106 - Ldebug_info_start
+	.long LDIFF_SYM668
+LTDIE_97:
 
 	.byte 5
 	.asciz "Xamarin_Forms_StackLayout"
 
 	.byte 240,2,16
-LDIFF_SYM659=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM659
+LDIFF_SYM669=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM669
 	.byte 2,35,0,6
 	.asciz "measureCache"
 
-LDIFF_SYM660=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM660
+LDIFF_SYM670=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM670
 	.byte 3,35,224,2,6
 	.asciz "layoutInformation"
 
-LDIFF_SYM661=LTDIE_104_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM661
+LDIFF_SYM671=LTDIE_106_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM671
 	.byte 3,35,232,2,0,7
 	.asciz "Xamarin_Forms_StackLayout"
 
-LDIFF_SYM662=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM662
-LTDIE_95_POINTER:
+LDIFF_SYM672=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM672
+LTDIE_97_POINTER:
 
 	.byte 13
-LDIFF_SYM663=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM663
-LTDIE_95_REFERENCE:
+LDIFF_SYM673=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM673
+LTDIE_97_REFERENCE:
 
 	.byte 14
-LDIFF_SYM664=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM664
+LDIFF_SYM674=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM674
+LTDIE_107:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Button"
+
+	.byte 184,2,16
+LDIFF_SYM675=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM675
+	.byte 2,35,0,6
+	.asciz "Clicked"
+
+LDIFF_SYM676=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM676
+	.byte 3,35,168,2,6
+	.asciz "cancelEvents"
+
+LDIFF_SYM677=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM677
+	.byte 3,35,176,2,0,7
+	.asciz "Xamarin_Forms_Button"
+
+LDIFF_SYM678=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM678
+LTDIE_107_POINTER:
+
+	.byte 13
+LDIFF_SYM679=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM679
+LTDIE_107_REFERENCE:
+
+	.byte 14
+LDIFF_SYM680=LTDIE_107 - Ldebug_info_start
+	.long LDIFF_SYM680
 	.byte 2
 	.asciz "Gallery.App:.ctor"
 	.asciz "Gallery_App__ctor"
@@ -12017,36 +12777,178 @@ LDIFF_SYM664=LTDIE_95 - Ldebug_info_start
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM665=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM665
+LDIFF_SYM681=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM681
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM666=LTDIE_89_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM666
+LDIFF_SYM682=LTDIE_96_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM682
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM667=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM667
-	.byte 1,104,0
+LDIFF_SYM683=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM683
+	.byte 1,104,11
+	.asciz ""
+
+LDIFF_SYM684=LTDIE_107_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM684
+	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM668=Lfde0_end - Lfde0_start
-	.long LDIFF_SYM668
+LDIFF_SYM685=Lfde0_end - Lfde0_start
+	.long LDIFF_SYM685
 Lfde0_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_App__ctor
 
-LDIFF_SYM669=Lme_0 - Gallery_App__ctor
-	.long LDIFF_SYM669
+LDIFF_SYM686=Lme_0 - Gallery_App__ctor
+	.long LDIFF_SYM686
 	.long 0
-	.byte 12,31,0,68,14,144,2,157,34,158,33,68,13,29,68,149,32,150,31,68,151,30,152,29,68,153,28,154,27
+	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,150,28,151,27,68,152,26,153,25,68,154,24
 	.align 3
 Lfde0_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.App:add_ShouldTakePicture"
+	.asciz "Gallery_App_add_ShouldTakePicture_System_Action"
+
+	.byte 0,0
+	.quad Gallery_App_add_ShouldTakePicture_System_Action
+	.quad Lme_1
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM687=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM687
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM688=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM688
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM689=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM689
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM690=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM690
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM691=Lfde1_end - Lfde1_start
+	.long LDIFF_SYM691
+Lfde1_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_App_add_ShouldTakePicture_System_Action
+
+LDIFF_SYM692=Lme_1 - Gallery_App_add_ShouldTakePicture_System_Action
+	.long LDIFF_SYM692
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
+	.align 3
+Lfde1_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.App:remove_ShouldTakePicture"
+	.asciz "Gallery_App_remove_ShouldTakePicture_System_Action"
+
+	.byte 0,0
+	.quad Gallery_App_remove_ShouldTakePicture_System_Action
+	.quad Lme_2
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM693=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM693
+	.byte 1,105,3
+	.asciz "value"
+
+LDIFF_SYM694=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM694
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM695=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM695
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM696=LTDIE_95_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM696
+	.byte 1,103,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM697=Lfde2_end - Lfde2_start
+	.long LDIFF_SYM697
+Lfde2_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_App_remove_ShouldTakePicture_System_Action
+
+LDIFF_SYM698=Lme_2 - Gallery_App_remove_ShouldTakePicture_System_Action
+	.long LDIFF_SYM698
+	.long 0
+	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,149,12,150,11,68,151,10,152,9,68,153,8,154,7
+	.align 3
+Lfde2_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.App:ShowImage"
+	.asciz "Gallery_App_ShowImage_string"
+
+	.byte 1,64
+	.quad Gallery_App_ShowImage_string
+	.quad Lme_3
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM699=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM699
+	.byte 2,141,16,3
+	.asciz "filePath"
+
+LDIFF_SYM700=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM700
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM701=Lfde3_end - Lfde3_start
+	.long LDIFF_SYM701
+Lfde3_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_App_ShowImage_string
+
+LDIFF_SYM702=Lme_3 - Gallery_App_ShowImage_string
+	.long LDIFF_SYM702
+	.long 0
+	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29
+	.align 3
+Lfde3_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -12054,33 +12956,33 @@ Lfde0_end:
 	.asciz "Gallery.App:OnStart"
 	.asciz "Gallery_App_OnStart"
 
-	.byte 1,46
+	.byte 1,69
 	.quad Gallery_App_OnStart
-	.quad Lme_1
+	.quad Lme_4
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM670=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM670
+LDIFF_SYM703=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM703
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM671=Lfde1_end - Lfde1_start
-	.long LDIFF_SYM671
-Lfde1_start:
+LDIFF_SYM704=Lfde4_end - Lfde4_start
+	.long LDIFF_SYM704
+Lfde4_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_App_OnStart
 
-LDIFF_SYM672=Lme_1 - Gallery_App_OnStart
-	.long LDIFF_SYM672
+LDIFF_SYM705=Lme_4 - Gallery_App_OnStart
+	.long LDIFF_SYM705
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde1_end:
+Lfde4_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -12088,33 +12990,33 @@ Lfde1_end:
 	.asciz "Gallery.App:OnSleep"
 	.asciz "Gallery_App_OnSleep"
 
-	.byte 1,51
+	.byte 1,74
 	.quad Gallery_App_OnSleep
-	.quad Lme_2
+	.quad Lme_5
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM673=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM673
+LDIFF_SYM706=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM706
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM674=Lfde2_end - Lfde2_start
-	.long LDIFF_SYM674
-Lfde2_start:
+LDIFF_SYM707=Lfde5_end - Lfde5_start
+	.long LDIFF_SYM707
+Lfde5_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_App_OnSleep
 
-LDIFF_SYM675=Lme_2 - Gallery_App_OnSleep
-	.long LDIFF_SYM675
+LDIFF_SYM708=Lme_5 - Gallery_App_OnSleep
+	.long LDIFF_SYM708
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde2_end:
+Lfde5_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -12122,851 +13024,919 @@ Lfde2_end:
 	.asciz "Gallery.App:OnResume"
 	.asciz "Gallery_App_OnResume"
 
-	.byte 1,56
+	.byte 1,79
 	.quad Gallery_App_OnResume
-	.quad Lme_3
+	.quad Lme_6
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM676=LTDIE_0_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM676
+LDIFF_SYM709=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM709
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM677=Lfde3_end - Lfde3_start
-	.long LDIFF_SYM677
-Lfde3_start:
+LDIFF_SYM710=Lfde6_end - Lfde6_start
+	.long LDIFF_SYM710
+Lfde6_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_App_OnResume
 
-LDIFF_SYM678=Lme_3 - Gallery_App_OnResume
-	.long LDIFF_SYM678
+LDIFF_SYM711=Lme_6 - Gallery_App_OnResume
+	.long LDIFF_SYM711
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde3_end:
+Lfde6_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_106:
+
+	.byte 2
+	.asciz "Gallery.App:<ShouldTakePicture>m__0"
+	.asciz "Gallery_App__ShouldTakePicturem__0"
+
+	.byte 1,61
+	.quad Gallery_App__ShouldTakePicturem__0
+	.quad Lme_7
+
+	.byte 2,118,16,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM712=Lfde7_end - Lfde7_start
+	.long LDIFF_SYM712
+Lfde7_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_App__ShouldTakePicturem__0
+
+LDIFF_SYM713=Lme_7 - Gallery_App__ShouldTakePicturem__0
+	.long LDIFF_SYM713
+	.long 0
+	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
+	.align 3
+Lfde7_end:
+
+.section __DWARF, __debug_info,regular,debug
+
+	.byte 2
+	.asciz "Gallery.App:<App>m__1"
+	.asciz "Gallery_App__Appm__1_object"
+
+	.byte 1,21
+	.quad Gallery_App__Appm__1_object
+	.quad Lme_8
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM714=LTDIE_0_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM714
+	.byte 2,141,16,3
+	.asciz "o"
+
+LDIFF_SYM715=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM715
+	.byte 2,141,24,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM716=Lfde8_end - Lfde8_start
+	.long LDIFF_SYM716
+Lfde8_start:
+
+	.long 0
+	.align 3
+	.quad Gallery_App__Appm__1_object
+
+LDIFF_SYM717=Lme_8 - Gallery_App__Appm__1_object
+	.long LDIFF_SYM717
+	.long 0
+	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
+	.align 3
+Lfde8_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_109:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Label"
 
 	.byte 176,2,16
-LDIFF_SYM679=LTDIE_90 - Ldebug_info_start
-	.long LDIFF_SYM679
+LDIFF_SYM718=LTDIE_90 - Ldebug_info_start
+	.long LDIFF_SYM718
 	.byte 2,35,0,6
 	.asciz "cancelEvents"
 
-LDIFF_SYM680=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM680
+LDIFF_SYM719=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM719
 	.byte 3,35,168,2,0,7
 	.asciz "Xamarin_Forms_Label"
 
-LDIFF_SYM681=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM681
-LTDIE_106_POINTER:
+LDIFF_SYM720=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM720
+LTDIE_109_POINTER:
 
 	.byte 13
-LDIFF_SYM682=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM682
-LTDIE_106_REFERENCE:
+LDIFF_SYM721=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM721
+LTDIE_109_REFERENCE:
 
 	.byte 14
-LDIFF_SYM683=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM683
-LTDIE_105:
+LDIFF_SYM722=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM722
+LTDIE_108:
 
 	.byte 5
 	.asciz "Gallery_Icon"
 
 	.byte 176,2,16
-LDIFF_SYM684=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM684
+LDIFF_SYM723=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM723
 	.byte 2,35,0,0,7
 	.asciz "Gallery_Icon"
 
-LDIFF_SYM685=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM685
-LTDIE_105_POINTER:
+LDIFF_SYM724=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM724
+LTDIE_108_POINTER:
 
 	.byte 13
-LDIFF_SYM686=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM686
-LTDIE_105_REFERENCE:
+LDIFF_SYM725=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM725
+LTDIE_108_REFERENCE:
 
 	.byte 14
-LDIFF_SYM687=LTDIE_105 - Ldebug_info_start
-	.long LDIFF_SYM687
+LDIFF_SYM726=LTDIE_108 - Ldebug_info_start
+	.long LDIFF_SYM726
 	.byte 2
 	.asciz "Gallery.Icon:.ctor"
 	.asciz "Gallery_Icon__ctor_string_Xamarin_Forms_Color"
 
 	.byte 2,8
 	.quad Gallery_Icon__ctor_string_Xamarin_Forms_Color
-	.quad Lme_4
+	.quad Lme_9
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM688=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM688
+LDIFF_SYM727=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM727
 	.byte 1,105,3
 	.asciz "text"
 
-LDIFF_SYM689=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM689
+LDIFF_SYM728=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM728
 	.byte 2,141,24,3
 	.asciz "color"
 
-LDIFF_SYM690=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM690
+LDIFF_SYM729=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM729
 	.byte 1,80,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM691=Lfde4_end - Lfde4_start
-	.long LDIFF_SYM691
-Lfde4_start:
+LDIFF_SYM730=Lfde9_end - Lfde9_start
+	.long LDIFF_SYM730
+Lfde9_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_Icon__ctor_string_Xamarin_Forms_Color
 
-LDIFF_SYM692=Lme_4 - Gallery_Icon__ctor_string_Xamarin_Forms_Color
-	.long LDIFF_SYM692
+LDIFF_SYM731=Lme_9 - Gallery_Icon__ctor_string_Xamarin_Forms_Color
+	.long LDIFF_SYM731
 	.long 0
 	.byte 12,31,0,68,14,208,1,157,26,158,25,68,13,29,68,153,24
 	.align 3
-Lfde4_end:
+Lfde9_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_107:
+LTDIE_110:
 
 	.byte 5
 	.asciz "Gallery_Name"
 
 	.byte 176,2,16
-LDIFF_SYM693=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM693
+LDIFF_SYM732=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM732
 	.byte 2,35,0,0,7
 	.asciz "Gallery_Name"
 
-LDIFF_SYM694=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM694
-LTDIE_107_POINTER:
+LDIFF_SYM733=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM733
+LTDIE_110_POINTER:
 
 	.byte 13
-LDIFF_SYM695=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM695
-LTDIE_107_REFERENCE:
+LDIFF_SYM734=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM734
+LTDIE_110_REFERENCE:
 
 	.byte 14
-LDIFF_SYM696=LTDIE_107 - Ldebug_info_start
-	.long LDIFF_SYM696
+LDIFF_SYM735=LTDIE_110 - Ldebug_info_start
+	.long LDIFF_SYM735
 	.byte 2
 	.asciz "Gallery.Name:.ctor"
 	.asciz "Gallery_Name__ctor_string"
 
 	.byte 3,8
 	.quad Gallery_Name__ctor_string
-	.quad Lme_5
+	.quad Lme_a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM697=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM697
+LDIFF_SYM736=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM736
 	.byte 1,105,3
 	.asciz "text"
 
-LDIFF_SYM698=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM698
+LDIFF_SYM737=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM737
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM699=Lfde5_end - Lfde5_start
-	.long LDIFF_SYM699
-Lfde5_start:
+LDIFF_SYM738=Lfde10_end - Lfde10_start
+	.long LDIFF_SYM738
+Lfde10_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_Name__ctor_string
 
-LDIFF_SYM700=Lme_5 - Gallery_Name__ctor_string
-	.long LDIFF_SYM700
+LDIFF_SYM739=Lme_a - Gallery_Name__ctor_string
+	.long LDIFF_SYM739
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde5_end:
+Lfde10_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_108:
+LTDIE_111:
 
 	.byte 5
 	.asciz "Gallery_Subject"
 
 	.byte 176,2,16
-LDIFF_SYM701=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM701
+LDIFF_SYM740=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM740
 	.byte 2,35,0,0,7
 	.asciz "Gallery_Subject"
 
-LDIFF_SYM702=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM702
-LTDIE_108_POINTER:
+LDIFF_SYM741=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM741
+LTDIE_111_POINTER:
 
 	.byte 13
-LDIFF_SYM703=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM703
-LTDIE_108_REFERENCE:
+LDIFF_SYM742=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM742
+LTDIE_111_REFERENCE:
 
 	.byte 14
-LDIFF_SYM704=LTDIE_108 - Ldebug_info_start
-	.long LDIFF_SYM704
+LDIFF_SYM743=LTDIE_111 - Ldebug_info_start
+	.long LDIFF_SYM743
 	.byte 2
 	.asciz "Gallery.Subject:.ctor"
 	.asciz "Gallery_Subject__ctor_string"
 
 	.byte 4,8
 	.quad Gallery_Subject__ctor_string
-	.quad Lme_6
+	.quad Lme_b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM705=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM705
+LDIFF_SYM744=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM744
 	.byte 1,105,3
 	.asciz "text"
 
-LDIFF_SYM706=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM706
+LDIFF_SYM745=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM745
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM707=Lfde6_end - Lfde6_start
-	.long LDIFF_SYM707
-Lfde6_start:
+LDIFF_SYM746=Lfde11_end - Lfde11_start
+	.long LDIFF_SYM746
+Lfde11_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_Subject__ctor_string
 
-LDIFF_SYM708=Lme_6 - Gallery_Subject__ctor_string
-	.long LDIFF_SYM708
+LDIFF_SYM747=Lme_b - Gallery_Subject__ctor_string
+	.long LDIFF_SYM747
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde6_end:
+Lfde11_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_109:
+LTDIE_112:
 
 	.byte 5
 	.asciz "Gallery_Body"
 
 	.byte 176,2,16
-LDIFF_SYM709=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM709
+LDIFF_SYM748=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM748
 	.byte 2,35,0,0,7
 	.asciz "Gallery_Body"
 
-LDIFF_SYM710=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM710
-LTDIE_109_POINTER:
+LDIFF_SYM749=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM749
+LTDIE_112_POINTER:
 
 	.byte 13
-LDIFF_SYM711=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM711
-LTDIE_109_REFERENCE:
+LDIFF_SYM750=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM750
+LTDIE_112_REFERENCE:
 
 	.byte 14
-LDIFF_SYM712=LTDIE_109 - Ldebug_info_start
-	.long LDIFF_SYM712
+LDIFF_SYM751=LTDIE_112 - Ldebug_info_start
+	.long LDIFF_SYM751
 	.byte 2
 	.asciz "Gallery.Body:.ctor"
 	.asciz "Gallery_Body__ctor_string"
 
 	.byte 5,8
 	.quad Gallery_Body__ctor_string
-	.quad Lme_7
+	.quad Lme_c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM713=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM713
+LDIFF_SYM752=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM752
 	.byte 1,105,3
 	.asciz "text"
 
-LDIFF_SYM714=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM714
+LDIFF_SYM753=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM753
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM715=Lfde7_end - Lfde7_start
-	.long LDIFF_SYM715
-Lfde7_start:
+LDIFF_SYM754=Lfde12_end - Lfde12_start
+	.long LDIFF_SYM754
+Lfde12_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_Body__ctor_string
 
-LDIFF_SYM716=Lme_7 - Gallery_Body__ctor_string
-	.long LDIFF_SYM716
+LDIFF_SYM755=Lme_c - Gallery_Body__ctor_string
+	.long LDIFF_SYM755
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde7_end:
+Lfde12_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_110:
+LTDIE_113:
 
 	.byte 5
 	.asciz "Gallery_Time"
 
 	.byte 176,2,16
-LDIFF_SYM717=LTDIE_106 - Ldebug_info_start
-	.long LDIFF_SYM717
+LDIFF_SYM756=LTDIE_109 - Ldebug_info_start
+	.long LDIFF_SYM756
 	.byte 2,35,0,0,7
 	.asciz "Gallery_Time"
 
-LDIFF_SYM718=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM718
-LTDIE_110_POINTER:
+LDIFF_SYM757=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM757
+LTDIE_113_POINTER:
 
 	.byte 13
-LDIFF_SYM719=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM719
-LTDIE_110_REFERENCE:
+LDIFF_SYM758=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM758
+LTDIE_113_REFERENCE:
 
 	.byte 14
-LDIFF_SYM720=LTDIE_110 - Ldebug_info_start
-	.long LDIFF_SYM720
+LDIFF_SYM759=LTDIE_113 - Ldebug_info_start
+	.long LDIFF_SYM759
 	.byte 2
 	.asciz "Gallery.Time:.ctor"
 	.asciz "Gallery_Time__ctor_string"
 
 	.byte 6,8
 	.quad Gallery_Time__ctor_string
-	.quad Lme_8
+	.quad Lme_d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM721=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM721
+LDIFF_SYM760=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM760
 	.byte 1,105,3
 	.asciz "text"
 
-LDIFF_SYM722=LDIE_STRING - Ldebug_info_start
-	.long LDIFF_SYM722
+LDIFF_SYM761=LDIE_STRING - Ldebug_info_start
+	.long LDIFF_SYM761
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM723=Lfde8_end - Lfde8_start
-	.long LDIFF_SYM723
-Lfde8_start:
+LDIFF_SYM762=Lfde13_end - Lfde13_start
+	.long LDIFF_SYM762
+Lfde13_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_Time__ctor_string
 
-LDIFF_SYM724=Lme_8 - Gallery_Time__ctor_string
-	.long LDIFF_SYM724
+LDIFF_SYM763=Lme_d - Gallery_Time__ctor_string
+	.long LDIFF_SYM763
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde8_end:
+Lfde13_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_111:
+LTDIE_114:
 
 	.byte 5
 	.asciz "Gallery_DemoStackLayout"
 
 	.byte 240,2,16
-LDIFF_SYM725=LTDIE_95 - Ldebug_info_start
-	.long LDIFF_SYM725
+LDIFF_SYM764=LTDIE_97 - Ldebug_info_start
+	.long LDIFF_SYM764
 	.byte 2,35,0,0,7
 	.asciz "Gallery_DemoStackLayout"
 
-LDIFF_SYM726=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM726
-LTDIE_111_POINTER:
+LDIFF_SYM765=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM765
+LTDIE_114_POINTER:
 
 	.byte 13
-LDIFF_SYM727=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM727
-LTDIE_111_REFERENCE:
+LDIFF_SYM766=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM766
+LTDIE_114_REFERENCE:
 
 	.byte 14
-LDIFF_SYM728=LTDIE_111 - Ldebug_info_start
-	.long LDIFF_SYM728
+LDIFF_SYM767=LTDIE_114 - Ldebug_info_start
+	.long LDIFF_SYM767
 	.byte 2
 	.asciz "Gallery.DemoStackLayout:.ctor"
 	.asciz "Gallery_DemoStackLayout__ctor"
 
 	.byte 7,8
 	.quad Gallery_DemoStackLayout__ctor
-	.quad Lme_9
+	.quad Lme_e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM729=LTDIE_111_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM729
+LDIFF_SYM768=LTDIE_114_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM768
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM730=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM730
+LDIFF_SYM769=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM769
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM731=LTDIE_95_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM731
+LDIFF_SYM770=LTDIE_97_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM770
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM732=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM732
+LDIFF_SYM771=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM771
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM733=Lfde9_end - Lfde9_start
-	.long LDIFF_SYM733
-Lfde9_start:
+LDIFF_SYM772=Lfde14_end - Lfde14_start
+	.long LDIFF_SYM772
+Lfde14_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoStackLayout__ctor
 
-LDIFF_SYM734=Lme_9 - Gallery_DemoStackLayout__ctor
-	.long LDIFF_SYM734
+LDIFF_SYM773=Lme_e - Gallery_DemoStackLayout__ctor
+	.long LDIFF_SYM773
 	.long 0
 	.byte 12,31,0,68,14,224,2,157,44,158,43,68,13,29,68,151,42,152,41,68,153,40,154,39
 	.align 3
-Lfde9_end:
+Lfde14_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_114:
+LTDIE_117:
 
 	.byte 5
 	.asciz "_GridElementCollection"
 
 	.byte 48,16
-LDIFF_SYM735=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM735
+LDIFF_SYM774=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM774
 	.byte 2,35,0,6
 	.asciz "<Parent>k__BackingField"
 
-LDIFF_SYM736=LTDIE_113_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM736
+LDIFF_SYM775=LTDIE_116_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM775
 	.byte 2,35,40,0,7
 	.asciz "_GridElementCollection"
 
-LDIFF_SYM737=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM737
-LTDIE_114_POINTER:
-
-	.byte 13
-LDIFF_SYM738=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM738
-LTDIE_114_REFERENCE:
-
-	.byte 14
-LDIFF_SYM739=LTDIE_114 - Ldebug_info_start
-	.long LDIFF_SYM739
-LTDIE_115:
-
-	.byte 5
-	.asciz "System_Collections_Generic_List`1"
-
-	.byte 40,16
-LDIFF_SYM740=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM740
-	.byte 2,35,0,6
-	.asciz "_items"
-
-LDIFF_SYM741=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM741
-	.byte 2,35,16,6
-	.asciz "_size"
-
-LDIFF_SYM742=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM742
-	.byte 2,35,32,6
-	.asciz "_version"
-
-LDIFF_SYM743=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM743
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM744=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM744
-	.byte 2,35,24,0,7
-	.asciz "System_Collections_Generic_List`1"
-
-LDIFF_SYM745=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM745
-LTDIE_115_POINTER:
-
-	.byte 13
-LDIFF_SYM746=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM746
-LTDIE_115_REFERENCE:
-
-	.byte 14
-LDIFF_SYM747=LTDIE_115 - Ldebug_info_start
-	.long LDIFF_SYM747
-LTDIE_116:
-
-	.byte 5
-	.asciz "System_Collections_Generic_List`1"
-
-	.byte 40,16
-LDIFF_SYM748=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM748
-	.byte 2,35,0,6
-	.asciz "_items"
-
-LDIFF_SYM749=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM749
-	.byte 2,35,16,6
-	.asciz "_size"
-
-LDIFF_SYM750=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM750
-	.byte 2,35,32,6
-	.asciz "_version"
-
-LDIFF_SYM751=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM751
-	.byte 2,35,36,6
-	.asciz "_syncRoot"
-
-LDIFF_SYM752=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM752
-	.byte 2,35,24,0,7
-	.asciz "System_Collections_Generic_List`1"
-
-LDIFF_SYM753=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM753
-LTDIE_116_POINTER:
-
-	.byte 13
-LDIFF_SYM754=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM754
-LTDIE_116_REFERENCE:
-
-	.byte 14
-LDIFF_SYM755=LTDIE_116 - Ldebug_info_start
-	.long LDIFF_SYM755
-LTDIE_113:
-
-	.byte 5
-	.asciz "Xamarin_Forms_Grid"
-
-	.byte 128,3,16
-LDIFF_SYM756=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM756
-	.byte 2,35,0,6
-	.asciz "children"
-
-LDIFF_SYM757=LTDIE_114_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM757
-	.byte 3,35,224,2,6
-	.asciz "columns"
-
-LDIFF_SYM758=LTDIE_115_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM758
-	.byte 3,35,232,2,6
-	.asciz "rows"
-
-LDIFF_SYM759=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM759
-	.byte 3,35,240,2,6
-	.asciz "measureCache"
-
-LDIFF_SYM760=LTDIE_100_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM760
-	.byte 3,35,248,2,0,7
-	.asciz "Xamarin_Forms_Grid"
-
-LDIFF_SYM761=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM761
-LTDIE_113_POINTER:
-
-	.byte 13
-LDIFF_SYM762=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM762
-LTDIE_113_REFERENCE:
-
-	.byte 14
-LDIFF_SYM763=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM763
-LTDIE_112:
-
-	.byte 5
-	.asciz "Gallery_DemoGrid"
-
-	.byte 128,3,16
-LDIFF_SYM764=LTDIE_113 - Ldebug_info_start
-	.long LDIFF_SYM764
-	.byte 2,35,0,0,7
-	.asciz "Gallery_DemoGrid"
-
-LDIFF_SYM765=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM765
-LTDIE_112_POINTER:
-
-	.byte 13
-LDIFF_SYM766=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM766
-LTDIE_112_REFERENCE:
-
-	.byte 14
-LDIFF_SYM767=LTDIE_112 - Ldebug_info_start
-	.long LDIFF_SYM767
-LTDIE_118:
-
-	.byte 5
-	.asciz "Xamarin_Forms_DefinitionCollection`1"
-
-	.byte 32,16
-LDIFF_SYM768=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM768
-	.byte 2,35,0,6
-	.asciz "ItemSizeChanged"
-
-LDIFF_SYM769=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM769
-	.byte 2,35,16,6
-	.asciz "internalList"
-
-LDIFF_SYM770=LTDIE_116_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM770
-	.byte 2,35,24,0,7
-	.asciz "Xamarin_Forms_DefinitionCollection`1"
-
-LDIFF_SYM771=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM771
-LTDIE_118_POINTER:
-
-	.byte 13
-LDIFF_SYM772=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM772
-LTDIE_118_REFERENCE:
-
-	.byte 14
-LDIFF_SYM773=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM773
-LTDIE_117:
-
-	.byte 5
-	.asciz "Xamarin_Forms_RowDefinitionCollection"
-
-	.byte 32,16
-LDIFF_SYM774=LTDIE_118 - Ldebug_info_start
-	.long LDIFF_SYM774
-	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_RowDefinitionCollection"
-
-LDIFF_SYM775=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM775
+LDIFF_SYM776=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM776
 LTDIE_117_POINTER:
 
 	.byte 13
-LDIFF_SYM776=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM776
+LDIFF_SYM777=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM777
 LTDIE_117_REFERENCE:
 
 	.byte 14
-LDIFF_SYM777=LTDIE_117 - Ldebug_info_start
-	.long LDIFF_SYM777
-LTDIE_120:
+LDIFF_SYM778=LTDIE_117 - Ldebug_info_start
+	.long LDIFF_SYM778
+LTDIE_118:
 
 	.byte 5
-	.asciz "Xamarin_Forms_DefinitionCollection`1"
+	.asciz "System_Collections_Generic_List`1"
 
-	.byte 32,16
-LDIFF_SYM778=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM778
-	.byte 2,35,0,6
-	.asciz "ItemSizeChanged"
-
-LDIFF_SYM779=LTDIE_16_REFERENCE - Ldebug_info_start
+	.byte 40,16
+LDIFF_SYM779=LTDIE_4 - Ldebug_info_start
 	.long LDIFF_SYM779
-	.byte 2,35,16,6
-	.asciz "internalList"
+	.byte 2,35,0,6
+	.asciz "_items"
 
-LDIFF_SYM780=LTDIE_115_REFERENCE - Ldebug_info_start
+LDIFF_SYM780=LDIE_SZARRAY - Ldebug_info_start
 	.long LDIFF_SYM780
-	.byte 2,35,24,0,7
-	.asciz "Xamarin_Forms_DefinitionCollection`1"
+	.byte 2,35,16,6
+	.asciz "_size"
 
-LDIFF_SYM781=LTDIE_120 - Ldebug_info_start
+LDIFF_SYM781=LDIE_I4 - Ldebug_info_start
 	.long LDIFF_SYM781
-LTDIE_120_POINTER:
+	.byte 2,35,32,6
+	.asciz "_version"
+
+LDIFF_SYM782=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM782
+	.byte 2,35,36,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM783=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM783
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM784=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM784
+LTDIE_118_POINTER:
 
 	.byte 13
-LDIFF_SYM782=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM782
-LTDIE_120_REFERENCE:
+LDIFF_SYM785=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM785
+LTDIE_118_REFERENCE:
 
 	.byte 14
-LDIFF_SYM783=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM783
+LDIFF_SYM786=LTDIE_118 - Ldebug_info_start
+	.long LDIFF_SYM786
 LTDIE_119:
 
 	.byte 5
-	.asciz "Xamarin_Forms_ColumnDefinitionCollection"
+	.asciz "System_Collections_Generic_List`1"
 
-	.byte 32,16
-LDIFF_SYM784=LTDIE_120 - Ldebug_info_start
-	.long LDIFF_SYM784
-	.byte 2,35,0,0,7
-	.asciz "Xamarin_Forms_ColumnDefinitionCollection"
+	.byte 40,16
+LDIFF_SYM787=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM787
+	.byte 2,35,0,6
+	.asciz "_items"
 
-LDIFF_SYM785=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM785
+LDIFF_SYM788=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM788
+	.byte 2,35,16,6
+	.asciz "_size"
+
+LDIFF_SYM789=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM789
+	.byte 2,35,32,6
+	.asciz "_version"
+
+LDIFF_SYM790=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM790
+	.byte 2,35,36,6
+	.asciz "_syncRoot"
+
+LDIFF_SYM791=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM791
+	.byte 2,35,24,0,7
+	.asciz "System_Collections_Generic_List`1"
+
+LDIFF_SYM792=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM792
 LTDIE_119_POINTER:
 
 	.byte 13
-LDIFF_SYM786=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM786
+LDIFF_SYM793=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM793
 LTDIE_119_REFERENCE:
 
 	.byte 14
-LDIFF_SYM787=LTDIE_119 - Ldebug_info_start
-	.long LDIFF_SYM787
+LDIFF_SYM794=LTDIE_119 - Ldebug_info_start
+	.long LDIFF_SYM794
+LTDIE_116:
+
+	.byte 5
+	.asciz "Xamarin_Forms_Grid"
+
+	.byte 128,3,16
+LDIFF_SYM795=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM795
+	.byte 2,35,0,6
+	.asciz "children"
+
+LDIFF_SYM796=LTDIE_117_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM796
+	.byte 3,35,224,2,6
+	.asciz "columns"
+
+LDIFF_SYM797=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM797
+	.byte 3,35,232,2,6
+	.asciz "rows"
+
+LDIFF_SYM798=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM798
+	.byte 3,35,240,2,6
+	.asciz "measureCache"
+
+LDIFF_SYM799=LTDIE_102_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM799
+	.byte 3,35,248,2,0,7
+	.asciz "Xamarin_Forms_Grid"
+
+LDIFF_SYM800=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM800
+LTDIE_116_POINTER:
+
+	.byte 13
+LDIFF_SYM801=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM801
+LTDIE_116_REFERENCE:
+
+	.byte 14
+LDIFF_SYM802=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM802
+LTDIE_115:
+
+	.byte 5
+	.asciz "Gallery_DemoGrid"
+
+	.byte 128,3,16
+LDIFF_SYM803=LTDIE_116 - Ldebug_info_start
+	.long LDIFF_SYM803
+	.byte 2,35,0,0,7
+	.asciz "Gallery_DemoGrid"
+
+LDIFF_SYM804=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM804
+LTDIE_115_POINTER:
+
+	.byte 13
+LDIFF_SYM805=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM805
+LTDIE_115_REFERENCE:
+
+	.byte 14
+LDIFF_SYM806=LTDIE_115 - Ldebug_info_start
+	.long LDIFF_SYM806
 LTDIE_121:
+
+	.byte 5
+	.asciz "Xamarin_Forms_DefinitionCollection`1"
+
+	.byte 32,16
+LDIFF_SYM807=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM807
+	.byte 2,35,0,6
+	.asciz "ItemSizeChanged"
+
+LDIFF_SYM808=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM808
+	.byte 2,35,16,6
+	.asciz "internalList"
+
+LDIFF_SYM809=LTDIE_119_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM809
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_DefinitionCollection`1"
+
+LDIFF_SYM810=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM810
+LTDIE_121_POINTER:
+
+	.byte 13
+LDIFF_SYM811=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM811
+LTDIE_121_REFERENCE:
+
+	.byte 14
+LDIFF_SYM812=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM812
+LTDIE_120:
+
+	.byte 5
+	.asciz "Xamarin_Forms_RowDefinitionCollection"
+
+	.byte 32,16
+LDIFF_SYM813=LTDIE_121 - Ldebug_info_start
+	.long LDIFF_SYM813
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_RowDefinitionCollection"
+
+LDIFF_SYM814=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM814
+LTDIE_120_POINTER:
+
+	.byte 13
+LDIFF_SYM815=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM815
+LTDIE_120_REFERENCE:
+
+	.byte 14
+LDIFF_SYM816=LTDIE_120 - Ldebug_info_start
+	.long LDIFF_SYM816
+LTDIE_123:
+
+	.byte 5
+	.asciz "Xamarin_Forms_DefinitionCollection`1"
+
+	.byte 32,16
+LDIFF_SYM817=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM817
+	.byte 2,35,0,6
+	.asciz "ItemSizeChanged"
+
+LDIFF_SYM818=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM818
+	.byte 2,35,16,6
+	.asciz "internalList"
+
+LDIFF_SYM819=LTDIE_118_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM819
+	.byte 2,35,24,0,7
+	.asciz "Xamarin_Forms_DefinitionCollection`1"
+
+LDIFF_SYM820=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM820
+LTDIE_123_POINTER:
+
+	.byte 13
+LDIFF_SYM821=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM821
+LTDIE_123_REFERENCE:
+
+	.byte 14
+LDIFF_SYM822=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM822
+LTDIE_122:
+
+	.byte 5
+	.asciz "Xamarin_Forms_ColumnDefinitionCollection"
+
+	.byte 32,16
+LDIFF_SYM823=LTDIE_123 - Ldebug_info_start
+	.long LDIFF_SYM823
+	.byte 2,35,0,0,7
+	.asciz "Xamarin_Forms_ColumnDefinitionCollection"
+
+LDIFF_SYM824=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM824
+LTDIE_122_POINTER:
+
+	.byte 13
+LDIFF_SYM825=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM825
+LTDIE_122_REFERENCE:
+
+	.byte 14
+LDIFF_SYM826=LTDIE_122 - Ldebug_info_start
+	.long LDIFF_SYM826
+LTDIE_124:
 
 	.byte 5
 	.asciz "Xamarin_Forms_ColumnDefinition"
 
 	.byte 88,16
-LDIFF_SYM788=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM788
+LDIFF_SYM827=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM827
 	.byte 2,35,0,6
 	.asciz "<ActualWidth>k__BackingField"
 
-LDIFF_SYM789=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM789
+LDIFF_SYM828=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM828
 	.byte 2,35,72,6
 	.asciz "<MinimumWidth>k__BackingField"
 
-LDIFF_SYM790=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM790
+LDIFF_SYM829=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM829
 	.byte 2,35,80,6
 	.asciz "SizeChanged"
 
-LDIFF_SYM791=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM791
+LDIFF_SYM830=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM830
 	.byte 2,35,64,0,7
 	.asciz "Xamarin_Forms_ColumnDefinition"
 
-LDIFF_SYM792=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM792
-LTDIE_121_POINTER:
+LDIFF_SYM831=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM831
+LTDIE_124_POINTER:
 
 	.byte 13
-LDIFF_SYM793=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM793
-LTDIE_121_REFERENCE:
+LDIFF_SYM832=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM832
+LTDIE_124_REFERENCE:
 
 	.byte 14
-LDIFF_SYM794=LTDIE_121 - Ldebug_info_start
-	.long LDIFF_SYM794
+LDIFF_SYM833=LTDIE_124 - Ldebug_info_start
+	.long LDIFF_SYM833
 	.byte 2
 	.asciz "Gallery.DemoGrid:.ctor"
 	.asciz "Gallery_DemoGrid__ctor"
 
 	.byte 8,8
 	.quad Gallery_DemoGrid__ctor
-	.quad Lme_a
+	.quad Lme_f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM795=LTDIE_112_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM795
+LDIFF_SYM834=LTDIE_115_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM834
 	.byte 1,106,11
 	.asciz ""
 
-LDIFF_SYM796=LTDIE_117_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM796
+LDIFF_SYM835=LTDIE_120_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM835
 	.byte 1,105,11
 	.asciz ""
 
-LDIFF_SYM797=LTDIE_119_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM797
+LDIFF_SYM836=LTDIE_122_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM836
 	.byte 1,104,11
 	.asciz ""
 
-LDIFF_SYM798=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM798
+LDIFF_SYM837=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM837
 	.byte 1,103,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM799=Lfde10_end - Lfde10_start
-	.long LDIFF_SYM799
-Lfde10_start:
+LDIFF_SYM838=Lfde15_end - Lfde15_start
+	.long LDIFF_SYM838
+Lfde15_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoGrid__ctor
 
-LDIFF_SYM800=Lme_a - Gallery_DemoGrid__ctor
-	.long LDIFF_SYM800
+LDIFF_SYM839=Lme_f - Gallery_DemoGrid__ctor
+	.long LDIFF_SYM839
 	.long 0
 	.byte 12,31,0,68,14,240,3,157,62,158,61,68,13,29,68,151,60,152,59,68,153,58,154,57
 	.align 3
-Lfde10_end:
+Lfde15_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_124:
+LTDIE_127:
 
 	.byte 5
 	.asciz "_RelativeElementCollection"
 
 	.byte 48,16
-LDIFF_SYM801=LTDIE_98 - Ldebug_info_start
-	.long LDIFF_SYM801
+LDIFF_SYM840=LTDIE_100 - Ldebug_info_start
+	.long LDIFF_SYM840
 	.byte 2,35,0,6
 	.asciz "<Parent>k__BackingField"
 
-LDIFF_SYM802=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM802
+LDIFF_SYM841=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM841
 	.byte 2,35,40,0,7
 	.asciz "_RelativeElementCollection"
 
-LDIFF_SYM803=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM803
-LTDIE_124_POINTER:
+LDIFF_SYM842=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM842
+LTDIE_127_POINTER:
 
 	.byte 13
-LDIFF_SYM804=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM804
-LTDIE_124_REFERENCE:
+LDIFF_SYM843=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM843
+LTDIE_127_REFERENCE:
 
 	.byte 14
-LDIFF_SYM805=LTDIE_124 - Ldebug_info_start
-	.long LDIFF_SYM805
-LTDIE_125:
+LDIFF_SYM844=LTDIE_127 - Ldebug_info_start
+	.long LDIFF_SYM844
+LTDIE_128:
 
 	.byte 17
 	.asciz "System_Collections_Generic_IEnumerable`1"
@@ -12974,207 +13944,207 @@ LTDIE_125:
 	.byte 16,7
 	.asciz "System_Collections_Generic_IEnumerable`1"
 
-LDIFF_SYM806=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM806
-LTDIE_125_POINTER:
+LDIFF_SYM845=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM845
+LTDIE_128_POINTER:
 
 	.byte 13
-LDIFF_SYM807=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM807
-LTDIE_125_REFERENCE:
+LDIFF_SYM846=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM846
+LTDIE_128_REFERENCE:
 
 	.byte 14
-LDIFF_SYM808=LTDIE_125 - Ldebug_info_start
-	.long LDIFF_SYM808
-LTDIE_123:
+LDIFF_SYM847=LTDIE_128 - Ldebug_info_start
+	.long LDIFF_SYM847
+LTDIE_126:
 
 	.byte 5
 	.asciz "Xamarin_Forms_RelativeLayout"
 
 	.byte 240,2,16
-LDIFF_SYM809=LTDIE_96 - Ldebug_info_start
-	.long LDIFF_SYM809
+LDIFF_SYM848=LTDIE_98 - Ldebug_info_start
+	.long LDIFF_SYM848
 	.byte 2,35,0,6
 	.asciz "children"
 
-LDIFF_SYM810=LTDIE_124_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM810
+LDIFF_SYM849=LTDIE_127_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM849
 	.byte 3,35,224,2,6
 	.asciz "childrenInSolveOrder"
 
-LDIFF_SYM811=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM811
+LDIFF_SYM850=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM850
 	.byte 3,35,232,2,0,7
 	.asciz "Xamarin_Forms_RelativeLayout"
 
-LDIFF_SYM812=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM812
-LTDIE_123_POINTER:
+LDIFF_SYM851=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM851
+LTDIE_126_POINTER:
 
 	.byte 13
-LDIFF_SYM813=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM813
-LTDIE_123_REFERENCE:
+LDIFF_SYM852=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM852
+LTDIE_126_REFERENCE:
 
 	.byte 14
-LDIFF_SYM814=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM814
-LTDIE_122:
+LDIFF_SYM853=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM853
+LTDIE_125:
 
 	.byte 5
 	.asciz "Gallery_DemoRelative"
 
 	.byte 240,2,16
-LDIFF_SYM815=LTDIE_123 - Ldebug_info_start
-	.long LDIFF_SYM815
+LDIFF_SYM854=LTDIE_126 - Ldebug_info_start
+	.long LDIFF_SYM854
 	.byte 2,35,0,0,7
 	.asciz "Gallery_DemoRelative"
 
-LDIFF_SYM816=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM816
-LTDIE_122_POINTER:
+LDIFF_SYM855=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM855
+LTDIE_125_POINTER:
 
 	.byte 13
-LDIFF_SYM817=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM817
-LTDIE_122_REFERENCE:
+LDIFF_SYM856=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM856
+LTDIE_125_REFERENCE:
 
 	.byte 14
-LDIFF_SYM818=LTDIE_122 - Ldebug_info_start
-	.long LDIFF_SYM818
-LTDIE_127:
+LDIFF_SYM857=LTDIE_125 - Ldebug_info_start
+	.long LDIFF_SYM857
+LTDIE_130:
 
 	.byte 5
 	.asciz "System_Func`2"
 
 	.byte 112,16
-LDIFF_SYM819=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM819
+LDIFF_SYM858=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM858
 	.byte 2,35,0,0,7
 	.asciz "System_Func`2"
 
-LDIFF_SYM820=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM820
-LTDIE_127_POINTER:
+LDIFF_SYM859=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM859
+LTDIE_130_POINTER:
 
 	.byte 13
-LDIFF_SYM821=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM821
-LTDIE_127_REFERENCE:
+LDIFF_SYM860=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM860
+LTDIE_130_REFERENCE:
 
 	.byte 14
-LDIFF_SYM822=LTDIE_127 - Ldebug_info_start
-	.long LDIFF_SYM822
-LTDIE_126:
+LDIFF_SYM861=LTDIE_130 - Ldebug_info_start
+	.long LDIFF_SYM861
+LTDIE_129:
 
 	.byte 5
 	.asciz "Xamarin_Forms_Constraint"
 
 	.byte 32,16
-LDIFF_SYM823=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM823
+LDIFF_SYM862=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM862
 	.byte 2,35,0,6
 	.asciz "measureFunc"
 
-LDIFF_SYM824=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM824
+LDIFF_SYM863=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM863
 	.byte 2,35,16,6
 	.asciz "<RelativeTo>k__BackingField"
 
-LDIFF_SYM825=LTDIE_125_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM825
+LDIFF_SYM864=LTDIE_128_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM864
 	.byte 2,35,24,0,7
 	.asciz "Xamarin_Forms_Constraint"
 
-LDIFF_SYM826=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM826
-LTDIE_126_POINTER:
+LDIFF_SYM865=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM865
+LTDIE_129_POINTER:
 
 	.byte 13
-LDIFF_SYM827=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM827
-LTDIE_126_REFERENCE:
+LDIFF_SYM866=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM866
+LTDIE_129_REFERENCE:
 
 	.byte 14
-LDIFF_SYM828=LTDIE_126 - Ldebug_info_start
-	.long LDIFF_SYM828
+LDIFF_SYM867=LTDIE_129 - Ldebug_info_start
+	.long LDIFF_SYM867
 	.byte 2
 	.asciz "Gallery.DemoRelative:.ctor"
 	.asciz "Gallery_DemoRelative__ctor"
 
 	.byte 9,8
 	.quad Gallery_DemoRelative__ctor
-	.quad Lme_b
+	.quad Lme_10
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM829=LTDIE_122_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM829
+LDIFF_SYM868=LTDIE_125_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM868
 	.byte 3,141,208,0,11
 	.asciz "icon"
 
-LDIFF_SYM830=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM830
+LDIFF_SYM869=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM869
 	.byte 3,141,184,1,11
 	.asciz "name"
 
-LDIFF_SYM831=LTDIE_107_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM831
+LDIFF_SYM870=LTDIE_110_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM870
 	.byte 3,141,192,1,11
 	.asciz "subject"
 
-LDIFF_SYM832=LTDIE_108_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM832
+LDIFF_SYM871=LTDIE_111_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM871
 	.byte 3,141,200,1,11
 	.asciz "body"
 
-LDIFF_SYM833=LTDIE_109_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM833
+LDIFF_SYM872=LTDIE_112_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM872
 	.byte 1,102,11
 	.asciz "time"
 
-LDIFF_SYM834=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM834
+LDIFF_SYM873=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM873
 	.byte 1,101,11
 	.asciz ""
 
-LDIFF_SYM835=LTDIE_105_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM835
+LDIFF_SYM874=LTDIE_108_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM874
 	.byte 1,100,11
 	.asciz ""
 
-LDIFF_SYM836=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM836
+LDIFF_SYM875=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM875
 	.byte 1,99,11
 	.asciz ""
 
-LDIFF_SYM837=LTDIE_126_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM837
+LDIFF_SYM876=LTDIE_129_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM876
 	.byte 3,141,208,1,11
 	.asciz ""
 
-LDIFF_SYM838=LTDIE_110_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM838
+LDIFF_SYM877=LTDIE_113_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM877
 	.byte 3,141,216,1,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM839=Lfde11_end - Lfde11_start
-	.long LDIFF_SYM839
-Lfde11_start:
+LDIFF_SYM878=Lfde16_end - Lfde16_start
+	.long LDIFF_SYM878
+Lfde16_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__ctor
 
-LDIFF_SYM840=Lme_b - Gallery_DemoRelative__ctor
-	.long LDIFF_SYM840
+LDIFF_SYM879=Lme_10 - Gallery_DemoRelative__ctor
+	.long LDIFF_SYM879
 	.long 0
 	.byte 12,31,0,68,14,208,2,157,42,158,41,68,13,29,68,147,40,148,39,68,149,38,150,37,68,151,36,152,35,68,153,34
 	.byte 154,33
 	.align 3
-Lfde11_end:
+Lfde16_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13184,41 +14154,41 @@ Lfde11_end:
 
 	.byte 9,20
 	.quad Gallery_DemoRelative__DemoRelativem__0_Xamarin_Forms_RelativeLayout
-	.quad Lme_c
+	.quad Lme_11
 
 	.byte 2,118,16,3
 	.asciz "l"
 
-LDIFF_SYM841=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM841
+LDIFF_SYM880=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM880
 	.byte 2,141,16,11
 	.asciz ""
 
-LDIFF_SYM842=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM842
+LDIFF_SYM881=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM881
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM843=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM843
+LDIFF_SYM882=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM882
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM844=Lfde12_end - Lfde12_start
-	.long LDIFF_SYM844
-Lfde12_start:
+LDIFF_SYM883=Lfde17_end - Lfde17_start
+	.long LDIFF_SYM883
+Lfde17_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__DemoRelativem__0_Xamarin_Forms_RelativeLayout
 
-LDIFF_SYM845=Lme_c - Gallery_DemoRelative__DemoRelativem__0_Xamarin_Forms_RelativeLayout
-	.long LDIFF_SYM845
+LDIFF_SYM884=Lme_11 - Gallery_DemoRelative__DemoRelativem__0_Xamarin_Forms_RelativeLayout
+	.long LDIFF_SYM884
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde12_end:
+Lfde17_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13228,41 +14198,41 @@ Lfde12_end:
 
 	.byte 9,21
 	.quad Gallery_DemoRelative__DemoRelativem__1_Xamarin_Forms_RelativeLayout
-	.quad Lme_d
+	.quad Lme_12
 
 	.byte 2,118,16,3
 	.asciz "l"
 
-LDIFF_SYM846=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM846
+LDIFF_SYM885=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM885
 	.byte 2,141,16,11
 	.asciz ""
 
-LDIFF_SYM847=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM847
+LDIFF_SYM886=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM886
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM848=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM848
+LDIFF_SYM887=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM887
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM849=Lfde13_end - Lfde13_start
-	.long LDIFF_SYM849
-Lfde13_start:
+LDIFF_SYM888=Lfde18_end - Lfde18_start
+	.long LDIFF_SYM888
+Lfde18_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__DemoRelativem__1_Xamarin_Forms_RelativeLayout
 
-LDIFF_SYM850=Lme_d - Gallery_DemoRelative__DemoRelativem__1_Xamarin_Forms_RelativeLayout
-	.long LDIFF_SYM850
+LDIFF_SYM889=Lme_12 - Gallery_DemoRelative__DemoRelativem__1_Xamarin_Forms_RelativeLayout
+	.long LDIFF_SYM889
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde13_end:
+Lfde18_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13272,46 +14242,46 @@ Lfde13_end:
 
 	.byte 9,23
 	.quad Gallery_DemoRelative__DemoRelativem__2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.quad Lme_e
+	.quad Lme_13
 
 	.byte 2,118,16,3
 	.asciz "l"
 
-LDIFF_SYM851=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM851
+LDIFF_SYM890=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM890
 	.byte 2,141,16,3
 	.asciz "v"
 
-LDIFF_SYM852=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM852
+LDIFF_SYM891=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM891
 	.byte 2,141,24,11
 	.asciz ""
 
-LDIFF_SYM853=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM853
+LDIFF_SYM892=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM892
 	.byte 3,141,216,0,11
 	.asciz ""
 
-LDIFF_SYM854=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM854
+LDIFF_SYM893=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM893
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM855=Lfde14_end - Lfde14_start
-	.long LDIFF_SYM855
-Lfde14_start:
+LDIFF_SYM894=Lfde19_end - Lfde19_start
+	.long LDIFF_SYM894
+Lfde19_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__DemoRelativem__2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
 
-LDIFF_SYM856=Lme_e - Gallery_DemoRelative__DemoRelativem__2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.long LDIFF_SYM856
+LDIFF_SYM895=Lme_13 - Gallery_DemoRelative__DemoRelativem__2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
+	.long LDIFF_SYM895
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
 	.align 3
-Lfde14_end:
+Lfde19_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13321,46 +14291,46 @@ Lfde14_end:
 
 	.byte 9,25
 	.quad Gallery_DemoRelative__DemoRelativem__3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.quad Lme_f
+	.quad Lme_14
 
 	.byte 2,118,16,3
 	.asciz "l"
 
-LDIFF_SYM857=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM857
+LDIFF_SYM896=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM896
 	.byte 2,141,16,3
 	.asciz "v"
 
-LDIFF_SYM858=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM858
+LDIFF_SYM897=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM897
 	.byte 2,141,24,11
 	.asciz ""
 
-LDIFF_SYM859=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM859
+LDIFF_SYM898=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM898
 	.byte 3,141,216,0,11
 	.asciz ""
 
-LDIFF_SYM860=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM860
+LDIFF_SYM899=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM899
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM861=Lfde15_end - Lfde15_start
-	.long LDIFF_SYM861
-Lfde15_start:
+LDIFF_SYM900=Lfde20_end - Lfde20_start
+	.long LDIFF_SYM900
+Lfde20_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__DemoRelativem__3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
 
-LDIFF_SYM862=Lme_f - Gallery_DemoRelative__DemoRelativem__3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.long LDIFF_SYM862
+LDIFF_SYM901=Lme_14 - Gallery_DemoRelative__DemoRelativem__3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
+	.long LDIFF_SYM901
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
 	.align 3
-Lfde15_end:
+Lfde20_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13370,46 +14340,46 @@ Lfde15_end:
 
 	.byte 9,26
 	.quad Gallery_DemoRelative__DemoRelativem__4_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.quad Lme_10
+	.quad Lme_15
 
 	.byte 2,118,16,3
 	.asciz "l"
 
-LDIFF_SYM863=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM863
+LDIFF_SYM902=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM902
 	.byte 2,141,16,3
 	.asciz "v"
 
-LDIFF_SYM864=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM864
+LDIFF_SYM903=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM903
 	.byte 2,141,24,11
 	.asciz ""
 
-LDIFF_SYM865=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM865
+LDIFF_SYM904=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM904
 	.byte 3,141,216,0,11
 	.asciz ""
 
-LDIFF_SYM866=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM866
+LDIFF_SYM905=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM905
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM867=Lfde16_end - Lfde16_start
-	.long LDIFF_SYM867
-Lfde16_start:
+LDIFF_SYM906=Lfde21_end - Lfde21_start
+	.long LDIFF_SYM906
+Lfde21_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__DemoRelativem__4_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
 
-LDIFF_SYM868=Lme_10 - Gallery_DemoRelative__DemoRelativem__4_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.long LDIFF_SYM868
+LDIFF_SYM907=Lme_15 - Gallery_DemoRelative__DemoRelativem__4_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
+	.long LDIFF_SYM907
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
 	.align 3
-Lfde16_end:
+Lfde21_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13419,46 +14389,46 @@ Lfde16_end:
 
 	.byte 9,28
 	.quad Gallery_DemoRelative__DemoRelativem__5_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.quad Lme_11
+	.quad Lme_16
 
 	.byte 2,118,16,3
 	.asciz "l"
 
-LDIFF_SYM869=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM869
+LDIFF_SYM908=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM908
 	.byte 2,141,16,3
 	.asciz "v"
 
-LDIFF_SYM870=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM870
+LDIFF_SYM909=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM909
 	.byte 2,141,24,11
 	.asciz ""
 
-LDIFF_SYM871=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM871
+LDIFF_SYM910=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM910
 	.byte 3,141,216,0,11
 	.asciz ""
 
-LDIFF_SYM872=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM872
+LDIFF_SYM911=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM911
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM873=Lfde17_end - Lfde17_start
-	.long LDIFF_SYM873
-Lfde17_start:
+LDIFF_SYM912=Lfde22_end - Lfde22_start
+	.long LDIFF_SYM912
+Lfde22_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__DemoRelativem__5_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
 
-LDIFF_SYM874=Lme_11 - Gallery_DemoRelative__DemoRelativem__5_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.long LDIFF_SYM874
+LDIFF_SYM913=Lme_16 - Gallery_DemoRelative__DemoRelativem__5_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
+	.long LDIFF_SYM913
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
 	.align 3
-Lfde17_end:
+Lfde22_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13468,46 +14438,46 @@ Lfde17_end:
 
 	.byte 9,29
 	.quad Gallery_DemoRelative__DemoRelativem__6_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.quad Lme_12
+	.quad Lme_17
 
 	.byte 2,118,16,3
 	.asciz "l"
 
-LDIFF_SYM875=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM875
+LDIFF_SYM914=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM914
 	.byte 2,141,16,3
 	.asciz "v"
 
-LDIFF_SYM876=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM876
+LDIFF_SYM915=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM915
 	.byte 2,141,24,11
 	.asciz ""
 
-LDIFF_SYM877=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM877
+LDIFF_SYM916=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM916
 	.byte 3,141,216,0,11
 	.asciz ""
 
-LDIFF_SYM878=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM878
+LDIFF_SYM917=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM917
 	.byte 3,141,248,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM879=Lfde18_end - Lfde18_start
-	.long LDIFF_SYM879
-Lfde18_start:
+LDIFF_SYM918=Lfde23_end - Lfde23_start
+	.long LDIFF_SYM918
+Lfde23_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__DemoRelativem__6_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
 
-LDIFF_SYM880=Lme_12 - Gallery_DemoRelative__DemoRelativem__6_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.long LDIFF_SYM880
+LDIFF_SYM919=Lme_17 - Gallery_DemoRelative__DemoRelativem__6_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
+	.long LDIFF_SYM919
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29
 	.align 3
-Lfde18_end:
+Lfde23_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13517,97 +14487,97 @@ Lfde18_end:
 
 	.byte 9,31
 	.quad Gallery_DemoRelative__DemoRelativem__7_Xamarin_Forms_RelativeLayout
-	.quad Lme_13
+	.quad Lme_18
 
 	.byte 2,118,16,3
 	.asciz "l"
 
-LDIFF_SYM881=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM881
+LDIFF_SYM920=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM920
 	.byte 2,141,16,11
 	.asciz ""
 
-LDIFF_SYM882=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM882
+LDIFF_SYM921=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM921
 	.byte 3,141,208,0,11
 	.asciz ""
 
-LDIFF_SYM883=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM883
+LDIFF_SYM922=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM922
 	.byte 3,141,240,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM884=Lfde19_end - Lfde19_start
-	.long LDIFF_SYM884
-Lfde19_start:
+LDIFF_SYM923=Lfde24_end - Lfde24_start
+	.long LDIFF_SYM923
+Lfde24_start:
 
 	.long 0
 	.align 3
 	.quad Gallery_DemoRelative__DemoRelativem__7_Xamarin_Forms_RelativeLayout
 
-LDIFF_SYM885=Lme_13 - Gallery_DemoRelative__DemoRelativem__7_Xamarin_Forms_RelativeLayout
-	.long LDIFF_SYM885
+LDIFF_SYM924=Lme_18 - Gallery_DemoRelative__DemoRelativem__7_Xamarin_Forms_RelativeLayout
+	.long LDIFF_SYM924
 	.long 0
 	.byte 12,31,0,68,14,160,1,157,20,158,19,68,13,29
 	.align 3
-Lfde19_end:
+Lfde24_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_128:
+LTDIE_131:
 
 	.byte 5
 	.asciz "System_Array"
 
 	.byte 16,16
-LDIFF_SYM886=LTDIE_4 - Ldebug_info_start
-	.long LDIFF_SYM886
+LDIFF_SYM925=LTDIE_4 - Ldebug_info_start
+	.long LDIFF_SYM925
 	.byte 2,35,0,0,7
 	.asciz "System_Array"
 
-LDIFF_SYM887=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM887
-LTDIE_128_POINTER:
+LDIFF_SYM926=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM926
+LTDIE_131_POINTER:
 
 	.byte 13
-LDIFF_SYM888=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM888
-LTDIE_128_REFERENCE:
+LDIFF_SYM927=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM927
+LTDIE_131_REFERENCE:
 
 	.byte 14
-LDIFF_SYM889=LTDIE_128 - Ldebug_info_start
-	.long LDIFF_SYM889
+LDIFF_SYM928=LTDIE_131 - Ldebug_info_start
+	.long LDIFF_SYM928
 	.byte 2
 	.asciz "System.Array:InternalArray__IEnumerable_GetEnumerator<T_REF>"
 	.asciz "System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF"
 
 	.byte 10,78
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.quad Lme_15
+	.quad Lme_1a
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM890=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM890
+LDIFF_SYM929=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM929
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM891=Lfde20_end - Lfde20_start
-	.long LDIFF_SYM891
-Lfde20_start:
+LDIFF_SYM930=Lfde25_end - Lfde25_start
+	.long LDIFF_SYM930
+Lfde25_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
 
-LDIFF_SYM892=Lme_15 - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
-	.long LDIFF_SYM892
+LDIFF_SYM931=Lme_1a - System_Array_InternalArray__IEnumerable_GetEnumerator_T_REF
+	.long LDIFF_SYM931
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29
 	.align 3
-Lfde20_end:
+Lfde25_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13617,41 +14587,41 @@ Lfde20_end:
 
 	.byte 10,160,1
 	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.quad Lme_16
+	.quad Lme_1b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM893=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM893
+LDIFF_SYM932=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM932
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM894=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM894
+LDIFF_SYM933=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM933
 	.byte 2,141,24,3
 	.asciz "item"
 
-LDIFF_SYM895=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM895
+LDIFF_SYM934=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM934
 	.byte 2,141,32,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM896=Lfde21_end - Lfde21_start
-	.long LDIFF_SYM896
-Lfde21_start:
+LDIFF_SYM935=Lfde26_end - Lfde26_start
+	.long LDIFF_SYM935
+Lfde26_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__Insert_T_REF_int_T_REF
 
-LDIFF_SYM897=Lme_16 - System_Array_InternalArray__Insert_T_REF_int_T_REF
-	.long LDIFF_SYM897
+LDIFF_SYM936=Lme_1b - System_Array_InternalArray__Insert_T_REF_int_T_REF
+	.long LDIFF_SYM936
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29
 	.align 3
-Lfde21_end:
+Lfde26_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13661,36 +14631,36 @@ Lfde21_end:
 
 	.byte 10,165,1
 	.quad System_Array_InternalArray__RemoveAt_int
-	.quad Lme_17
+	.quad Lme_1c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM898=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM898
+LDIFF_SYM937=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM937
 	.byte 2,141,16,3
 	.asciz "index"
 
-LDIFF_SYM899=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM899
+LDIFF_SYM938=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM938
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM900=Lfde22_end - Lfde22_start
-	.long LDIFF_SYM900
-Lfde22_start:
+LDIFF_SYM939=Lfde27_end - Lfde27_start
+	.long LDIFF_SYM939
+Lfde27_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__RemoveAt_int
 
-LDIFF_SYM901=Lme_17 - System_Array_InternalArray__RemoveAt_int
-	.long LDIFF_SYM901
+LDIFF_SYM940=Lme_1c - System_Array_InternalArray__RemoveAt_int
+	.long LDIFF_SYM940
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde22_end:
+Lfde27_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13700,51 +14670,51 @@ Lfde22_end:
 
 	.byte 10,170,1
 	.quad System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.quad Lme_18
+	.quad Lme_1d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM902=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM902
+LDIFF_SYM941=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM941
 	.byte 1,105,3
 	.asciz "item"
 
-LDIFF_SYM903=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM903
+LDIFF_SYM942=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM942
 	.byte 1,106,11
 	.asciz "length"
 
-LDIFF_SYM904=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM904
+LDIFF_SYM943=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM943
 	.byte 1,104,11
 	.asciz "i"
 
-LDIFF_SYM905=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM905
+LDIFF_SYM944=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM944
 	.byte 1,103,11
 	.asciz "value"
 
-LDIFF_SYM906=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM906
+LDIFF_SYM945=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM945
 	.byte 3,141,224,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM907=Lfde23_end - Lfde23_start
-	.long LDIFF_SYM907
-Lfde23_start:
+LDIFF_SYM946=Lfde28_end - Lfde28_start
+	.long LDIFF_SYM946
+Lfde28_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__IndexOf_T_REF_T_REF
 
-LDIFF_SYM908=Lme_18 - System_Array_InternalArray__IndexOf_T_REF_T_REF
-	.long LDIFF_SYM908
+LDIFF_SYM947=Lme_1d - System_Array_InternalArray__IndexOf_T_REF_T_REF
+	.long LDIFF_SYM947
 	.long 0
 	.byte 12,31,0,68,14,176,1,157,22,158,21,68,13,29,68,148,20,149,19,68,151,18,152,17,68,153,16,154,15
 	.align 3
-Lfde23_end:
+Lfde28_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13754,41 +14724,41 @@ Lfde23_end:
 
 	.byte 10,197,1
 	.quad System_Array_InternalArray__get_Item_T_REF_int
-	.quad Lme_19
+	.quad Lme_1e
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM909=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM909
+LDIFF_SYM948=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM948
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM910=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM910
+LDIFF_SYM949=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM949
 	.byte 1,106,11
 	.asciz "value"
 
-LDIFF_SYM911=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM911
+LDIFF_SYM950=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM950
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM912=Lfde24_end - Lfde24_start
-	.long LDIFF_SYM912
-Lfde24_start:
+LDIFF_SYM951=Lfde29_end - Lfde29_start
+	.long LDIFF_SYM951
+Lfde29_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__get_Item_T_REF_int
 
-LDIFF_SYM913=Lme_19 - System_Array_InternalArray__get_Item_T_REF_int
-	.long LDIFF_SYM913
+LDIFF_SYM952=Lme_1e - System_Array_InternalArray__get_Item_T_REF_int
+	.long LDIFF_SYM952
 	.long 0
 	.byte 12,31,0,68,14,96,157,12,158,11,68,13,29,68,153,10,154,9
 	.align 3
-Lfde24_end:
+Lfde29_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13798,46 +14768,133 @@ Lfde24_end:
 
 	.byte 10,207,1
 	.quad System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.quad Lme_1a
+	.quad Lme_1f
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM914=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM914
+LDIFF_SYM953=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM953
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM915=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM915
+LDIFF_SYM954=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM954
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM916=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM916
+LDIFF_SYM955=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM955
 	.byte 3,141,200,0,11
 	.asciz "oarray"
 
-LDIFF_SYM917=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM917
+LDIFF_SYM956=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM956
 	.byte 1,104,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM918=Lfde25_end - Lfde25_start
-	.long LDIFF_SYM918
-Lfde25_start:
+LDIFF_SYM957=Lfde30_end - Lfde30_start
+	.long LDIFF_SYM957
+Lfde30_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__set_Item_T_REF_int_T_REF
 
-LDIFF_SYM919=Lme_1a - System_Array_InternalArray__set_Item_T_REF_int_T_REF
-	.long LDIFF_SYM919
+LDIFF_SYM958=Lme_1f - System_Array_InternalArray__set_Item_T_REF_int_T_REF
+	.long LDIFF_SYM958
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,148,14,149,13,68,150,12,151,11,68,152,10,153,9,68,154,8
 	.align 3
-Lfde25_end:
+Lfde30_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_132:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM959=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM959
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM960=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM960
+LTDIE_132_POINTER:
+
+	.byte 13
+LDIFF_SYM961=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM961
+LTDIE_132_REFERENCE:
+
+	.byte 14
+LDIFF_SYM962=LTDIE_132 - Ldebug_info_start
+	.long LDIFF_SYM962
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<object>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
+	.quad Lme_20
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM963=LTDIE_132_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM963
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM964=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM964
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM965=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM965
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM966=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM966
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM967=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM967
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM968=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM968
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM969=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM969
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM970=Lfde31_end - Lfde31_start
+	.long LDIFF_SYM970
+Lfde31_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
+
+LDIFF_SYM971=Lme_20 - wrapper_delegate_invoke_System_Action_1_object_invoke_void_T_object
+	.long LDIFF_SYM971
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde31_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13847,31 +14904,31 @@ Lfde25_end:
 
 	.byte 10,68
 	.quad System_Array_InternalArray__ICollection_get_Count
-	.quad Lme_1b
+	.quad Lme_21
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM920=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM920
+LDIFF_SYM972=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM972
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM921=Lfde26_end - Lfde26_start
-	.long LDIFF_SYM921
-Lfde26_start:
+LDIFF_SYM973=Lfde32_end - Lfde32_start
+	.long LDIFF_SYM973
+Lfde32_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_Count
 
-LDIFF_SYM922=Lme_1b - System_Array_InternalArray__ICollection_get_Count
-	.long LDIFF_SYM922
+LDIFF_SYM974=Lme_21 - System_Array_InternalArray__ICollection_get_Count
+	.long LDIFF_SYM974
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde26_end:
+Lfde32_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13881,31 +14938,31 @@ Lfde26_end:
 
 	.byte 10,73
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
-	.quad Lme_1c
+	.quad Lme_22
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM923=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM923
+LDIFF_SYM975=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM975
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM924=Lfde27_end - Lfde27_start
-	.long LDIFF_SYM924
-Lfde27_start:
+LDIFF_SYM976=Lfde33_end - Lfde33_start
+	.long LDIFF_SYM976
+Lfde33_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_get_IsReadOnly
 
-LDIFF_SYM925=Lme_1c - System_Array_InternalArray__ICollection_get_IsReadOnly
-	.long LDIFF_SYM925
+LDIFF_SYM977=Lme_22 - System_Array_InternalArray__ICollection_get_IsReadOnly
+	.long LDIFF_SYM977
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde27_end:
+Lfde33_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13915,31 +14972,31 @@ Lfde27_end:
 
 	.byte 10,83
 	.quad System_Array_InternalArray__ICollection_Clear
-	.quad Lme_1d
+	.quad Lme_23
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM926=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM926
+LDIFF_SYM978=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM978
 	.byte 2,141,16,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM927=Lfde28_end - Lfde28_start
-	.long LDIFF_SYM927
-Lfde28_start:
+LDIFF_SYM979=Lfde34_end - Lfde34_start
+	.long LDIFF_SYM979
+Lfde34_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Clear
 
-LDIFF_SYM928=Lme_1d - System_Array_InternalArray__ICollection_Clear
-	.long LDIFF_SYM928
+LDIFF_SYM980=Lme_23 - System_Array_InternalArray__ICollection_Clear
+	.long LDIFF_SYM980
 	.long 0
 	.byte 12,31,0,68,14,48,157,6,158,5,68,13,29
 	.align 3
-Lfde28_end:
+Lfde34_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13949,36 +15006,36 @@ Lfde28_end:
 
 	.byte 10,88
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.quad Lme_1e
+	.quad Lme_24
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM929=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM929
+LDIFF_SYM981=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM981
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM930=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM930
+LDIFF_SYM982=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM982
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM931=Lfde29_end - Lfde29_start
-	.long LDIFF_SYM931
-Lfde29_start:
+LDIFF_SYM983=Lfde35_end - Lfde35_start
+	.long LDIFF_SYM983
+Lfde35_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Add_T_REF_T_REF
 
-LDIFF_SYM932=Lme_1e - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
-	.long LDIFF_SYM932
+LDIFF_SYM984=Lme_24 - System_Array_InternalArray__ICollection_Add_T_REF_T_REF
+	.long LDIFF_SYM984
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde29_end:
+Lfde35_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -13988,36 +15045,36 @@ Lfde29_end:
 
 	.byte 10,93
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.quad Lme_1f
+	.quad Lme_25
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM933=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM933
+LDIFF_SYM985=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM985
 	.byte 2,141,16,3
 	.asciz "item"
 
-LDIFF_SYM934=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM934
+LDIFF_SYM986=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM986
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM935=Lfde30_end - Lfde30_start
-	.long LDIFF_SYM935
-Lfde30_start:
+LDIFF_SYM987=Lfde36_end - Lfde36_start
+	.long LDIFF_SYM987
+Lfde36_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
 
-LDIFF_SYM936=Lme_1f - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
-	.long LDIFF_SYM936
+LDIFF_SYM988=Lme_25 - System_Array_InternalArray__ICollection_Remove_T_REF_T_REF
+	.long LDIFF_SYM988
 	.long 0
 	.byte 12,31,0,68,14,64,157,8,158,7,68,13,29
 	.align 3
-Lfde30_end:
+Lfde36_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14027,51 +15084,51 @@ Lfde30_end:
 
 	.byte 10,98
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.quad Lme_20
+	.quad Lme_26
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM937=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM937
+LDIFF_SYM989=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM989
 	.byte 1,106,3
 	.asciz "item"
 
-LDIFF_SYM938=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM938
+LDIFF_SYM990=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM990
 	.byte 2,141,40,11
 	.asciz "length"
 
-LDIFF_SYM939=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM939
+LDIFF_SYM991=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM991
 	.byte 1,105,11
 	.asciz "i"
 
-LDIFF_SYM940=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM940
+LDIFF_SYM992=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM992
 	.byte 1,104,11
 	.asciz "value"
 
-LDIFF_SYM941=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM941
+LDIFF_SYM993=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM993
 	.byte 3,141,208,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM942=Lfde31_end - Lfde31_start
-	.long LDIFF_SYM942
-Lfde31_start:
+LDIFF_SYM994=Lfde37_end - Lfde37_start
+	.long LDIFF_SYM994
+Lfde37_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
 
-LDIFF_SYM943=Lme_20 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
-	.long LDIFF_SYM943
+LDIFF_SYM995=Lme_26 - System_Array_InternalArray__ICollection_Contains_T_REF_T_REF
+	.long LDIFF_SYM995
 	.long 0
 	.byte 12,31,0,68,14,112,157,14,158,13,68,13,29,68,152,12,153,11,68,154,10
 	.align 3
-Lfde31_end:
+Lfde37_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14081,355 +15138,41 @@ Lfde31_end:
 
 	.byte 10,123
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.quad Lme_21
+	.quad Lme_27
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM944=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM944
+LDIFF_SYM996=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM996
 	.byte 1,104,3
 	.asciz "array"
 
-LDIFF_SYM945=LDIE_SZARRAY - Ldebug_info_start
-	.long LDIFF_SYM945
+LDIFF_SYM997=LDIE_SZARRAY - Ldebug_info_start
+	.long LDIFF_SYM997
 	.byte 1,105,3
 	.asciz "index"
 
-LDIFF_SYM946=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM946
+LDIFF_SYM998=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM998
 	.byte 3,141,192,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM947=Lfde32_end - Lfde32_start
-	.long LDIFF_SYM947
-Lfde32_start:
+LDIFF_SYM999=Lfde38_end - Lfde38_start
+	.long LDIFF_SYM999
+Lfde38_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
 
-LDIFF_SYM948=Lme_21 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
-	.long LDIFF_SYM948
+LDIFF_SYM1000=Lme_27 - System_Array_InternalArray__ICollection_CopyTo_T_REF_T_REF___int
+	.long LDIFF_SYM1000
 	.long 0
 	.byte 12,31,0,68,14,240,1,157,30,158,29,68,13,29,68,148,28,149,27,68,150,26,68,152,25,153,24,68,154,23
 	.align 3
-Lfde32_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_129:
-
-	.byte 5
-	.asciz "System_Predicate`1"
-
-	.byte 112,16
-LDIFF_SYM949=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM949
-	.byte 2,35,0,0,7
-	.asciz "System_Predicate`1"
-
-LDIFF_SYM950=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM950
-LTDIE_129_POINTER:
-
-	.byte 13
-LDIFF_SYM951=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM951
-LTDIE_129_REFERENCE:
-
-	.byte 14
-LDIFF_SYM952=LTDIE_129 - Ldebug_info_start
-	.long LDIFF_SYM952
-LTDIE_130:
-
-	.byte 5
-	.asciz "Xamarin_Forms_RowDefinition"
-
-	.byte 88,16
-LDIFF_SYM953=LTDIE_3 - Ldebug_info_start
-	.long LDIFF_SYM953
-	.byte 2,35,0,6
-	.asciz "<ActualHeight>k__BackingField"
-
-LDIFF_SYM954=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM954
-	.byte 2,35,72,6
-	.asciz "<MinimumHeight>k__BackingField"
-
-LDIFF_SYM955=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM955
-	.byte 2,35,80,6
-	.asciz "SizeChanged"
-
-LDIFF_SYM956=LTDIE_16_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM956
-	.byte 2,35,64,0,7
-	.asciz "Xamarin_Forms_RowDefinition"
-
-LDIFF_SYM957=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM957
-LTDIE_130_POINTER:
-
-	.byte 13
-LDIFF_SYM958=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM958
-LTDIE_130_REFERENCE:
-
-	.byte 14
-LDIFF_SYM959=LTDIE_130 - Ldebug_info_start
-	.long LDIFF_SYM959
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<Xamarin.Forms.RowDefinition>:invoke_bool_T"
-	.asciz "wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
-	.quad Lme_22
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM960=LTDIE_129_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM960
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM961=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM961
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM962=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM962
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM963=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM963
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM964=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM964
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM965=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM965
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM966=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM966
-	.byte 1,100,11
-	.asciz "V_5"
-
-LDIFF_SYM967=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM967
-	.byte 1,99,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM968=Lfde33_end - Lfde33_start
-	.long LDIFF_SYM968
-Lfde33_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
-
-LDIFF_SYM969=Lme_22 - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
-	.long LDIFF_SYM969
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde33_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_131:
-
-	.byte 5
-	.asciz "System_Action`1"
-
-	.byte 112,16
-LDIFF_SYM970=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM970
-	.byte 2,35,0,0,7
-	.asciz "System_Action`1"
-
-LDIFF_SYM971=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM971
-LTDIE_131_POINTER:
-
-	.byte 13
-LDIFF_SYM972=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM972
-LTDIE_131_REFERENCE:
-
-	.byte 14
-LDIFF_SYM973=LTDIE_131 - Ldebug_info_start
-	.long LDIFF_SYM973
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Action`1<Xamarin.Forms.RowDefinition>:invoke_void_T"
-	.asciz "wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
-	.quad Lme_23
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM974=LTDIE_131_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM974
-	.byte 1,105,3
-	.asciz "param0"
-
-LDIFF_SYM975=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM975
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM976=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM976
-	.byte 1,104,11
-	.asciz "V_1"
-
-LDIFF_SYM977=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM977
-	.byte 1,103,11
-	.asciz "V_2"
-
-LDIFF_SYM978=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM978
-	.byte 1,102,11
-	.asciz "V_3"
-
-LDIFF_SYM979=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM979
-	.byte 1,101,11
-	.asciz "V_4"
-
-LDIFF_SYM980=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM980
-	.byte 1,100,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM981=Lfde34_end - Lfde34_start
-	.long LDIFF_SYM981
-Lfde34_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
-
-LDIFF_SYM982=Lme_23 - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
-	.long LDIFF_SYM982
-	.long 0
-	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
-	.byte 154,7
-	.align 3
-Lfde34_end:
-
-.section __DWARF, __debug_info,regular,debug
-LTDIE_132:
-
-	.byte 5
-	.asciz "System_Comparison`1"
-
-	.byte 112,16
-LDIFF_SYM983=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM983
-	.byte 2,35,0,0,7
-	.asciz "System_Comparison`1"
-
-LDIFF_SYM984=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM984
-LTDIE_132_POINTER:
-
-	.byte 13
-LDIFF_SYM985=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM985
-LTDIE_132_REFERENCE:
-
-	.byte 14
-LDIFF_SYM986=LTDIE_132 - Ldebug_info_start
-	.long LDIFF_SYM986
-	.byte 2
-	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<Xamarin.Forms.RowDefinition>:invoke_int_T_T"
-	.asciz "wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition"
-
-	.byte 0,0
-	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
-	.quad Lme_24
-
-	.byte 2,118,16,3
-	.asciz "this"
-
-LDIFF_SYM987=LTDIE_132_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM987
-	.byte 1,104,3
-	.asciz "param0"
-
-LDIFF_SYM988=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM988
-	.byte 1,105,3
-	.asciz "param1"
-
-LDIFF_SYM989=LTDIE_130_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM989
-	.byte 1,106,11
-	.asciz "V_0"
-
-LDIFF_SYM990=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM990
-	.byte 1,103,11
-	.asciz "V_1"
-
-LDIFF_SYM991=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM991
-	.byte 1,102,11
-	.asciz "V_2"
-
-LDIFF_SYM992=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM992
-	.byte 1,101,11
-	.asciz "V_3"
-
-LDIFF_SYM993=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM993
-	.byte 1,100,11
-	.asciz "V_4"
-
-LDIFF_SYM994=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM994
-	.byte 1,99,11
-	.asciz "V_5"
-
-LDIFF_SYM995=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM995
-	.byte 3,141,232,0,0
-
-.section __DWARF, __debug_frame,regular,debug
-
-LDIFF_SYM996=Lfde35_end - Lfde35_start
-	.long LDIFF_SYM996
-Lfde35_start:
-
-	.long 0
-	.align 3
-	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
-
-LDIFF_SYM997=Lme_24 - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
-	.long LDIFF_SYM997
-	.long 0
-	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
-	.byte 154,9
-	.align 3
-Lfde35_end:
+Lfde38_end:
 
 .section __DWARF, __debug_info,regular,debug
 LTDIE_133:
@@ -14438,274 +15181,588 @@ LTDIE_133:
 	.asciz "System_Predicate`1"
 
 	.byte 112,16
-LDIFF_SYM998=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM998
+LDIFF_SYM1001=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1001
 	.byte 2,35,0,0,7
 	.asciz "System_Predicate`1"
 
-LDIFF_SYM999=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM999
+LDIFF_SYM1002=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1002
 LTDIE_133_POINTER:
 
 	.byte 13
-LDIFF_SYM1000=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1000
+LDIFF_SYM1003=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1003
 LTDIE_133_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1001=LTDIE_133 - Ldebug_info_start
-	.long LDIFF_SYM1001
+LDIFF_SYM1004=LTDIE_133 - Ldebug_info_start
+	.long LDIFF_SYM1004
+LTDIE_134:
+
+	.byte 5
+	.asciz "Xamarin_Forms_RowDefinition"
+
+	.byte 88,16
+LDIFF_SYM1005=LTDIE_3 - Ldebug_info_start
+	.long LDIFF_SYM1005
+	.byte 2,35,0,6
+	.asciz "<ActualHeight>k__BackingField"
+
+LDIFF_SYM1006=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1006
+	.byte 2,35,72,6
+	.asciz "<MinimumHeight>k__BackingField"
+
+LDIFF_SYM1007=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1007
+	.byte 2,35,80,6
+	.asciz "SizeChanged"
+
+LDIFF_SYM1008=LTDIE_16_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1008
+	.byte 2,35,64,0,7
+	.asciz "Xamarin_Forms_RowDefinition"
+
+LDIFF_SYM1009=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1009
+LTDIE_134_POINTER:
+
+	.byte 13
+LDIFF_SYM1010=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1010
+LTDIE_134_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1011=LTDIE_134 - Ldebug_info_start
+	.long LDIFF_SYM1011
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<Xamarin.Forms.RowDefinition>:invoke_bool_T"
+	.asciz "wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
+	.quad Lme_28
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1012=LTDIE_133_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1012
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1013=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1013
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1014=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1014
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1015=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1015
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1016=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1016
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1017=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1017
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1018=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1018
+	.byte 1,100,11
+	.asciz "V_5"
+
+LDIFF_SYM1019=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1019
+	.byte 1,99,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1020=Lfde39_end - Lfde39_start
+	.long LDIFF_SYM1020
+Lfde39_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
+
+LDIFF_SYM1021=Lme_28 - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_RowDefinition_invoke_bool_T_Xamarin_Forms_RowDefinition
+	.long LDIFF_SYM1021
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde39_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_135:
+
+	.byte 5
+	.asciz "System_Action`1"
+
+	.byte 112,16
+LDIFF_SYM1022=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1022
+	.byte 2,35,0,0,7
+	.asciz "System_Action`1"
+
+LDIFF_SYM1023=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1023
+LTDIE_135_POINTER:
+
+	.byte 13
+LDIFF_SYM1024=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1024
+LTDIE_135_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1025=LTDIE_135 - Ldebug_info_start
+	.long LDIFF_SYM1025
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Action`1<Xamarin.Forms.RowDefinition>:invoke_void_T"
+	.asciz "wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
+	.quad Lme_29
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1026=LTDIE_135_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1026
+	.byte 1,105,3
+	.asciz "param0"
+
+LDIFF_SYM1027=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1027
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1028=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1028
+	.byte 1,104,11
+	.asciz "V_1"
+
+LDIFF_SYM1029=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1029
+	.byte 1,103,11
+	.asciz "V_2"
+
+LDIFF_SYM1030=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1030
+	.byte 1,102,11
+	.asciz "V_3"
+
+LDIFF_SYM1031=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1031
+	.byte 1,101,11
+	.asciz "V_4"
+
+LDIFF_SYM1032=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1032
+	.byte 1,100,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1033=Lfde40_end - Lfde40_start
+	.long LDIFF_SYM1033
+Lfde40_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
+
+LDIFF_SYM1034=Lme_29 - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_RowDefinition_invoke_void_T_Xamarin_Forms_RowDefinition
+	.long LDIFF_SYM1034
+	.long 0
+	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
+	.byte 154,7
+	.align 3
+Lfde40_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_136:
+
+	.byte 5
+	.asciz "System_Comparison`1"
+
+	.byte 112,16
+LDIFF_SYM1035=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1035
+	.byte 2,35,0,0,7
+	.asciz "System_Comparison`1"
+
+LDIFF_SYM1036=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1036
+LTDIE_136_POINTER:
+
+	.byte 13
+LDIFF_SYM1037=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1037
+LTDIE_136_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1038=LTDIE_136 - Ldebug_info_start
+	.long LDIFF_SYM1038
+	.byte 2
+	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<Xamarin.Forms.RowDefinition>:invoke_int_T_T"
+	.asciz "wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition"
+
+	.byte 0,0
+	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
+	.quad Lme_2a
+
+	.byte 2,118,16,3
+	.asciz "this"
+
+LDIFF_SYM1039=LTDIE_136_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1039
+	.byte 1,104,3
+	.asciz "param0"
+
+LDIFF_SYM1040=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1040
+	.byte 1,105,3
+	.asciz "param1"
+
+LDIFF_SYM1041=LTDIE_134_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1041
+	.byte 1,106,11
+	.asciz "V_0"
+
+LDIFF_SYM1042=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1042
+	.byte 1,103,11
+	.asciz "V_1"
+
+LDIFF_SYM1043=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1043
+	.byte 1,102,11
+	.asciz "V_2"
+
+LDIFF_SYM1044=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1044
+	.byte 1,101,11
+	.asciz "V_3"
+
+LDIFF_SYM1045=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1045
+	.byte 1,100,11
+	.asciz "V_4"
+
+LDIFF_SYM1046=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1046
+	.byte 1,99,11
+	.asciz "V_5"
+
+LDIFF_SYM1047=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1047
+	.byte 3,141,232,0,0
+
+.section __DWARF, __debug_frame,regular,debug
+
+LDIFF_SYM1048=Lfde41_end - Lfde41_start
+	.long LDIFF_SYM1048
+Lfde41_start:
+
+	.long 0
+	.align 3
+	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
+
+LDIFF_SYM1049=Lme_2a - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_RowDefinition_invoke_int_T_T_Xamarin_Forms_RowDefinition_Xamarin_Forms_RowDefinition
+	.long LDIFF_SYM1049
+	.long 0
+	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
+	.byte 154,9
+	.align 3
+Lfde41_end:
+
+.section __DWARF, __debug_info,regular,debug
+LTDIE_137:
+
+	.byte 5
+	.asciz "System_Predicate`1"
+
+	.byte 112,16
+LDIFF_SYM1050=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1050
+	.byte 2,35,0,0,7
+	.asciz "System_Predicate`1"
+
+LDIFF_SYM1051=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1051
+LTDIE_137_POINTER:
+
+	.byte 13
+LDIFF_SYM1052=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1052
+LTDIE_137_REFERENCE:
+
+	.byte 14
+LDIFF_SYM1053=LTDIE_137 - Ldebug_info_start
+	.long LDIFF_SYM1053
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Predicate`1<Xamarin.Forms.ColumnDefinition>:invoke_bool_T"
 	.asciz "wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition
-	.quad Lme_25
+	.quad Lme_2b
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1002=LTDIE_133_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1002
+LDIFF_SYM1054=LTDIE_137_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1054
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1003=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1003
+LDIFF_SYM1055=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1055
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1004=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1004
+LDIFF_SYM1056=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1056
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1005=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1005
+LDIFF_SYM1057=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1057
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1006=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1006
+LDIFF_SYM1058=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1058
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1007=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1007
+LDIFF_SYM1059=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1059
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1008=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1008
+LDIFF_SYM1060=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1060
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1009=LDIE_BOOLEAN - Ldebug_info_start
-	.long LDIFF_SYM1009
+LDIFF_SYM1061=LDIE_BOOLEAN - Ldebug_info_start
+	.long LDIFF_SYM1061
 	.byte 1,99,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1010=Lfde36_end - Lfde36_start
-	.long LDIFF_SYM1010
-Lfde36_start:
+LDIFF_SYM1062=Lfde42_end - Lfde42_start
+	.long LDIFF_SYM1062
+Lfde42_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition
 
-LDIFF_SYM1011=Lme_25 - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition
-	.long LDIFF_SYM1011
+LDIFF_SYM1063=Lme_2b - wrapper_delegate_invoke_System_Predicate_1_Xamarin_Forms_ColumnDefinition_invoke_bool_T_Xamarin_Forms_ColumnDefinition
+	.long LDIFF_SYM1063
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde36_end:
+Lfde42_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_134:
+LTDIE_138:
 
 	.byte 5
 	.asciz "System_Action`1"
 
 	.byte 112,16
-LDIFF_SYM1012=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1012
+LDIFF_SYM1064=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1064
 	.byte 2,35,0,0,7
 	.asciz "System_Action`1"
 
-LDIFF_SYM1013=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1013
-LTDIE_134_POINTER:
+LDIFF_SYM1065=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1065
+LTDIE_138_POINTER:
 
 	.byte 13
-LDIFF_SYM1014=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1014
-LTDIE_134_REFERENCE:
+LDIFF_SYM1066=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1066
+LTDIE_138_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1015=LTDIE_134 - Ldebug_info_start
-	.long LDIFF_SYM1015
+LDIFF_SYM1067=LTDIE_138 - Ldebug_info_start
+	.long LDIFF_SYM1067
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Action`1<Xamarin.Forms.ColumnDefinition>:invoke_void_T"
 	.asciz "wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition
-	.quad Lme_26
+	.quad Lme_2c
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1016=LTDIE_134_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1016
+LDIFF_SYM1068=LTDIE_138_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1068
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1017=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1017
+LDIFF_SYM1069=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1069
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1018=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1018
+LDIFF_SYM1070=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1070
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1019=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1019
+LDIFF_SYM1071=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1071
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1020=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1020
+LDIFF_SYM1072=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1072
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1021=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1021
+LDIFF_SYM1073=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1073
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1022=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1022
+LDIFF_SYM1074=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1074
 	.byte 1,100,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1023=Lfde37_end - Lfde37_start
-	.long LDIFF_SYM1023
-Lfde37_start:
+LDIFF_SYM1075=Lfde43_end - Lfde43_start
+	.long LDIFF_SYM1075
+Lfde43_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition
 
-LDIFF_SYM1024=Lme_26 - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition
-	.long LDIFF_SYM1024
+LDIFF_SYM1076=Lme_2c - wrapper_delegate_invoke_System_Action_1_Xamarin_Forms_ColumnDefinition_invoke_void_T_Xamarin_Forms_ColumnDefinition
+	.long LDIFF_SYM1076
 	.long 0
 	.byte 12,31,0,68,14,128,1,157,16,158,15,68,13,29,68,147,14,148,13,68,149,12,150,11,68,151,10,152,9,68,153,8
 	.byte 154,7
 	.align 3
-Lfde37_end:
+Lfde43_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_135:
+LTDIE_139:
 
 	.byte 5
 	.asciz "System_Comparison`1"
 
 	.byte 112,16
-LDIFF_SYM1025=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1025
+LDIFF_SYM1077=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1077
 	.byte 2,35,0,0,7
 	.asciz "System_Comparison`1"
 
-LDIFF_SYM1026=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1026
-LTDIE_135_POINTER:
+LDIFF_SYM1078=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1078
+LTDIE_139_POINTER:
 
 	.byte 13
-LDIFF_SYM1027=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1027
-LTDIE_135_REFERENCE:
+LDIFF_SYM1079=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1079
+LTDIE_139_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1028=LTDIE_135 - Ldebug_info_start
-	.long LDIFF_SYM1028
+LDIFF_SYM1080=LTDIE_139 - Ldebug_info_start
+	.long LDIFF_SYM1080
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Comparison`1<Xamarin.Forms.ColumnDefinition>:invoke_int_T_T"
 	.asciz "wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition
-	.quad Lme_27
+	.quad Lme_2d
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1029=LTDIE_135_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1029
+LDIFF_SYM1081=LTDIE_139_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1081
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1030=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1030
+LDIFF_SYM1082=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1082
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1031=LTDIE_121_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1031
+LDIFF_SYM1083=LTDIE_124_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1083
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1032=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1032
+LDIFF_SYM1084=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1084
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1033=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1033
+LDIFF_SYM1085=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1085
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1034=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1034
+LDIFF_SYM1086=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1086
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1035=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1035
+LDIFF_SYM1087=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1087
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1036=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1036
+LDIFF_SYM1088=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1088
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1037=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1037
+LDIFF_SYM1089=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1089
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1038=Lfde38_end - Lfde38_start
-	.long LDIFF_SYM1038
-Lfde38_start:
+LDIFF_SYM1090=Lfde44_end - Lfde44_start
+	.long LDIFF_SYM1090
+Lfde44_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition
 
-LDIFF_SYM1039=Lme_27 - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition
-	.long LDIFF_SYM1039
+LDIFF_SYM1091=Lme_2d - wrapper_delegate_invoke_System_Comparison_1_Xamarin_Forms_ColumnDefinition_invoke_int_T_T_Xamarin_Forms_ColumnDefinition_Xamarin_Forms_ColumnDefinition
+	.long LDIFF_SYM1091
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde38_end:
+Lfde44_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -14715,235 +15772,235 @@ Lfde38_end:
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_RelativeLayout_double_invoke_TResult_T_Xamarin_Forms_RelativeLayout
-	.quad Lme_2c
+	.quad Lme_32
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1040=LTDIE_127_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1040
+LDIFF_SYM1092=LTDIE_130_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1092
 	.byte 1,105,3
 	.asciz "param0"
 
-LDIFF_SYM1041=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1041
+LDIFF_SYM1093=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1093
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1042=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1042
+LDIFF_SYM1094=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1094
 	.byte 1,104,11
 	.asciz "V_1"
 
-LDIFF_SYM1043=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1043
+LDIFF_SYM1095=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1095
 	.byte 1,103,11
 	.asciz "V_2"
 
-LDIFF_SYM1044=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1044
+LDIFF_SYM1096=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1096
 	.byte 1,102,11
 	.asciz "V_3"
 
-LDIFF_SYM1045=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1045
+LDIFF_SYM1097=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1097
 	.byte 1,101,11
 	.asciz "V_4"
 
-LDIFF_SYM1046=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1046
+LDIFF_SYM1098=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1098
 	.byte 1,100,11
 	.asciz "V_5"
 
-LDIFF_SYM1047=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1047
+LDIFF_SYM1099=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1099
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1048=Lfde39_end - Lfde39_start
-	.long LDIFF_SYM1048
-Lfde39_start:
+LDIFF_SYM1100=Lfde45_end - Lfde45_start
+	.long LDIFF_SYM1100
+Lfde45_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_RelativeLayout_double_invoke_TResult_T_Xamarin_Forms_RelativeLayout
 
-LDIFF_SYM1049=Lme_2c - wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_RelativeLayout_double_invoke_TResult_T_Xamarin_Forms_RelativeLayout
-	.long LDIFF_SYM1049
+LDIFF_SYM1101=Lme_32 - wrapper_delegate_invoke_System_Func_2_Xamarin_Forms_RelativeLayout_double_invoke_TResult_T_Xamarin_Forms_RelativeLayout
+	.long LDIFF_SYM1101
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde39_end:
+Lfde45_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_136:
+LTDIE_140:
 
 	.byte 5
 	.asciz "System_Func`3"
 
 	.byte 112,16
-LDIFF_SYM1050=LTDIE_6 - Ldebug_info_start
-	.long LDIFF_SYM1050
+LDIFF_SYM1102=LTDIE_6 - Ldebug_info_start
+	.long LDIFF_SYM1102
 	.byte 2,35,0,0,7
 	.asciz "System_Func`3"
 
-LDIFF_SYM1051=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1051
-LTDIE_136_POINTER:
+LDIFF_SYM1103=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1103
+LTDIE_140_POINTER:
 
 	.byte 13
-LDIFF_SYM1052=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1052
-LTDIE_136_REFERENCE:
+LDIFF_SYM1104=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1104
+LTDIE_140_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1053=LTDIE_136 - Ldebug_info_start
-	.long LDIFF_SYM1053
+LDIFF_SYM1105=LTDIE_140 - Ldebug_info_start
+	.long LDIFF_SYM1105
 	.byte 2
 	.asciz "(wrapper_delegate-invoke)_System.Func`3<Xamarin.Forms.RelativeLayout,_Xamarin.Forms.View,_double>:invoke_TResult_T1_T2"
 	.asciz "wrapper_delegate_invoke_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double_invoke_TResult_T1_T2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View"
 
 	.byte 0,0
 	.quad wrapper_delegate_invoke_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double_invoke_TResult_T1_T2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.quad Lme_31
+	.quad Lme_37
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1054=LTDIE_136_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1054
+LDIFF_SYM1106=LTDIE_140_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1106
 	.byte 1,104,3
 	.asciz "param0"
 
-LDIFF_SYM1055=LTDIE_123_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1055
+LDIFF_SYM1107=LTDIE_126_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1107
 	.byte 1,105,3
 	.asciz "param1"
 
-LDIFF_SYM1056=LTDIE_90_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1056
+LDIFF_SYM1108=LTDIE_90_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1108
 	.byte 1,106,11
 	.asciz "V_0"
 
-LDIFF_SYM1057=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1057
+LDIFF_SYM1109=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1109
 	.byte 1,103,11
 	.asciz "V_1"
 
-LDIFF_SYM1058=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1058
+LDIFF_SYM1110=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1110
 	.byte 1,102,11
 	.asciz "V_2"
 
-LDIFF_SYM1059=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1059
+LDIFF_SYM1111=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1111
 	.byte 1,101,11
 	.asciz "V_3"
 
-LDIFF_SYM1060=LTDIE_6_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1060
+LDIFF_SYM1112=LTDIE_6_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1112
 	.byte 1,100,11
 	.asciz "V_4"
 
-LDIFF_SYM1061=LDIE_OBJECT - Ldebug_info_start
-	.long LDIFF_SYM1061
+LDIFF_SYM1113=LDIE_OBJECT - Ldebug_info_start
+	.long LDIFF_SYM1113
 	.byte 1,99,11
 	.asciz "V_5"
 
-LDIFF_SYM1062=LDIE_R8 - Ldebug_info_start
-	.long LDIFF_SYM1062
+LDIFF_SYM1114=LDIE_R8 - Ldebug_info_start
+	.long LDIFF_SYM1114
 	.byte 3,141,232,0,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1063=Lfde40_end - Lfde40_start
-	.long LDIFF_SYM1063
-Lfde40_start:
+LDIFF_SYM1115=Lfde46_end - Lfde46_start
+	.long LDIFF_SYM1115
+Lfde46_start:
 
 	.long 0
 	.align 3
 	.quad wrapper_delegate_invoke_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double_invoke_TResult_T1_T2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
 
-LDIFF_SYM1064=Lme_31 - wrapper_delegate_invoke_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double_invoke_TResult_T1_T2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
-	.long LDIFF_SYM1064
+LDIFF_SYM1116=Lme_37 - wrapper_delegate_invoke_System_Func_3_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View_double_invoke_TResult_T1_T2_Xamarin_Forms_RelativeLayout_Xamarin_Forms_View
+	.long LDIFF_SYM1116
 	.long 0
 	.byte 12,31,0,68,14,144,1,157,18,158,17,68,13,29,68,147,16,148,15,68,149,14,150,13,68,151,12,152,11,68,153,10
 	.byte 154,9
 	.align 3
-Lfde40_end:
+Lfde46_end:
 
 .section __DWARF, __debug_info,regular,debug
-LTDIE_137:
+LTDIE_141:
 
 	.byte 5
 	.asciz "_InternalEnumerator`1"
 
 	.byte 32,16
-LDIFF_SYM1065=LTDIE_14 - Ldebug_info_start
-	.long LDIFF_SYM1065
+LDIFF_SYM1117=LTDIE_14 - Ldebug_info_start
+	.long LDIFF_SYM1117
 	.byte 2,35,0,6
 	.asciz "array"
 
-LDIFF_SYM1066=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1066
+LDIFF_SYM1118=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1118
 	.byte 2,35,16,6
 	.asciz "idx"
 
-LDIFF_SYM1067=LDIE_I4 - Ldebug_info_start
-	.long LDIFF_SYM1067
+LDIFF_SYM1119=LDIE_I4 - Ldebug_info_start
+	.long LDIFF_SYM1119
 	.byte 2,35,24,0,7
 	.asciz "_InternalEnumerator`1"
 
-LDIFF_SYM1068=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1068
-LTDIE_137_POINTER:
+LDIFF_SYM1120=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1120
+LTDIE_141_POINTER:
 
 	.byte 13
-LDIFF_SYM1069=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1069
-LTDIE_137_REFERENCE:
+LDIFF_SYM1121=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1121
+LTDIE_141_REFERENCE:
 
 	.byte 14
-LDIFF_SYM1070=LTDIE_137 - Ldebug_info_start
-	.long LDIFF_SYM1070
+LDIFF_SYM1122=LTDIE_141 - Ldebug_info_start
+	.long LDIFF_SYM1122
 	.byte 2
 	.asciz "System.Array/InternalEnumerator`1<T_REF>:.ctor"
 	.asciz "System_Array_InternalEnumerator_1_T_REF__ctor_System_Array"
 
 	.byte 10,239,1
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.quad Lme_32
+	.quad Lme_38
 
 	.byte 2,118,16,3
 	.asciz "this"
 
-LDIFF_SYM1071=LDIE_I - Ldebug_info_start
-	.long LDIFF_SYM1071
+LDIFF_SYM1123=LDIE_I - Ldebug_info_start
+	.long LDIFF_SYM1123
 	.byte 1,105,3
 	.asciz "array"
 
-LDIFF_SYM1072=LTDIE_128_REFERENCE - Ldebug_info_start
-	.long LDIFF_SYM1072
+LDIFF_SYM1124=LTDIE_131_REFERENCE - Ldebug_info_start
+	.long LDIFF_SYM1124
 	.byte 2,141,24,0
 
 .section __DWARF, __debug_frame,regular,debug
 
-LDIFF_SYM1073=Lfde41_end - Lfde41_start
-	.long LDIFF_SYM1073
-Lfde41_start:
+LDIFF_SYM1125=Lfde47_end - Lfde47_start
+	.long LDIFF_SYM1125
+Lfde47_start:
 
 	.long 0
 	.align 3
 	.quad System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
 
-LDIFF_SYM1074=Lme_32 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
-	.long LDIFF_SYM1074
+LDIFF_SYM1126=Lme_38 - System_Array_InternalEnumerator_1_T_REF__ctor_System_Array
+	.long LDIFF_SYM1126
 	.long 0
 	.byte 12,31,0,68,14,80,157,10,158,9,68,13,29,68,153,8
 	.align 3
-Lfde41_end:
+Lfde47_end:
 
 .section __DWARF, __debug_info,regular,debug
 
@@ -15001,28 +16058,46 @@ Ldebug_line_header_end:
 	.byte 0,9,2
 	.quad Gallery_App__ctor
 
-	.byte 4,1,1,10,3,8,2,200,0,1,3,1,2,44,1,3,20,2,16,1,3,2,2,212,0,1,3,126,2,220,0,1
-	.byte 76,3,1,2,132,2,1,3,3,2,212,0,1,8,59,8,229,3,1,2,228,0,1,8,114,3,2,2,36,1,3,1
-	.byte 2,228,0,1,8,113,3,3,2,36,1,3,123,2,252,0,1,3,125,2,52,1,3,13,2,28,1,2,56,1,0,1
-	.byte 1
+	.byte 4,1,1,10,3,8,2,204,0,1,3,52,2,244,0,1,3,78,2,196,1,1,8,173,243,3,2,2,212,0,1,3
+	.byte 2,2,216,0,1,3,2,2,208,0,1,8,115,3,1,2,36,1,3,1,2,192,0,1,3,1,2,196,0,1,3,126
+	.byte 2,252,1,1,3,4,2,60,1,8,111,3,5,2,192,0,1,3,120,2,212,0,1,3,126,2,60,1,3,47,2,28
+	.byte 1,2,196,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,9,2
+	.quad Gallery_App_ShowImage_string
+
+	.byte 4,1,1,10,3,63,2,56,1,8,229,3,1,2,228,0,1,2,44,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,9,2
 	.quad Gallery_App_OnStart
 
-	.byte 4,1,1,10,3,45,2,52,1,8,230,2,44,1,0,1,1
+	.byte 4,1,1,10,3,196,0,2,52,1,8,230,2,44,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,9,2
 	.quad Gallery_App_OnSleep
 
-	.byte 4,1,1,10,3,50,2,52,1,8,230,2,44,1,0,1,1
+	.byte 4,1,1,10,3,201,0,2,52,1,8,230,2,44,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,9,2
 	.quad Gallery_App_OnResume
 
-	.byte 4,1,1,10,3,55,2,52,1,8,230,2,44,1,0,1,1
+	.byte 4,1,1,10,3,206,0,2,52,1,8,230,2,44,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,9,2
+	.quad Gallery_App__ShouldTakePicturem__0
+
+	.byte 4,1,1,10,3,60,2,48,1,2,204,0,1,0,1,1
+.section __DWARF, __debug_line,regular,debug
+
+	.byte 0,9,2
+	.quad Gallery_App__Appm__1_object
+
+	.byte 4,1,1,10,3,20,2,56,1,2,128,1,1,0,1,1
 .section __DWARF, __debug_line,regular,debug
 
 	.byte 0,9,2
