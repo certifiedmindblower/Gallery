@@ -22,7 +22,7 @@ namespace Gallery
 
 			cellWrapper.Children.Add(image);
 
-			cellWrapper.Padding = new Thickness( 20, 0, 20, 0 );
+			cellWrapper.Padding = new Thickness( 20, 20, 20, 0 );
 			cellWrapper.Spacing = 20;
 
 			View = cellWrapper;

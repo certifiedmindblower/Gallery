@@ -1,15 +1,8 @@
 ﻿<Properties StartupItem="iOS/Gallery.iOS.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Gallery/DemoRelative.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Gallery/ItemCell.cs">
     <Files>
-      <File FileName="Gallery/Gallery.cs" Line="38" Column="16" />
-      <File FileName="Gallery/Icon.cs" Line="17" Column="3" />
-      <File FileName="Gallery/Name.cs" Line="11" Column="41" />
-      <File FileName="Gallery/Subject.cs" Line="11" Column="49" />
-      <File FileName="Gallery/Body.cs" Line="11" Column="49" />
-      <File FileName="Gallery/Time.cs" Line="11" Column="18" />
-      <File FileName="Gallery/DemoStackLayout.cs" Line="31" Column="7" />
-      <File FileName="Gallery/DemoGrid.cs" Line="23" Column="3" />
-      <File FileName="Gallery/DemoRelative.cs" Line="14" Column="56" />
+      <File FileName="Gallery/Gallery.cs" Line="8" Column="30" />
+      <File FileName="Gallery/ItemCell.cs" Line="25" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhone" />

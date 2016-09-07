@@ -13,27 +13,17 @@ namespace Gallery
 
 		public App()
 		{
-			/*var img = new Image();
-			img.Source = ImageSource.FromUri(new Uri("http://tinyurl.com/nmd85s3"));
-			img.WidthRequest = 70;
-			img.HeightRequest = 70;
-
-			var img1 = new Image();
-			img1.Source = ImageSource.FromUri(new Uri("https://pp.vk.me/c633623/v633623960/35641/NWTl7x_2VuU.jpg"));
-
-			images.Add(img);
-			images.Add(img1);
-			*/
 			images = new ObservableCollection<Image>();
+
+			var listView = new ListView(ListViewCachingStrategy.RecycleElement);
+			listView.ItemsSource = images;
+			listView.ItemTemplate = new DataTemplate(typeof(ItemCell));
+			listView.HasUnevenRows = true;
 
 			MainPage = new NavigationPage(new ContentPage
 			{
 				Title = "Gallery",
-				Content = new ListView
-				{
-					ItemsSource = images,
-					ItemTemplate = new DataTemplate(typeof(ItemCell)),
-				},
+				Content = listView,
 			});
 
 			MainPage.ToolbarItems.Add(new ToolbarItem
